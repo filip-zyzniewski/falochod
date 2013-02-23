@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:initial-creator>Filip Żyźniewski</meta:initial-creator><meta:creation-date>2013-02-16T17:43:49</meta:creation-date><dc:date>2013-02-22T09:19:45</dc:date><dc:creator>Filip Å»yÅºniewski</dc:creator><meta:editing-duration>P2DT5H18M28S</meta:editing-duration><meta:editing-cycles>61</meta:editing-cycles><meta:generator>LibreOffice/3.6$Linux_X86_64 LibreOffice_project/360m1$Build-2</meta:generator><meta:document-statistic meta:table-count="6" meta:cell-count="379" meta:object-count="0"/></office:meta>
+ <office:meta><meta:initial-creator>Filip Żyźniewski</meta:initial-creator><meta:creation-date>2013-02-16T17:43:49</meta:creation-date><dc:date>2013-02-22T09:19:45</dc:date><dc:creator>Filip Å»yÅºniewski</dc:creator><meta:editing-duration>P2DT5H18M28S</meta:editing-duration><meta:editing-cycles>61</meta:editing-cycles><meta:generator>LibreOffice/3.6$Linux_X86_64 LibreOffice_project/360m1$Build-2</meta:generator><meta:document-statistic meta:table-count="7" meta:cell-count="419" meta:object-count="0"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
@@ -64,8 +64,8 @@
        <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="Donor models">
-       <config:config-item config:name="CursorPositionX" config:type="int">1</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">4</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">6</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">13</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -114,9 +114,26 @@
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
        <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
       </config:config-item-map-entry>
+      <config:config-item-map-entry config:name="Tyres">
+       <config:config-item config:name="CursorPositionX" config:type="int">4</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">25</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+      </config:config-item-map-entry>
      </config:config-item-map-named>
      <config:config-item config:name="ActiveTable" config:type="string">Donor models</config:config-item>
-     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">493</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">904</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
      <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -250,6 +267,322 @@
    <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
    <style:map style:condition="value()&gt;=0" style:apply-style-name="N111P0"/>
   </number:currency-style>
+  <number:number-style style:name="N112P0" style:volatile="true">
+   <number:text>$</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N112">
+   <number:text>-$</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N112P0"/>
+  </number:number-style>
+  <number:number-style style:name="N113P0" style:volatile="true">
+   <number:text>$</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N113">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>-$</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N113P0"/>
+  </number:number-style>
+  <number:number-style style:name="N114P0" style:volatile="true">
+   <number:text>$</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N114">
+   <number:text>-$</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N114P0"/>
+  </number:number-style>
+  <number:number-style style:name="N115P0" style:volatile="true">
+   <number:text>$</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N115">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>-$</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N115P0"/>
+  </number:number-style>
+  <number:number-style style:name="N116P0" style:volatile="true">
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N116">
+   <number:text>-</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N116P0"/>
+  </number:number-style>
+  <number:number-style style:name="N117P0" style:volatile="true">
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N117">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>-</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N117P0"/>
+  </number:number-style>
+  <number:number-style style:name="N118P0" style:volatile="true">
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N118">
+   <number:text>-</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N118P0"/>
+  </number:number-style>
+  <number:number-style style:name="N119P0" style:volatile="true">
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N119">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>-</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N119P0"/>
+  </number:number-style>
+  <number:number-style style:name="N120P0" style:volatile="true">
+   <number:text> </number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N120P1" style:volatile="true">
+   <number:text>-</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N120P2" style:volatile="true">
+   <number:text> - </number:text>
+  </number:number-style>
+  <number:text-style style:name="N120">
+   <number:text-content/>
+   <number:text> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N120P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N120P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N120P2"/>
+  </number:text-style>
+  <number:number-style style:name="N121P0" style:volatile="true">
+   <number:text> $</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N121P1" style:volatile="true">
+   <number:text>-$</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N121P2" style:volatile="true">
+   <number:text> $- </number:text>
+  </number:number-style>
+  <number:text-style style:name="N121">
+   <number:text-content/>
+   <number:text> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N121P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N121P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N121P2"/>
+  </number:text-style>
+  <number:number-style style:name="N122P0" style:volatile="true">
+   <number:text> </number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N122P1" style:volatile="true">
+   <number:text>-</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N122P2" style:volatile="true">
+   <number:text> -</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="0"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:text-style style:name="N122">
+   <number:text-content/>
+   <number:text> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N122P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N122P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N122P2"/>
+  </number:text-style>
+  <number:number-style style:name="N123P0" style:volatile="true">
+   <number:text> $</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N123P1" style:volatile="true">
+   <number:text>-$</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N123P2" style:volatile="true">
+   <number:text> $-</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="0"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:text-style style:name="N123">
+   <number:text-content/>
+   <number:text> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N123P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N123P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N123P2"/>
+  </number:text-style>
+  <number:time-style style:name="N124">
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long"/>
+  </number:time-style>
+  <number:time-style style:name="N125" number:truncate-on-overflow="false">
+   <number:hours/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long"/>
+  </number:time-style>
+  <number:time-style style:name="N126">
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long" number:decimal-places="1"/>
+  </number:time-style>
+  <number:number-style style:name="N127">
+   <number:scientific-number number:decimal-places="1" number:min-integer-digits="3" number:min-exponent-digits="1"/>
+  </number:number-style>
+  <number:number-style style:name="N128P0" style:volatile="true">
+   <number:text>$</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N128">
+   <number:text>($</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N128P0"/>
+  </number:number-style>
+  <number:number-style style:name="N129P0" style:volatile="true">
+   <number:text>$</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N129">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>($</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N129P0"/>
+  </number:number-style>
+  <number:number-style style:name="N130P0" style:volatile="true">
+   <number:text>$</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N130">
+   <number:text>($</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N130P0"/>
+  </number:number-style>
+  <number:number-style style:name="N131P0" style:volatile="true">
+   <number:text>$</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N131">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>($</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N131P0"/>
+  </number:number-style>
+  <number:number-style style:name="N132P0" style:volatile="true">
+   <number:text> $</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N132P1" style:volatile="true">
+   <number:text> $(</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+  </number:number-style>
+  <number:number-style style:name="N132P2" style:volatile="true">
+   <number:text> $- </number:text>
+  </number:number-style>
+  <number:text-style style:name="N132">
+   <number:text-content/>
+   <number:text> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N132P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N132P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N132P2"/>
+  </number:text-style>
+  <number:number-style style:name="N133P0" style:volatile="true">
+   <number:text> </number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N133P1" style:volatile="true">
+   <number:text> (</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+  </number:number-style>
+  <number:number-style style:name="N133P2" style:volatile="true">
+   <number:text> - </number:text>
+  </number:number-style>
+  <number:text-style style:name="N133">
+   <number:text-content/>
+   <number:text> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N133P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N133P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N133P2"/>
+  </number:text-style>
+  <number:number-style style:name="N134P0" style:volatile="true">
+   <number:text> $</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N134P1" style:volatile="true">
+   <number:text> $(</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+  </number:number-style>
+  <number:number-style style:name="N134P2" style:volatile="true">
+   <number:text> $-</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="0"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:text-style style:name="N134">
+   <number:text-content/>
+   <number:text> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N134P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N134P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N134P2"/>
+  </number:text-style>
+  <number:number-style style:name="N135P0" style:volatile="true">
+   <number:text> </number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N135P1" style:volatile="true">
+   <number:text> (</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+  </number:number-style>
+  <number:number-style style:name="N135P2" style:volatile="true">
+   <number:text> -</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="0"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:text-style style:name="N135">
+   <number:text-content/>
+   <number:text> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N135P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N135P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N135P2"/>
+  </number:text-style>
+  <number:number-style style:name="N136">
+   <number:number number:decimal-places="1" number:min-integer-digits="1"/>
+  </number:number-style>
+  <number:number-style style:name="N137">
+   <number:number number:decimal-places="3" number:min-integer-digits="1"/>
+  </number:number-style>
+  <number:percentage-style style:name="N138">
+   <number:number number:decimal-places="1" number:min-integer-digits="1"/>
+   <number:text>%</number:text>
+  </number:percentage-style>
   <style:style style:name="Default" style:family="table-cell">
    <style:text-properties style:font-name-complex="Lohit Hindi"/>
   </style:style>
@@ -854,11 +1187,11 @@
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce5" table:number-columns-repeated="7"/>
      <table:table-cell table:style-name="ce7" office:value-type="string" table:number-columns-spanned="3" table:number-rows-spanned="1">
-      <text:p>Front tires</text:p>
+      <text:p>Front tyres</text:p>
      </table:table-cell>
      <table:covered-table-cell table:number-columns-repeated="2" table:style-name="ce5"/>
      <table:table-cell table:style-name="ce7" office:value-type="string" table:number-columns-spanned="3" table:number-rows-spanned="1">
-      <text:p>Rear tires</text:p>
+      <text:p>Rear tyres</text:p>
      </table:table-cell>
      <table:covered-table-cell table:number-columns-repeated="2" table:style-name="ce5"/>
      <table:table-cell table:style-name="ce8" table:number-columns-repeated="5"/>
@@ -1193,6 +1526,181 @@
     </table:table-row>
     <table:table-row table:style-name="ro4">
      <table:table-cell table:number-columns-repeated="18"/>
+    </table:table-row>
+   </table:table>
+   <table:table table:name="Tyres" table:style-name="ta1">
+    <table:table-column table:style-name="co2" table:number-columns-repeated="5" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro1" table:number-rows-repeated="22">
+     <table:table-cell table:number-columns-repeated="5"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="5"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:number-columns-repeated="5"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce1" office:value-type="string" table:number-columns-spanned="5" table:number-rows-spanned="1">
+      <text:p>Tyre fuel efficiency classes</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" table:number-columns-spanned="4" table:number-rows-spanned="1">
+      <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="23.134cm" svg:height="0.596cm" svg:x="9.631cm" svg:y="9.758cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-23T00:00:00</dc:date>
+       <text:p text:style-name="P1">http://en.wikipedia.org/wiki/Vehicle_category and http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:52008PC0316:EN:NOT Article 8</text:p>
+      </office:annotation>
+      <text:p>For C1 class (passenger vehicles, driving license B)</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:number-columns-repeated="3"/>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" table:number-columns-spanned="4" table:number-rows-spanned="1">
+      <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="16.223cm" svg:height="0.596cm" svg:x="9.631cm" svg:y="10.205cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-23T00:00:00</dc:date>
+       <text:p text:style-name="P1">http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32009R1222:EN:NOT Annex I part A</text:p>
+      </office:annotation>
+      <text:p>Values determined by EU</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:number-columns-repeated="3"/>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" table:number-columns-spanned="3" table:number-rows-spanned="1">
+      <text:p>rolling resistance [kg/t]</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:number-columns-repeated="2"/>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Class</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>min</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>max</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>avg</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>avg kg/kg</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string">
+      <text:p>A</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell office:value-type="float" office:value="6.5">
+      <text:p>6,5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=AVERAGE([.B30];[.C30])" office:value-type="float" office:value="6.5">
+      <text:p>6,5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D30]/1000" office:value-type="float" office:value="0.0065">
+      <text:p>0,0065</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string">
+      <text:p>B</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="6.6">
+      <text:p>6,6</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="7.7">
+      <text:p>7,7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=AVERAGE([.B31];[.C31])" office:value-type="float" office:value="7.15">
+      <text:p>7,15</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D31]/1000" office:value-type="float" office:value="0.00715">
+      <text:p>0,00715</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string">
+      <text:p>C</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="7.8">
+      <text:p>7,8</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="9">
+      <text:p>9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=AVERAGE([.B32];[.C32])" office:value-type="float" office:value="8.4">
+      <text:p>8,4</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D32]/1000" office:value-type="float" office:value="0.0084">
+      <text:p>0,0084</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string">
+      <text:p>D</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string">
+      <text:p>E</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="9.1">
+      <text:p>9,1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="10.5">
+      <text:p>10,5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=AVERAGE([.B34];[.C34])" office:value-type="float" office:value="9.8">
+      <text:p>9,8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D34]/1000" office:value-type="float" office:value="0.0098">
+      <text:p>0,0098</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string">
+      <text:p>F</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="10.6">
+      <text:p>10,6</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="12">
+      <text:p>12</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=AVERAGE([.B35];[.C35])" office:value-type="float" office:value="11.3">
+      <text:p>11,3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D35]/1000" office:value-type="float" office:value="0.0113">
+      <text:p>0,0113</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string">
+      <text:p>G</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="12.1">
+      <text:p>12,1</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=AVERAGE([.B36];[.C36])" office:value-type="float" office:value="12.1">
+      <text:p>12,1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D36]/1000" office:value-type="float" office:value="0.0121">
+      <text:p>0,0121</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4" table:number-rows-repeated="3">
+     <table:table-cell table:number-columns-repeated="5"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="5"/>
     </table:table-row>
    </table:table>
    <table:table table:name="Power &amp; Energy" table:style-name="ta1">
@@ -2446,24 +2954,24 @@
     <table:named-range table:name="pack_current" table:base-cell-address="$&apos;Donor models&apos;.$B$16" table:cell-range-address="$&apos;Battery pack&apos;.$B$7"/>
     <table:named-range table:name="pack_discharge_voltage" table:base-cell-address="$&apos;Donor models&apos;.$B$36" table:cell-range-address="$&apos;Battery pack&apos;.$B$27"/>
     <table:named-range table:name="pack_losses" table:base-cell-address="$&apos;Donor models&apos;.$B$38" table:cell-range-address="$&apos;Battery pack&apos;.$B$30"/>
-    <table:named-range table:name="pack_nominal_charging_voltage" table:base-cell-address="$&apos;Power &amp; Energy&apos;.$B$35" table:cell-range-address="$&apos;Battery pack&apos;.$B$23"/>
+    <table:named-range table:name="pack_nominal_charging_voltage" table:base-cell-address="$Tyres.$B$35" table:cell-range-address="$&apos;Battery pack&apos;.$B$23"/>
     <table:named-range table:name="pack_nominal_voltage" table:base-cell-address="$&apos;Donor models&apos;.$B$33" table:cell-range-address="$&apos;Battery pack&apos;.$B$22"/>
     <table:named-range table:name="pack_power" table:base-cell-address="$&apos;Donor models&apos;.$B$37" table:cell-range-address="$&apos;Battery pack&apos;.$B$29"/>
-    <table:named-range table:name="pack_regen_current" table:base-cell-address="$&apos;Power &amp; Energy&apos;.$B$17" table:cell-range-address="$&apos;Battery pack&apos;.$B$8"/>
-    <table:named-range table:name="pack_regen_losses" table:base-cell-address="$&apos;Power &amp; Energy&apos;.$B$45" table:cell-range-address="$&apos;Battery pack&apos;.$B$33"/>
-    <table:named-range table:name="pack_regen_power" table:base-cell-address="$&apos;Power &amp; Energy&apos;.$B$44" table:cell-range-address="$&apos;Battery pack&apos;.$B$32"/>
-    <table:named-range table:name="pack_regen_voltage" table:base-cell-address="$&apos;Power &amp; Energy&apos;.$B$37" table:cell-range-address="$&apos;Battery pack&apos;.$B$28"/>
+    <table:named-range table:name="pack_regen_current" table:base-cell-address="$Tyres.$B$17" table:cell-range-address="$&apos;Battery pack&apos;.$B$8"/>
+    <table:named-range table:name="pack_regen_losses" table:base-cell-address="$Tyres.$B$45" table:cell-range-address="$&apos;Battery pack&apos;.$B$33"/>
+    <table:named-range table:name="pack_regen_power" table:base-cell-address="$Tyres.$B$44" table:cell-range-address="$&apos;Battery pack&apos;.$B$32"/>
+    <table:named-range table:name="pack_regen_voltage" table:base-cell-address="$Tyres.$B$37" table:cell-range-address="$&apos;Battery pack&apos;.$B$28"/>
     <table:named-range table:name="pack_resistance" table:base-cell-address="$&apos;Donor models&apos;.$B$32" table:cell-range-address="$&apos;Battery pack&apos;.$B$21"/>
     <table:named-range table:name="pack_sag_voltage" table:base-cell-address="$&apos;Donor models&apos;.$B$35" table:cell-range-address="$&apos;Battery pack&apos;.$B$25"/>
-    <table:named-range table:name="pack_surplus_regen_voltage" table:base-cell-address="$&apos;Power &amp; Energy&apos;.$B$38" table:cell-range-address="$&apos;Battery pack&apos;.$B$26"/>
+    <table:named-range table:name="pack_surplus_regen_voltage" table:base-cell-address="$Tyres.$B$38" table:cell-range-address="$&apos;Battery pack&apos;.$B$26"/>
     <table:named-range table:name="parallel_pack_resistance" table:base-cell-address="$&apos;Donor models&apos;.$B$31" table:cell-range-address="$&apos;Battery pack&apos;.$B$20"/>
     <table:named-range table:name="passenger_mass" table:base-cell-address="$General.$B$6" table:cell-range-address="$General.$B$6"/>
-    <table:named-range table:name="tire_front_ratio" table:base-cell-address="$Commute.$I$14" table:cell-range-address="$&apos;Donor models&apos;.$I$14"/>
-    <table:named-range table:name="tire_front_rim" table:base-cell-address="$Commute.$J$14" table:cell-range-address="$&apos;Donor models&apos;.$J$14"/>
-    <table:named-range table:name="tire_front_width" table:base-cell-address="$Commute.$H$14" table:cell-range-address="$&apos;Donor models&apos;.$H$14"/>
-    <table:named-range table:name="tire_rear_ratio" table:base-cell-address="$Commute.$L$14" table:cell-range-address="$&apos;Donor models&apos;.$L$14"/>
-    <table:named-range table:name="tire_rear_rim" table:base-cell-address="$Commute.$M$14" table:cell-range-address="$&apos;Donor models&apos;.$M$14"/>
-    <table:named-range table:name="tire_rear_width" table:base-cell-address="$Commute.$K$14" table:cell-range-address="$&apos;Donor models&apos;.$K$14"/>
+    <table:named-range table:name="tyre_front_ratio" table:base-cell-address="$&apos;Donor models&apos;.$G$14" table:cell-range-address="$&apos;Donor models&apos;.$I$14"/>
+    <table:named-range table:name="tyre_front_rim" table:base-cell-address="$&apos;Donor models&apos;.$G$14" table:cell-range-address="$&apos;Donor models&apos;.$J$14"/>
+    <table:named-range table:name="tyre_front_width" table:base-cell-address="$&apos;Donor models&apos;.$G$14" table:cell-range-address="$&apos;Donor models&apos;.$H$14"/>
+    <table:named-expression table:name="tyre_rear_ratio" table:base-cell-address="$&apos;Donor models&apos;.$G$14" table:expression=""/>
+    <table:named-expression table:name="tyre_rear_rim" table:base-cell-address="$&apos;Donor models&apos;.$G$14" table:expression=""/>
+    <table:named-expression table:name="tyre_rear_width" table:base-cell-address="$&apos;Donor models&apos;.$G$14" table:expression=""/>
     <table:named-range table:name="usd" table:base-cell-address="$&apos;Donor models&apos;.$D$3" table:cell-range-address="$General.$D$3"/>
     <table:named-range table:name="vat" table:base-cell-address="$&apos;Donor models&apos;.$B$2" table:cell-range-address="$General.$B$2"/>
     <table:named-range table:name="vat_factor" table:base-cell-address="$&apos;Donor models&apos;.$D$2" table:cell-range-address="$General.$D$2"/>
