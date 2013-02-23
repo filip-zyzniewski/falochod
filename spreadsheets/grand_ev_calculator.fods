@@ -1,0 +1,2336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
+ <office:meta><meta:initial-creator>Filip Żyźniewski</meta:initial-creator><meta:creation-date>2013-02-16T17:43:49</meta:creation-date><dc:date>2013-02-22T09:19:45</dc:date><dc:creator>Filip Å»yÅºniewski</dc:creator><meta:editing-duration>P2DT5H18M28S</meta:editing-duration><meta:editing-cycles>61</meta:editing-cycles><meta:generator>LibreOffice/3.6$Linux_X86_64 LibreOffice_project/360m1$Build-2</meta:generator><meta:document-statistic meta:table-count="6" meta:cell-count="347" meta:object-count="0"/></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">29014</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">6914</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
+     <config:config-item-map-named config:name="Tables">
+      <config:config-item-map-entry config:name="Battery models">
+       <config:config-item config:name="CursorPositionX" config:type="int">12</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">13</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+      </config:config-item-map-entry>
+      <config:config-item-map-entry config:name="Battery pack">
+       <config:config-item config:name="CursorPositionX" config:type="int">1</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">7</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+      </config:config-item-map-entry>
+      <config:config-item-map-entry config:name="Commute">
+       <config:config-item config:name="CursorPositionX" config:type="int">4</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">11</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+      </config:config-item-map-entry>
+      <config:config-item-map-entry config:name="Donor models">
+       <config:config-item config:name="CursorPositionX" config:type="int">1</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">13</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+      </config:config-item-map-entry>
+      <config:config-item-map-entry config:name="General">
+       <config:config-item config:name="CursorPositionX" config:type="int">1</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">4</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+      </config:config-item-map-entry>
+      <config:config-item-map-entry config:name="Power &amp; Energy">
+       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">26</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+      </config:config-item-map-entry>
+     </config:config-item-map-named>
+     <config:config-item config:name="ActiveTable" config:type="string">Commute</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">493</config:config-item>
+     <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+     <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+     <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+     <config:config-item config:name="ShowPageBreakPreview" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="GridColor" config:type="long">12632256</config:config-item>
+     <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterResolutionX" config:type="int">1000</config:config-item>
+     <config:config-item config:name="RasterResolutionY" config:type="int">1000</config:config-item>
+     <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+     <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+     <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsDocumentShared" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="GridColor" config:type="long">12632256</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item-map-indexed config:name="ForbiddenCharacters">
+    <config:config-item-map-entry>
+     <config:config-item config:name="Language" config:type="string"/>
+     <config:config-item config:name="Country" config:type="string"/>
+     <config:config-item config:name="Variant" config:type="string"/>
+     <config:config-item config:name="BeginLine" config:type="string"/>
+     <config:config-item config:name="EndLine" config:type="string"/>
+    </config:config-item-map-entry>
+    <config:config-item-map-entry>
+     <config:config-item config:name="Language" config:type="string">en</config:config-item>
+     <config:config-item config:name="Country" config:type="string">US</config:config-item>
+     <config:config-item config:name="Variant" config:type="string"/>
+     <config:config-item config:name="BeginLine" config:type="string"/>
+     <config:config-item config:name="EndLine" config:type="string"/>
+    </config:config-item-map-entry>
+    <config:config-item-map-entry>
+     <config:config-item config:name="Language" config:type="string">pl</config:config-item>
+     <config:config-item config:name="Country" config:type="string">PL</config:config-item>
+     <config:config-item config:name="Variant" config:type="string"/>
+     <config:config-item config:name="BeginLine" config:type="string"/>
+     <config:config-item config:name="EndLine" config:type="string"/>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+   <config:config-item config:name="AutoCalculate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+   <config:config-item config:name="RasterResolutionY" config:type="int">1000</config:config-item>
+   <config:config-item config:name="RasterResolutionX" config:type="int">1000</config:config-item>
+   <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">3</config:config-item>
+   <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="Arial1" svg:font-family="Arial" style:font-adornments="Normalny" style:font-family-generic="swiss"/>
+  <style:font-face style:name="Times New Roman" svg:font-family="&apos;Times New Roman&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="Arial" svg:font-family="Arial" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="DejaVu Sans" svg:font-family="&apos;DejaVu Sans&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Lohit Hindi" svg:font-family="&apos;Lohit Hindi&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="table-cell">
+   <style:paragraph-properties style:tab-stop-distance="1.25cm"/>
+   <style:text-properties style:font-name="Arial" fo:language="pl" fo:country="PL" style:font-name-asian="DejaVu Sans" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="DejaVu Sans" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <number:number-style style:name="N0">
+   <number:number number:min-integer-digits="1"/>
+  </number:number-style>
+  <number:currency-style style:name="N107P0" style:volatile="true">
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+   <number:currency-symbol number:language="pl" number:country="PL">zł</number:currency-symbol>
+  </number:currency-style>
+  <number:currency-style style:name="N107">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>-</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+   <number:currency-symbol number:language="pl" number:country="PL">zł</number:currency-symbol>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N107P0"/>
+  </number:currency-style>
+  <number:currency-style style:name="N109P0" style:volatile="true">
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+   <number:currency-symbol>PLN</number:currency-symbol>
+  </number:currency-style>
+  <number:currency-style style:name="N109">
+   <number:text>-</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+   <number:currency-symbol>PLN</number:currency-symbol>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N109P0"/>
+  </number:currency-style>
+  <number:currency-style style:name="N111P0" style:volatile="true">
+   <number:currency-symbol number:language="en" number:country="US">$</number:currency-symbol>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+  </number:currency-style>
+  <number:currency-style style:name="N111">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>-</number:text>
+   <number:currency-symbol number:language="en" number:country="US">$</number:currency-symbol>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N111P0"/>
+  </number:currency-style>
+  <style:style style:name="Default" style:family="table-cell">
+   <style:text-properties style:font-name-complex="Lohit Hindi"/>
+  </style:style>
+  <style:style style:name="Result" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-style="italic" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Result2" style:family="table-cell" style:parent-style-name="Result" style:data-style-name="N107"/>
+  <style:style style:name="Heading" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties fo:font-size="16pt" fo:font-style="italic" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Heading1" style:family="table-cell" style:parent-style-name="Heading">
+   <style:table-cell-properties style:rotation-angle="90"/>
+  </style:style>
+  <draw:marker draw:name="Arrowhead_20_1" draw:display-name="Arrowhead 1" svg:viewBox="0 0 20 30" svg:d="m10 0-10 30h20z"/>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="co1" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="6.154cm"/>
+  </style:style>
+  <style:style style:name="co2" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.258cm"/>
+  </style:style>
+  <style:style style:name="co3" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.395cm"/>
+  </style:style>
+  <style:style style:name="co4" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="3.567cm"/>
+  </style:style>
+  <style:style style:name="co5" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="3.457cm"/>
+  </style:style>
+  <style:style style:name="co6" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.75cm"/>
+  </style:style>
+  <style:style style:name="co7" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.859cm"/>
+  </style:style>
+  <style:style style:name="co8" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.559cm"/>
+  </style:style>
+  <style:style style:name="co9" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.695cm"/>
+  </style:style>
+  <style:style style:name="co10" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.498cm"/>
+  </style:style>
+  <style:style style:name="co11" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.198cm"/>
+  </style:style>
+  <style:style style:name="co12" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.143cm"/>
+  </style:style>
+  <style:style style:name="co13" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.424cm"/>
+  </style:style>
+  <style:style style:name="co14" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="4.112cm"/>
+  </style:style>
+  <style:style style:name="co15" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.605cm"/>
+  </style:style>
+  <style:style style:name="co16" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.069cm"/>
+  </style:style>
+  <style:style style:name="co17" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.988cm"/>
+  </style:style>
+  <style:style style:name="co18" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="3.104cm"/>
+  </style:style>
+  <style:style style:name="co19" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.886cm"/>
+  </style:style>
+  <style:style style:name="co20" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.722cm"/>
+  </style:style>
+  <style:style style:name="co21" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.524cm"/>
+  </style:style>
+  <style:style style:name="co22" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.469cm"/>
+  </style:style>
+  <style:style style:name="co23" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.443cm"/>
+  </style:style>
+  <style:style style:name="co24" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.334cm"/>
+  </style:style>
+  <style:style style:name="co25" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.94cm"/>
+  </style:style>
+  <style:style style:name="co26" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.169cm"/>
+  </style:style>
+  <style:style style:name="co27" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.688cm"/>
+  </style:style>
+  <style:style style:name="co28" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.15cm"/>
+  </style:style>
+  <style:style style:name="co29" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="5.664cm"/>
+  </style:style>
+  <style:style style:name="co30" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.641cm"/>
+  </style:style>
+  <style:style style:name="co31" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.279cm"/>
+  </style:style>
+  <style:style style:name="co32" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="5.745cm"/>
+  </style:style>
+  <style:style style:name="co33" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.924cm"/>
+  </style:style>
+  <style:style style:name="co34" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="4.519cm"/>
+  </style:style>
+  <style:style style:name="co35" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.341cm"/>
+  </style:style>
+  <style:style style:name="co36" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.953cm"/>
+  </style:style>
+  <style:style style:name="co37" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="3.24cm"/>
+  </style:style>
+  <style:style style:name="ro1" style:family="table-row">
+   <style:table-row-properties style:row-height="0.452cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro2" style:family="table-row">
+   <style:table-row-properties style:row-height="0.446cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro3" style:family="table-row">
+   <style:table-row-properties style:row-height="0.841cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro4" style:family="table-row">
+   <style:table-row-properties style:row-height="0.427cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro5" style:family="table-row">
+   <style:table-row-properties style:row-height="0.894cm" fo:break-before="auto" style:use-optimal-row-height="false"/>
+  </style:style>
+  <style:style style:name="ro6" style:family="table-row">
+   <style:table-row-properties style:row-height="1.236cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro7" style:family="table-row">
+   <style:table-row-properties style:row-height="0.605cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro8" style:family="table-row">
+   <style:table-row-properties style:row-height="0.596cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ta1" style:family="table" style:master-page-name="Default">
+   <style:table-properties table:display="true" style:writing-mode="lr-tb"/>
+  </style:style>
+  <number:number-style style:name="N2">
+   <number:number number:decimal-places="2" number:min-integer-digits="1"/>
+  </number:number-style>
+  <number:percentage-style style:name="N11">
+   <number:number number:decimal-places="2" number:min-integer-digits="1"/>
+   <number:text>%</number:text>
+  </number:percentage-style>
+  <number:boolean-style style:name="N99">
+   <number:boolean/>
+  </number:boolean-style>
+  <style:style style:name="ce1" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties style:text-position="" fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce2" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N11">
+   <style:text-properties style:text-position=""/>
+  </style:style>
+  <style:style style:name="ce3" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0cm"/>
+   <style:text-properties style:text-position=""/>
+  </style:style>
+  <style:style style:name="ce4" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties style:text-position="" style:font-name="Arial1"/>
+  </style:style>
+  <style:style style:name="ce5" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce6" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N11"/>
+  <style:style style:name="ce7" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0cm"/>
+  </style:style>
+  <style:style style:name="ce8" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties style:font-name="Arial1"/>
+  </style:style>
+  <style:style style:name="ce9" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:wrap-option="wrap"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce10" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties style:font-name="Arial" style:font-name-asian="DejaVu Sans" style:font-name-complex="Lohit Hindi"/>
+  </style:style>
+  <style:style style:name="ce11" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap"/>
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0cm"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce12" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:wrap-option="wrap"/>
+  </style:style>
+  <style:style style:name="ce13" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N99"/>
+  <style:style style:name="ce14" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N99">
+   <style:text-properties style:font-name="Arial" style:font-name-asian="DejaVu Sans" style:font-name-complex="Lohit Hindi"/>
+  </style:style>
+  <style:style style:name="ce15" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N2"/>
+  <style:style style:name="ce16" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N111"/>
+  <style:style style:name="ce17" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N107"/>
+  <style:style style:name="ce18" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="top"/>
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0cm"/>
+   <style:text-properties fo:font-size="20pt" fo:font-weight="bold" style:font-size-asian="20pt" style:font-weight-asian="bold" style:font-size-complex="20pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce19" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-size="14pt" fo:font-weight="bold" style:font-size-asian="14pt" style:font-weight-asian="bold" style:font-size-complex="14pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce20" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap"/>
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0cm"/>
+  </style:style>
+  <style:style style:name="ce21" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:vertical-align="middle"/>
+  </style:style>
+  <style:style style:name="ce22" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0cm"/>
+  </style:style>
+  <style:style style:name="ce23" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0cm"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:font-name="Times New Roman" fo:font-size="10pt" fo:language="pl" fo:country="PL" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="DejaVu Sans" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce24" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:wrap-option="wrap"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:font-name="Times New Roman" fo:font-size="10pt" fo:language="pl" fo:country="PL" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="DejaVu Sans" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce25" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N0"/>
+  <style:style style:name="ce26" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:wrap-option="wrap" style:vertical-align="middle"/>
+  </style:style>
+  <style:style style:name="ce27" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N109"/>
+  <style:style style:name="gr1" style:family="graphic">
+   <style:graphic-properties draw:marker-start="Arrowhead_20_1" draw:marker-start-width="0.2cm" draw:marker-start-center="false" draw:fill="solid" draw:fill-color="#ffffc0" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:min-height="0.396cm" fo:padding-top="0.1cm" fo:padding-bottom="0.1cm" fo:padding-left="0.1cm" fo:padding-right="0.1cm" draw:shadow="hidden" draw:shadow-offset-x="0.1cm" draw:shadow-offset-y="0.1cm" draw:caption-escape-direction="auto"/>
+  </style:style>
+  <style:style style:name="gr2" style:family="graphic">
+   <style:graphic-properties draw:marker-start="Arrowhead_20_1" draw:marker-start-width="0.2cm" draw:marker-start-center="false" draw:fill="solid" draw:fill-color="#ffffc0" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:padding-top="0.1cm" fo:padding-bottom="0.1cm" fo:padding-left="0.1cm" fo:padding-right="0.1cm" draw:shadow="hidden" draw:shadow-offset-x="0.1cm" draw:shadow-offset-y="0.1cm" draw:caption-escape-direction="auto"/>
+  </style:style>
+  <style:style style:name="gr3" style:family="graphic">
+   <style:graphic-properties draw:marker-start="Arrowhead_20_1" draw:marker-start-width="0.2cm" draw:marker-start-center="false" draw:fill="solid" draw:fill-color="#ffffc0" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:min-height="0.791cm" fo:padding-top="0.1cm" fo:padding-bottom="0.1cm" fo:padding-left="0.1cm" fo:padding-right="0.1cm" draw:shadow="hidden" draw:shadow-offset-x="0.1cm" draw:shadow-offset-y="0.1cm" draw:caption-escape-direction="auto"/>
+  </style:style>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.75cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-bottom="0.25cm"/>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.75cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.25cm"/>
+   </style:footer-style>
+  </style:page-layout>
+  <style:page-layout style:name="pm2">
+   <style:page-layout-properties style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.75cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-bottom="0.25cm" fo:border="2.49pt solid #000000" fo:padding="0.018cm" fo:background-color="#c0c0c0">
+     <style:background-image/>
+    </style:header-footer-properties>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.75cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.25cm" fo:border="2.49pt solid #000000" fo:padding="0.018cm" fo:background-color="#c0c0c0">
+     <style:background-image/>
+    </style:header-footer-properties>
+   </style:footer-style>
+  </style:page-layout>
+  <style:style style:name="P1" style:family="paragraph">
+   <style:paragraph-properties style:text-autospace="none" style:line-break="normal" style:writing-mode="page"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:font-name="Arial" fo:font-size="10pt" fo:language="pl" fo:country="PL" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="DejaVu Sans" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lohit Hindi" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color" fo:hyphenate="false"/>
+  </style:style>
+  <style:style style:name="T1" style:family="text">
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:font-name="Arial" fo:font-size="10pt" fo:language="pl" fo:country="PL" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="DejaVu Sans" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lohit Hindi" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="T2" style:family="text">
+   <style:text-properties style:font-name="Arial1"/>
+  </style:style>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Default" style:page-layout-name="pm1">
+   <style:header>
+    <text:p><text:sheet-name>???</text:sheet-name></text:p>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:footer>
+    <text:p>Strona <text:page-number>1</text:page-number></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+  <style:master-page style:name="Report" style:page-layout-name="pm2">
+   <style:header>
+    <style:region-left>
+     <text:p><text:sheet-name>???</text:sheet-name> (<text:title>???</text:title>)</text:p>
+    </style:region-left>
+    <style:region-right>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2013-02-23">00.00.0000</text:date>, <text:time style:data-style-name="N2" text:time-value="0000-00-00T14:06:21">?</text:time></text:p>
+    </style:region-right>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:footer>
+    <text:p>Strona <text:page-number>1</text:page-number> / <text:page-count>99</text:page-count></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+ </office:master-styles>
+ <office:body>
+  <office:spreadsheet>
+   <table:content-validations>
+    <table:content-validation table:name="val1" table:condition="of:cell-content-is-in-list([$Commute.$A$3:.$A$11])" table:allow-empty-cell="false" table:display-list="unsorted" table:base-cell-address="Commute.A14"/>
+    <table:content-validation table:name="val2" table:condition="of:cell-content-is-in-list([$&apos;Donor models&apos;.$A$3:.$A$11])" table:allow-empty-cell="false" table:display-list="unsorted" table:base-cell-address="Commute.A14"/>
+    <table:content-validation table:name="val3" table:condition="of:cell-content-is-in-list([$&apos;Battery models&apos;.$A$2:.$A$11])" table:allow-empty-cell="false" table:display-list="unsorted" table:base-cell-address="&apos;Donor models&apos;.A14"/>
+   </table:content-validations>
+   <table:table table:name="General" table:style-name="ta1">
+    <table:table-column table:style-name="co1" table:default-cell-style-name="ce5"/>
+    <table:table-column table:style-name="co2" table:number-columns-repeated="3" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>VAT tax rate</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce6" office:value-type="percentage" office:value="0.23">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="14.593cm" svg:height="0.596cm" svg:x="9.011cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="0.461cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://pl.wikipedia.org/wiki/Podatek_od_towar%C3%B3w_i_us%C5%82ug#Stawki_podatku</text:span></text:p>
+      </office:annotation>
+      <text:p>23,00%</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string">
+      <text:p>multiplier</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1+[.B2]" office:value-type="percentage" office:value="1.23">
+      <text:p>123,00%</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>USD/PLN rate</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="3.15">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="8.073cm" svg:height="0.596cm" svg:x="9.011cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="0.907cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://nbp.gov.pl/home.aspx?f=/kursy/kursyc.html</text:span></text:p>
+      </office:annotation>
+      <text:p>3,15</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string">
+      <text:p>multiplier</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D2]*[.B3]" office:value-type="float" office:value="3.8745">
+      <text:p>3,8745</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Copper resistivity</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1.678*10^-8" office:value-type="float" office:value="0.00000001678">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="5.9cm" svg:height="0.596cm" svg:x="9.011cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.354cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Copper</text:span></text:p>
+      </office:annotation>
+      <text:p>1,678E-008</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string">
+      <text:p>Ωm</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Copper cable max current density</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="9.559cm" svg:height="0.596cm" svg:x="9.011cm" svg:y="0.29cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Current_density#In_practice</text:span></text:p>
+      </office:annotation>
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>A/mm^2</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Vehicle Passenger mass</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="68">
+      <text:p>68</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>kg</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Vehicle driver mass</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="75">
+      <text:p>75</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>kg</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+   </table:table>
+   <table:table table:name="Commute" table:style-name="ta1">
+    <table:table-column table:style-name="co2" table:number-columns-repeated="2" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co3" table:number-columns-repeated="2" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co4" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co5" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co6" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co7" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co8" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co2" table:number-columns-repeated="2" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce9" table:number-columns-repeated="2"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce9" table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce11" office:value-type="string" table:number-columns-spanned="4" table:number-rows-spanned="1">
+      <text:p>Steepest incline</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:number-columns-repeated="3" table:style-name="ce9"/>
+     <table:table-cell table:style-name="ce12"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>Name</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>length [km]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>Duration [min]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>Max speed on flat [km/h]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>total climb [m]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>total descent [m]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>Length [m]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>start height [m]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>end height [m]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>speed [km/h]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>Roundtrip</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Work</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="22">
+      <text:p>22</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="35">
+      <text:p>35</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="90">
+      <text:p>90</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="353">
+      <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="2.899cm" svg:height="1.386cm" svg:x="13.472cm" svg:y="0.395cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="0.902cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">Grabbed using Android „My Tracks”</text:span></text:p>
+      </office:annotation>
+      <text:p>353</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="444">
+      <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="2.899cm" svg:height="1.386cm" svg:x="16.93cm" svg:y="0.395cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="0.902cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">Grabbed using Android „My Tracks”</text:span></text:p>
+      </office:annotation>
+      <text:p>444</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="754">
+      <office:annotation draw:style-name="gr3" draw:text-style-name="P1" svg:width="32.681cm" svg:height="0.991cm" svg:x="19.679cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.297cm">
+       <dc:date>2013-02-22T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">https://maps.google.pl/maps?q=from:+49.960391N+19.955012E+to:+49.959275N+19.963896E&amp;saddr=49.960391N+19.955012E&amp;daddr=49.959275N+19.963896E&amp;hl=pl&amp;ll=49.960035,19.959476&amp;spn=0.0</text:span></text:p>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">04762,0.013078&amp;sll=49.960497,19.957545&amp;sspn=0.004762,0.013078&amp;geocode=FcdV-gIdRH0wAQ%3BFWtR-gId-J8wAQ&amp;t=h&amp;z=17</text:span></text:p>
+      </office:annotation>
+      <text:p>754</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="309">
+      <text:p>309</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="377">
+      <text:p>377</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="30">
+      <text:p>30</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="boolean" office:boolean-value="true">
+      <text:p>PRAWDA</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4" table:number-rows-repeated="9">
+     <table:table-cell table:number-columns-repeated="11"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
+      <text:p>Choose the commute:</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="10"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:content-validation-name="val1" office:value-type="string">
+      <text:p>Work</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 2; 0)" office:value-type="float" office:value="22">
+      <text:p>22</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 3; 0)" office:value-type="float" office:value="35">
+      <text:p>35</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 4; 0)" office:value-type="float" office:value="90">
+      <text:p>90</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 5; 0)" office:value-type="float" office:value="353">
+      <text:p>353</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 6; 0)" office:value-type="float" office:value="444">
+      <text:p>444</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 7; 0)" office:value-type="float" office:value="754">
+      <text:p>754</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 8; 0)" office:value-type="float" office:value="309">
+      <text:p>309</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 9; 0)" office:value-type="float" office:value="377">
+      <text:p>377</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 10; 0)" office:value-type="float" office:value="30">
+      <text:p>30</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce14" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 10; 0)" office:value-type="boolean" office:boolean-value="30">
+      <text:p>PRAWDA</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Roundtrip (if enabled)</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=IF(commute_roundtrip; 2; 1)*[.B14]" office:value-type="float" office:value="44">
+      <text:p>44</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=IF(commute_roundtrip; 2; 1)*[.C14]" office:value-type="float" office:value="70">
+      <text:p>70</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=IF(commute_roundtrip; [.E14]+[.F14]; [.E14])" office:value-type="float" office:value="797">
+      <text:p>797</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=IF(commute_roundtrip; [.E14]+[.F14]; [.F14])" office:value-type="float" office:value="797">
+      <text:p>797</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="5"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4" table:number-rows-repeated="1048560">
+     <table:table-cell table:number-columns-repeated="11"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="11"/>
+    </table:table-row>
+   </table:table>
+   <table:table table:name="Donor models" table:style-name="ta1">
+    <table:table-column table:style-name="co5" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co2" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co9" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co2" table:number-columns-repeated="4" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co10" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co11" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co8" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co12" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co2" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co13" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co2" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co13" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co2" table:number-columns-repeated="3" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce9" table:number-columns-repeated="7"/>
+     <table:table-cell table:style-name="ce11" office:value-type="string" table:number-columns-spanned="3" table:number-rows-spanned="1">
+      <text:p>Front tires</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:number-columns-repeated="2" table:style-name="ce9"/>
+     <table:table-cell table:style-name="ce11" office:value-type="string" table:number-columns-spanned="3" table:number-rows-spanned="1">
+      <text:p>Rear tires</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:number-columns-repeated="2" table:style-name="ce9"/>
+     <table:table-cell table:style-name="ce12" table:number-columns-repeated="5"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro5">
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>Model</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>Frontal area [m^2]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>Drag coefficient (Cd)</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="11.22cm" svg:height="0.596cm" svg:x="11.268cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="0.456cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Automobile_drag_coefficient#Drag_area</text:span></text:p>
+      </office:annotation>
+      <text:p>Cda</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>Mass</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>Gross mass</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>ICE mass</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>width [mm]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>height ratio</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>rim diameter [inch]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>width [mm]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>height ratio</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>rim diameter [inch]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce5" office:value-type="string">
+      <text:p>Seats</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="11.572cm" svg:height="0.596cm" svg:x="33.801cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="0.456cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://isap.sejm.gov.pl/Download?id=WDU20120000996&amp;type=2 p. 66</text:span></text:p>
+      </office:annotation>
+      <text:p>Max Luggage mass [kg]</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="3"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="14.027cm" svg:height="0.596cm" svg:x="4.057cm" svg:y="0.106cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.244cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Smart_Fortwo#First_generation_.281998.E2.80.932007.29</text:span></text:p>
+      </office:annotation>
+      <text:p>Smart Fortwo W450</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.95">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="8.466cm" svg:height="0.596cm" svg:x="6.315cm" svg:y="0.106cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.244cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://clubsmartcar.com/index.php?showtopic=9972</text:span></text:p>
+      </office:annotation>
+      <text:p>1,95</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.37">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="8.799cm" svg:height="0.596cm" svg:x="9.01cm" svg:y="0.106cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.244cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://clubsmartcar.com/index.php?showtopic=9972</text:span></text:p>
+      </office:annotation>
+      <text:p>0,37</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B3]*[.C3]" office:value-type="float" office:value="0.7215">
+      <text:p>0,7215</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=805-75-0.9*719.7*33/1000" office:value-type="float" office:value="708.62491">
+      <office:annotation draw:style-name="gr3" draw:text-style-name="P1" svg:width="12.459cm" svg:height="0.991cm" svg:x="13.525cm" svg:y="0.106cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.244cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://ebiz.smart.com/downloads/mysmart/en/manuals/BA_fortwo.pdf p. 201, subtracted driver and gasoline mass (33L tank)</text:span></text:p>
+      </office:annotation>
+      <text:p>708,62491</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="990">
+      <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="2.899cm" svg:height="2.176cm" svg:x="15.783cm" svg:y="0.106cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.244cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://ebiz.smart.com/downloads/mysmart/en/manuals/BA_fortwo.pdf p. 201</text:span></text:p>
+      </office:annotation>
+      <text:p>990</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="70">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="19.366cm" svg:height="0.596cm" svg:x="18.041cm" svg:y="0.106cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.244cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://www.youtube.com/watch?v=oYuyog81Fug&amp;lc=loM-w5G7Idlym0Qbkq4OXM_7370k_-lqX2pct9pZE2I weak source</text:span></text:p>
+      </office:annotation>
+      <text:p>70</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="135">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="4.925cm" svg:height="0.596cm" svg:x="19.538cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.35cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://www.evilution.co.uk/564</text:span></text:p>
+      </office:annotation>
+      <text:p>135</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="70">
+      <text:p>70</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="13">
+      <text:p>13</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="175">
+      <text:p>175</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="55">
+      <text:p>55</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="15">
+      <text:p>15</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.F3]-[.E3]-[General.B7]-[General.B6]*([.N3]-1)" office:value-type="float" office:value="138.37509">
+      <text:p>138,37509</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="3"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="6.329cm" svg:height="0.596cm" svg:x="4.057cm" svg:y="0.286cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Audi_A2</text:span></text:p>
+      </office:annotation>
+      <text:p>Audi A2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.D4]/[.C4]" office:value-type="float" office:value="1.94285714285714">
+      <text:p>1,9428571429</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.28">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="7.932cm" svg:height="0.596cm" svg:x="9.01cm" svg:y="0.286cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://www.audiworld.com/model/a2/specs.shtml</text:span></text:p>
+      </office:annotation>
+      <text:p>0,28</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.544">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="11.129cm" svg:height="0.596cm" svg:x="11.268cm" svg:y="0.286cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Automobile_drag_coefficient#Drag_area</text:span></text:p>
+      </office:annotation>
+      <text:p>0,544</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="895">
+      <text:p>895</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1365">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="7.991cm" svg:height="0.596cm" svg:x="15.783cm" svg:y="0.286cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://www.audiworld.com/model/a2/specs.shtml</text:span></text:p>
+      </office:annotation>
+      <text:p>1365</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="90">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="12.868cm" svg:height="0.596cm" svg:x="18.041cm" svg:y="0.286cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://pierro777.free.fr/DOCVAG/ssp240_Audi%20A2%20Technology.pdf p. 72</text:span></text:p>
+      </office:annotation>
+      <text:p>90</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="175">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="8.148cm" svg:height="0.596cm" svg:x="19.538cm" svg:y="0.286cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://www.audiworld.com/model/a2/specs.shtml</text:span></text:p>
+      </office:annotation>
+      <text:p>175</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="60">
+      <text:p>60</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="15">
+      <text:p>15</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="175">
+      <text:p>175</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="60">
+      <text:p>60</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="15">
+      <text:p>15</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5">
+      <text:p>5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.F4]-[.E4]-[General.B8]-[General.B7]*([.N4]-1)" office:value-type="float" office:value="170">
+      <text:p>170</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="3"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="10.378cm" svg:height="0.596cm" svg:x="4.057cm" svg:y="0.713cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://www.autoevolution.com/engine/fiat-panda-2003-11.html</text:span></text:p>
+      </office:annotation>
+      <text:p>Fiat Panda 169 1,1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.11">
+      <text:p>2,11</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.33">
+      <text:p>0,33</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B5]*[.C5]" office:value-type="float" office:value="0.6963">
+      <text:p>0,6963</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="840">
+      <text:p>840</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1255">
+      <text:p>1255</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="66">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="85.84cm" svg:height="0.596cm" svg:x="6.309cm" svg:y="0.713cm" draw:caption-point-x="11.122cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T1">http://eper.fiatforum.com/eper/navi?COUNTRY=012&amp;GRP_COD=100&amp;SBMK=F&amp;DRIVE=D&amp;SGS_COD=0&amp;PART=1&amp;MAKE=F&amp;PART_COD=71736322&amp;COMM_MODEL=GIN&amp;CAT_COD=2Q&amp;MOD_COD=169&amp;SGRP_COD=0&amp;PART_SEQ=D&amp;ALL_FIG=0&amp;LANGUAGE=3&amp;PREVIOUS_KEY=PARTDRAWDATA&amp;NEW_HTTP=TRUE&amp;ALL_LIST_PART=0&amp;SB_CODE=-1&amp;KEY=PRICE_SOST_WIN&amp;PRINT_MODE=0&amp;LAST_SELECTED_PART=71736322&amp;EPER_CAT=SP&amp;GUI_LANG=3&amp;WINDOW_ID=0</text:span></text:p>
+      </office:annotation>
+      <text:p>66</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="155">
+      <text:p>155</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="80">
+      <text:p>80</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="13">
+      <text:p>13</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="155">
+      <text:p>155</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="80">
+      <text:p>80</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="13">
+      <text:p>13</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5">
+      <text:p>5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.F5]-[.E5]-[General.B9]-[General.B8]*([.N5]-1)" office:value-type="float" office:value="415">
+      <text:p>415</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="3"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4" table:number-rows-repeated="7">
+     <table:table-cell table:number-columns-repeated="18"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
+      <text:p>Select the donor:</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="17"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:content-validation-name="val2" office:value-type="string">
+      <text:p>Fiat Panda 169 1,1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 2; 0)" office:value-type="float" office:value="2.11">
+      <text:p>2,11</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 3; 0)" office:value-type="float" office:value="0.33">
+      <text:p>0,33</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 4; 0)" office:value-type="float" office:value="0.6963">
+      <text:p>0,6963</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 5; 0)" office:value-type="float" office:value="840">
+      <text:p>840</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 6; 0)" office:value-type="float" office:value="1255">
+      <text:p>1255</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 7; 0)" office:value-type="float" office:value="66">
+      <text:p>66</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 8; 0)" office:value-type="float" office:value="155">
+      <text:p>155</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 9; 0)" office:value-type="float" office:value="80">
+      <text:p>80</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 10; 0)" office:value-type="float" office:value="13">
+      <text:p>13</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 11; 0)" office:value-type="float" office:value="155">
+      <text:p>155</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 12; 0)" office:value-type="float" office:value="80">
+      <text:p>80</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 13; 0)" office:value-type="float" office:value="13">
+      <text:p>13</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 14; 0)" office:value-type="float" office:value="5">
+      <text:p>5</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 15; 0)" office:value-type="float" office:value="415">
+      <text:p>415</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="3"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4" table:number-rows-repeated="1048561">
+     <table:table-cell table:number-columns-repeated="18"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="18"/>
+    </table:table-row>
+   </table:table>
+   <table:table table:name="Power &amp; Energy" table:style-name="ta1">
+    <table:table-column table:style-name="co2" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+    </table:table-row>
+   </table:table>
+   <table:table table:name="Battery models" table:style-name="ta1">
+    <table:table-column table:style-name="co14" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co15" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co16" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co3" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co17" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co18" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co19" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co20" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co21" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co22" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co23" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co24" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co25" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co26" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co27" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co28" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:style-name="ce11" office:value-type="string">
+      <text:p>Model</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce11" office:value-type="string">
+      <text:p>Capacity [Ah]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce11" office:value-type="string">
+      <text:p>Nominal voltage [V]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce11" office:value-type="string">
+      <text:p>Energy capacity [Wh]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce11" office:value-type="string">
+      <text:p>Charging voltage [V]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce11" office:value-type="string">
+      <text:p>Internal resistance [m<text:span text:style-name="T2">Ω]</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce11" office:value-type="string">
+      <text:p>Max continuous current [A]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce11" office:value-type="string">
+      <text:p>Max impulse current [A]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce11" office:value-type="string">
+      <text:p>Width [mm]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce11" office:value-type="string">
+      <text:p>Height [mm]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce11" office:value-type="string">
+      <text:p>Depth [mm]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce11" office:value-type="string">
+      <text:p>Mass [kg]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce11" office:value-type="string">
+      <text:p>Energy density [Wh/kg]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce11" office:value-type="string">
+      <text:p>Price</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce11" office:value-type="string">
+      <text:p>Price</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>Price / Wh</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="9.64cm" svg:height="0.596cm" svg:x="4.711cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="0.851cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://www.gbsystem.com.cn/products-show-en.asp?id=45</text:span></text:p>
+      </office:annotation>
+      <text:p>GBS GBS-LFMP60AH</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="60">
+      <text:p>60</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="3.2">
+      <text:p>3,2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B2]*[.C2]" office:value-type="float" office:value="192">
+      <text:p>192</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="3.55">
+      <text:p>3,55</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.2">
+      <text:p>1,2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="180">
+      <text:p>180</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="600">
+      <text:p>600</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="126">
+      <text:p>126</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="180">
+      <text:p>180</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="65">
+      <text:p>65</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce15" table:formula="of:=[.D2]/[.L2]" office:value-type="float" office:value="96">
+      <text:p>96,00</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="currency" office:currency="USD" office:value="66">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="22.883cm" svg:height="0.596cm" svg:x="31.36cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="0.851cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://3xe-electric-cars.com/lithium-battery-accessory/lithium-batteries-lifepo4-lifeypo4/gbs-battery/gbs-60ah-lifepo4-lithium-battery-44526-detail</text:span></text:p>
+      </office:annotation>
+      <text:p>$66,00</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" table:formula="of:=250.46*vat_factor" office:value-type="currency" office:currency="PLN" office:value="308.0658">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="21.864cm" svg:height="0.596cm" svg:x="33.048cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="0.851cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://3xe-electric-cars.com/lithium-battery-accessory/lithium-batteries-lifepo4-lifeypo4/gbs-battery/gbs-60ah-eu-delivery-1-83-cells-detail</text:span></text:p>
+      </office:annotation>
+      <text:p>308,07 zł</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.N2]/[.D2]" office:value-type="currency" office:currency="USD" office:value="0.34375">
+      <text:p>$0,34</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="16.08cm" svg:height="0.596cm" svg:x="4.711cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.278cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.winston-battery.com/index.php/products/power-battery/item/wb-lyp60aha?category_id=176</text:span></text:p>
+      </office:annotation>
+      <text:p>Winston WB-LYP60AHA</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="60">
+      <text:p>60</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.8">
+      <text:p>2,8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B3]*[.C3]" office:value-type="float" office:value="168">
+      <text:p>168</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.7">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="10.552cm" svg:height="0.596cm" svg:x="15.873cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.278cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://www.ev-power.eu/docs/pdf/Winston-InternalResistance.pdf</text:span></text:p>
+      </office:annotation>
+      <text:p>0,7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B3]*3" office:value-type="float" office:value="180">
+      <text:p>180</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B3]*20" office:value-type="float" office:value="1200">
+      <text:p>1200</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="115">
+      <text:p>115</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="200">
+      <text:p>200</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="61">
+      <text:p>61</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.3">
+      <text:p>2,3</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce15" table:formula="of:=[.D3]/[.L3]" office:value-type="float" office:value="73.0434782608696">
+      <text:p>73,04</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="currency" office:currency="USD" office:value="66">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="25.167cm" svg:height="0.596cm" svg:x="31.36cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.278cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://3xe-electric-cars.com/lithium-battery-accessory/lithium-batteries-lifepo4-lifeypo4/winston-battery/winston-battery-60ah-lifepo4-lithium-battery-6251-detail</text:span></text:p>
+      </office:annotation>
+      <text:p>$66,00</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" table:formula="of:=250.46*vat_factor" office:value-type="currency" office:currency="PLN" office:value="308.0658">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="24.12cm" svg:height="0.596cm" svg:x="33.048cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.278cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://3xe-electric-cars.com/lithium-battery-accessory/lithium-batteries-lifepo4-lifeypo4/winston-battery/winston-battery-60ah-eu-delivery-1-83-cells-detail</text:span></text:p>
+      </office:annotation>
+      <text:p>308,07 zł</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.N3]/[.D3]" office:value-type="currency" office:currency="USD" office:value="0.392857142857143">
+      <text:p>$0,39</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="16.41cm" svg:height="0.596cm" svg:x="4.711cm" svg:y="0.195cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.calb.cn/Product/?id-115.html And http://www.calibpower.com/ProductDetails.aspx?p=2&amp;id=2</text:span></text:p>
+      </office:annotation>
+      <text:p>CALB SE60AHA</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="60">
+      <text:p>60</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="3.2">
+      <text:p>3,2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B4]*[.C4]" office:value-type="float" office:value="192">
+      <text:p>192</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="3.6">
+      <text:p>3,6</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B4]*2" office:value-type="float" office:value="120">
+      <text:p>120</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="600">
+      <text:p>600</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="142">
+      <text:p>142</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="217">
+      <text:p>217</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="50">
+      <text:p>50</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.5">
+      <text:p>2,5</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce15" table:formula="of:=[.D4]/[.L4]" office:value-type="float" office:value="76.8">
+      <text:p>76,80</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="currency" office:currency="USD" office:value="78">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="22.773cm" svg:height="0.596cm" svg:x="31.36cm" svg:y="0.195cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://3xe-electric-cars.com/lithium-battery-accessory/lithium-batteries-lifepo4-lifeypo4/calb-battery/calb-60ah-lifepo4-lithium-battery-6275-detail</text:span></text:p>
+      </office:annotation>
+      <text:p>$78,00</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" table:formula="of:=294.98*vat_factor" office:value-type="currency" office:currency="PLN" office:value="362.8254">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="22.084cm" svg:height="0.596cm" svg:x="33.048cm" svg:y="0.195cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://3xe-electric-cars.com/lithium-battery-accessory/lithium-batteries-lifepo4-lifeypo4/calb-battery/calb-60ah-eu-delivery-1-83-cells-detail</text:span></text:p>
+      </office:annotation>
+      <text:p>362,83 zł</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.N4]/[.D4]" office:value-type="currency" office:currency="USD" office:value="0.40625">
+      <text:p>$0,41</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4" table:number-rows-repeated="8">
+     <table:table-cell table:number-columns-repeated="16"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
+      <text:p>Select the battery model:</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="15"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:content-validation-name="val3" office:value-type="string">
+      <text:p>CALB SE60AHA</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 2; 0)" office:value-type="float" office:value="60">
+      <text:p>60</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 3; 0)" office:value-type="float" office:value="3.2">
+      <text:p>3,2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 4; 0)" office:value-type="float" office:value="192">
+      <text:p>192</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 5; 0)" office:value-type="float" office:value="3.6">
+      <text:p>3,6</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 6; 0)" office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 7; 0)" office:value-type="float" office:value="120">
+      <text:p>120</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 8; 0)" office:value-type="float" office:value="600">
+      <text:p>600</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 9; 0)" office:value-type="float" office:value="142">
+      <text:p>142</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 10; 0)" office:value-type="float" office:value="217">
+      <text:p>217</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 11; 0)" office:value-type="float" office:value="50">
+      <text:p>50</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 12; 0)" office:value-type="float" office:value="2.5">
+      <text:p>2,5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 13; 0)" office:value-type="float" office:value="76.8">
+      <text:p>76,8</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 14; 0)" office:value-type="currency" office:currency="USD" office:value="78">
+      <text:p>$78,00</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 15; 0)" office:value-type="currency" office:currency="PLN" office:value="362.8254">
+      <text:p>362,83 zł</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 16; 0)" office:value-type="currency" office:currency="USD" office:value="0.40625">
+      <text:p>$0,41</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4" table:number-rows-repeated="1048561">
+     <table:table-cell table:number-columns-repeated="16"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="16"/>
+    </table:table-row>
+   </table:table>
+   <table:table table:name="Battery pack" table:style-name="ta1">
+    <table:table-column table:style-name="co29" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co30" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co31" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co32" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co33" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co34" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co35" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co36" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co7" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co2" table:number-columns-repeated="4" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co37" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro6">
+     <table:table-cell table:style-name="ce18" office:value-type="string" table:number-columns-spanned="9" table:number-rows-spanned="1">
+      <text:p>Battery Pack</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="ce20"/>
+     <table:covered-table-cell table:number-columns-repeated="7"/>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>Number of cells in parallel</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>parallel pack resistance</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce26" office:value-type="string" table:number-columns-spanned="2" table:number-rows-spanned="5">
+      <text:p>This is a recursive formula – observe what is added to a parallel pack when a next cell is added. See http://en.wikipedia.org/wiki/Series_and_parallel_circuits#Resistors and <text:a xlink:href="http://en.wikipedia.org/wiki/Series_and_parallel_circuits#Resistors2">http://en.wikipedia.org/wiki/Series_and_parallel_circuits#Resistors2</text:a></text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=cell_resistance/1000" office:value-type="float" office:value="0.001">
+      <text:p>0,001</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:number-columns-repeated="2"/>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro7">
+     <table:table-cell table:style-name="ce19" office:value-type="string">
+      <text:p>Electrical</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:style-name="ce19" office:value-type="string">
+      <text:p>Mechanical</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell/>
+     <table:table-cell office:value-type="float" office:value="2">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/(1/([.K2]+connector_resistance)+1/(cell_resistance+connector_resistance))" office:value-type="float" office:value="0.00102244555973215">
+      <text:p>0,0010224456</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:number-columns-repeated="2"/>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce5"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell office:value-type="float" office:value="3">
+      <text:p>3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/(1/([.K3]+connector_resistance)+1/(cell_resistance+connector_resistance))" office:value-type="float" office:value="0.00104484474304376">
+      <text:p>0,0010448447</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:number-columns-repeated="2"/>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
+      <text:p>Battery pack data</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce5" office:value-type="string">
+      <text:p>value</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce5" office:value-type="string">
+      <text:p>unit</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce5" office:value-type="string">
+      <text:p>notes</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce5"/>
+     <table:table-cell table:style-name="ce5" office:value-type="string">
+      <text:p>data</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce5" office:value-type="string">
+      <text:p>value</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce5" office:value-type="string">
+      <text:p>unit</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce5" office:value-type="string">
+      <text:p>notes</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/(1/([.K4]+connector_resistance)+1/(cell_resistance+connector_resistance))" office:value-type="float" office:value="0.00106719664443965">
+      <text:p>0,0010671966</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:number-columns-repeated="2"/>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Amount of cells in parallel</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce21" office:value-type="string" table:number-columns-spanned="1" table:number-rows-spanned="5">
+      <text:p>conversion dependent</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce23"/>
+     <table:table-cell office:value-type="string">
+      <text:p>Cell volume</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=cell_width*cell_height*cell_depth/100^3" office:value-type="float" office:value="1.5407">
+      <text:p>1,5407</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>L</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="6"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Desired current</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=cell_max_continuous_current*cells_parallel" office:value-type="float" office:value="120">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="12.998cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="2.087cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Series_and_parallel_circuits#Cells_and_batteries_2</text:span></text:p>
+      </office:annotation>
+      <text:p>120</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>A</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell office:value-type="string">
+      <text:p>Amount of cells</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=cells_series*cells_parallel" office:value-type="float" office:value="43">
+      <text:p>43</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="7"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Desired regen current</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=pack_current" office:value-type="float" office:value="120">
+      <text:p>120</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>A</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:table-cell/>
+     <table:table-cell office:value-type="string">
+      <text:p>Pack volume</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=cell_volume*cell_count" office:value-type="float" office:value="66.2501">
+      <text:p>66,2501</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>L</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="string" table:number-columns-spanned="1" table:number-rows-spanned="2">
+      <text:p>excluding connectors etc.</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="5"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Amount of parallell packs in series</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="43">
+      <text:p>43</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:covered-table-cell/>
+     <table:table-cell/>
+     <table:table-cell office:value-type="string">
+      <text:p>Pack mass</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce25" table:formula="of:=cell_mass*cell_count" office:value-type="float" office:value="107.5">
+      <text:p>107,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>kg</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:table-cell table:number-columns-repeated="5"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Pack cable length</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=2*1.5" office:value-type="float" office:value="3">
+      <text:p>3</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>m</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:table-cell/>
+     <table:table-cell office:value-type="string">
+      <text:p>Pack cable cross section</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ROUNDUP(pack_current/cable_current_density; 5)" office:value-type="float" office:value="30">
+      <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="2.899cm" svg:height="0.991cm" svg:x="23.712cm" svg:y="3.426cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">Not to exceed current density</text:span></text:p>
+      </office:annotation>
+      <text:p>30</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>mm^2</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="6"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Contactor resistance</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.0002">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="7.014cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="3.872cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://relays.te.com/datasheets/ev200.pdf</text:span></text:p>
+      </office:annotation>
+      <text:p>0,0002</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string">
+      <text:p>Ω</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string">
+      <text:p>Pack cable diameter</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=SQRT([.G10]/PI())" office:value-type="float" office:value="3.09019361618552">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="8.248cm" svg:height="0.596cm" svg:x="23.712cm" svg:y="3.872cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Circle#Area_enclosed</text:span></text:p>
+      </office:annotation>
+      <text:p>3,0901936162</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>mm</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="6"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Fuse losses @ Amps</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="15">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="11.732cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="4.319cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://www.tme.eu/pl/details/nh1-200/bezpieczniki-nh/siba/2000313200/#</text:span></text:p>
+      </office:annotation>
+      <text:p>15</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>W @</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce22" office:value-type="float" office:value="200">
+      <text:p>200</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="10"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Fuse base losses @ Amps</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="8.6">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="7.59cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="4.765cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://www.jeanmueller.pl/pliki/T1911033.pdf</text:span></text:p>
+      </office:annotation>
+      <text:p>8,6</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>W @</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce22" office:value-type="float" office:value="250">
+      <text:p>250</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="10"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro8">
+     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce19" office:value-type="string">
+      <text:p>Financial</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="8"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
+      <text:p>Calculated data</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="13"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Pack cable resistance</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=copper_resistivity*pack_cable_length/pack_cable_cross_section" office:value-type="float" office:value="0.000000001678">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="10.799cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="6.254cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity</text:span></text:p>
+      </office:annotation>
+      <text:p>1,678E-009</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string">
+      <text:p>Ω</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string">
+      <text:p>Pack cost</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=cell_count*cell_price_usd" office:value-type="currency" office:currency="USD" office:value="3354">
+      <text:p>$3 354,00</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="7"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Fuse resistance</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=fuse_losses/fuse_losses_current^2" office:value-type="float" office:value="0.000375">
+      <office:annotation draw:style-name="gr3" draw:text-style-name="P1" svg:width="8.495cm" svg:height="0.991cm" svg:x="8.904cm" svg:y="6.7cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Electric_power#Definition P = I^2/R =&gt; R = P/I^2</text:span></text:p>
+      </office:annotation>
+      <text:p>0,000375</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string">
+      <text:p>Ω</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string">
+      <text:p>Pack cost</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=cell_count*cell_price_pln" office:value-type="currency" office:currency="PLN" office:value="15601.4922">
+      <text:p>15 601,49 zł</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="7"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Fuse base resistance</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=fuse_base_losses/fuse_base_losses_current^2" office:value-type="float" office:value="0.0001376">
+      <office:annotation draw:style-name="gr3" draw:text-style-name="P1" svg:width="8.605cm" svg:height="0.991cm" svg:x="8.904cm" svg:y="7.146cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Electric_power#Definition P = I^2/R =&gt; R = P/I^2</text:span></text:p>
+      </office:annotation>
+      <text:p>0,0001376</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string">
+      <text:p>Ω</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="11"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Cell connector resistance</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=copper_resistivity*(70/1000)/(25*2/1000^2)" office:value-type="float" office:value="0.000023492">
+      <office:annotation draw:style-name="gr3" draw:text-style-name="P1" svg:width="10.58cm" svg:height="0.991cm" svg:x="8.904cm" svg:y="7.592cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity estimated for a 70mm long 25x2mm copper bar</text:span></text:p>
+      </office:annotation>
+      <text:p>0,000023492</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string">
+      <text:p>Ω</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="11"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Parallel pack internal resistance</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=VLOOKUP(cells_parallel; [.$J$2:.$K$5]; 2; 0)" office:value-type="float" office:value="0.001">
+      <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="2.899cm" svg:height="1.386cm" svg:x="8.904cm" svg:y="8.039cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">Calculated with a recursive formula from F1</text:span></text:p>
+      </office:annotation>
+      <text:p>0,001</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string">
+      <text:p>Ω</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:number-columns-repeated="9"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Pack internal resistance</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=parallel_pack_resistance*cells_series+cell_connector_resistance*(cells_series-1)+fuse_resistance+fuse_base_resistance+pack_cable_resistance" office:value-type="float" office:value="0.044499265678">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="11.135cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="8.485cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Series_and_parallel_circuits#Resistors</text:span></text:p>
+      </office:annotation>
+      <text:p>0,0444992657</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string">
+      <text:p>Ω</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="11"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Pack nominal voltage</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=cell_nominal_voltage*cells_series" office:value-type="float" office:value="137.6">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="12.421cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="8.931cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Series_and_parallel_circuits#Cells_and_batteries</text:span></text:p>
+      </office:annotation>
+      <text:p>137,6</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>V</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="11"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Pack nominal charging voltage</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=cell_charging_voltage*cells_series" office:value-type="float" office:value="154.8">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="12.608cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="9.377cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Series_and_parallel_circuits#Cells_and_batteries</text:span></text:p>
+      </office:annotation>
+      <text:p>154,8</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>V</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="11"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Pack short circuit current</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=pack_nominal_voltage/pack_resistance" office:value-type="float" office:value="3092.18585753041">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="9.294cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="9.824cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Ohm&apos;s_law#Circuit_analysis</text:span></text:p>
+      </office:annotation>
+      <text:p>3092,1858575304</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>A</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="11"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Pack sag voltage</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=pack_current*pack_resistance" office:value-type="float" office:value="5.33991188136">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="9.321cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="10.27cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Ohm&apos;s_law#Circuit_analysis</text:span></text:p>
+      </office:annotation>
+      <text:p>5,3399118814</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>V</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce5"/>
+     <table:table-cell table:number-columns-repeated="8"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Pack surplus regen voltage</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=pack_regen_current*pack_resistance" office:value-type="float" office:value="5.33991188136">
+      <text:p>5,3399118814</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>V</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="11"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Pack discharge voltage</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=pack_nominal_voltage-pack_sag_voltage" office:value-type="float" office:value="132.26008811864">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="14.644cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="11.162cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Kirchhoff&apos;s_circuit_laws#Kirchhoff.27s_voltage_law_.28KVL.29</text:span></text:p>
+      </office:annotation>
+      <text:p>132,2600881186</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>V</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="11"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Pack regen max voltage</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=pack_nominal_charging_voltage+pack_surplus_regen_voltage" office:value-type="float" office:value="160.13991188136">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="14.64cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="11.609cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Kirchhoff&apos;s_circuit_laws#Kirchhoff.27s_voltage_law_.28KVL.29</text:span></text:p>
+      </office:annotation>
+      <text:p>160,1399118814</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>V</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Pack output power</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=pack_discharge_voltage*pack_current" office:value-type="float" office:value="15871.2105742368">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="8.66cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="12.055cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Electric_power#Definition</text:span></text:p>
+      </office:annotation>
+      <text:p>15871,2105742368</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>W</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:number-columns-repeated="9"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Pack heat losses</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=pack_sag_voltage*pack_current" office:value-type="float" office:value="640.7894257632">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="8.66cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="12.501cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-20T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Electric_power#Definition</text:span></text:p>
+      </office:annotation>
+      <text:p>640,7894257632</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>W</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:number-columns-repeated="7"/>
+     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Pack discharge efficiency</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce6" table:formula="of:=pack_power/(pack_power+pack_losses)" office:value-type="percentage" office:value="0.961192500862209">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="11.129cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="12.948cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Energy_conversion_efficiency#Overview</text:span></text:p>
+      </office:annotation>
+      <text:p>96,12%</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="10"/>
+     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Pack regen input power</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=pack_regen_voltage*pack_regen_current" office:value-type="float" office:value="19216.7894257632">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="8.617cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="13.394cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Electric_power#Definition</text:span></text:p>
+      </office:annotation>
+      <text:p>19216,7894257632</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>W</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="11"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Pack regen heat losses</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=pack_surplus_regen_voltage*pack_regen_current" office:value-type="float" office:value="640.7894257632">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="8.534cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="13.84cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Electric_power#Definition</text:span></text:p>
+      </office:annotation>
+      <text:p>640,7894257632</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>W</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="11"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Pack regen efficiency</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce6" table:formula="of:=pack_regen_power/(pack_regen_power+pack_regen_losses)" office:value-type="percentage" office:value="0.967730737440131">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="11.01cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="14.286cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-21T00:00:00</dc:date>
+       <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Energy_conversion_efficiency#Overview</text:span></text:p>
+      </office:annotation>
+      <text:p>96,77%</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="10"/>
+     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4" table:number-rows-repeated="2">
+     <table:table-cell table:number-columns-repeated="12"/>
+     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="14"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="12"/>
+     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4" table:number-rows-repeated="4">
+     <table:table-cell table:number-columns-repeated="14"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:number-columns-repeated="7"/>
+     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="14"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:number-columns-repeated="7"/>
+     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="12"/>
+     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:number-columns-repeated="7"/>
+     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4" table:number-rows-repeated="2">
+     <table:table-cell table:number-columns-repeated="14"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:number-columns-repeated="7"/>
+     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4" table:number-rows-repeated="2">
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:number-columns-repeated="9"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="14"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:style-name="ce23"/>
+     <table:table-cell table:number-columns-repeated="9"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:number-columns-repeated="7"/>
+     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="14"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4" table:number-rows-repeated="4">
+     <table:table-cell table:number-columns-repeated="12"/>
+     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce15"/>
+     <table:table-cell table:number-columns-repeated="12"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4" table:number-rows-repeated="1048514">
+     <table:table-cell table:number-columns-repeated="14"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="14"/>
+    </table:table-row>
+   </table:table>
+   <table:named-expressions>
+    <table:named-range table:name="battery_model" table:base-cell-address="$&apos;Donor models&apos;.$A$14" table:cell-range-address="$&apos;Battery models&apos;.$A$14"/>
+    <table:named-range table:name="cable_current_density" table:base-cell-address="$General.$B$5" table:cell-range-address="$General.$B$5"/>
+    <table:named-range table:name="car_drag_area" table:base-cell-address="$Commute.$D$14" table:cell-range-address="$&apos;Donor models&apos;.$D$14"/>
+    <table:named-range table:name="car_gross_mass" table:base-cell-address="$Commute.$F$14" table:cell-range-address="$&apos;Donor models&apos;.$F$14"/>
+    <table:named-range table:name="car_ice_mass" table:base-cell-address="$Commute.$G$14" table:cell-range-address="$&apos;Donor models&apos;.$G$14"/>
+    <table:named-range table:name="car_model" table:base-cell-address="$Commute.$A$14" table:cell-range-address="$&apos;Donor models&apos;.$A$14"/>
+    <table:named-range table:name="car_oem_luggage_mass" table:base-cell-address="$Commute.$O$14" table:cell-range-address="$&apos;Donor models&apos;.$O$14"/>
+    <table:named-range table:name="car_oem_mass" table:base-cell-address="$Commute.$E$14" table:cell-range-address="$&apos;Donor models&apos;.$E$14"/>
+    <table:named-range table:name="cells_parallel" table:base-cell-address="$Commute.$B$15" table:cell-range-address="$&apos;Battery pack&apos;.$B$6"/>
+    <table:named-range table:name="cells_series" table:base-cell-address="$&apos;Donor models&apos;.$B$17" table:cell-range-address="$&apos;Battery pack&apos;.$B$9"/>
+    <table:named-range table:name="cell_capacity" table:base-cell-address="$&apos;Donor models&apos;.$B$14" table:cell-range-address="$&apos;Battery models&apos;.$B$14"/>
+    <table:named-range table:name="cell_charging_voltage" table:base-cell-address="$&apos;Donor models&apos;.$E$14" table:cell-range-address="$&apos;Battery models&apos;.$E$14"/>
+    <table:named-range table:name="cell_connector_resistance" table:base-cell-address="$&apos;Donor models&apos;.$B$30" table:cell-range-address="$&apos;Battery pack&apos;.$B$19"/>
+    <table:named-range table:name="cell_count" table:base-cell-address="$&apos;Donor models&apos;.$B$52" table:cell-range-address="$&apos;Battery pack&apos;.$G$7"/>
+    <table:named-range table:name="cell_depth" table:base-cell-address="$&apos;Donor models&apos;.$K$14" table:cell-range-address="$&apos;Battery models&apos;.$K$14"/>
+    <table:named-range table:name="cell_energy" table:base-cell-address="$&apos;Donor models&apos;.$D$14" table:cell-range-address="$&apos;Battery models&apos;.$D$14"/>
+    <table:named-range table:name="cell_energy_density" table:base-cell-address="$&apos;Donor models&apos;.$M$14" table:cell-range-address="$&apos;Battery models&apos;.$M$14"/>
+    <table:named-range table:name="cell_height" table:base-cell-address="$&apos;Donor models&apos;.$J$14" table:cell-range-address="$&apos;Battery models&apos;.$J$14"/>
+    <table:named-range table:name="cell_mass" table:base-cell-address="$&apos;Donor models&apos;.$L$14" table:cell-range-address="$&apos;Battery models&apos;.$L$14"/>
+    <table:named-range table:name="cell_max_continuous_current" table:base-cell-address="$&apos;Donor models&apos;.$G$14" table:cell-range-address="$&apos;Battery models&apos;.$G$14"/>
+    <table:named-range table:name="cell_max_impulse_current" table:base-cell-address="$&apos;Donor models&apos;.$H$14" table:cell-range-address="$&apos;Battery models&apos;.$H$14"/>
+    <table:named-range table:name="cell_nominal_voltage" table:base-cell-address="$&apos;Donor models&apos;.$C$14" table:cell-range-address="$&apos;Battery models&apos;.$C$14"/>
+    <table:named-range table:name="cell_price_per_wh_usd" table:base-cell-address="$&apos;Donor models&apos;.$P$14" table:cell-range-address="$&apos;Battery models&apos;.$P$14"/>
+    <table:named-range table:name="cell_price_pln" table:base-cell-address="$&apos;Donor models&apos;.$O$14" table:cell-range-address="$&apos;Battery models&apos;.$O$14"/>
+    <table:named-range table:name="cell_price_usd" table:base-cell-address="$&apos;Donor models&apos;.$N$14" table:cell-range-address="$&apos;Battery models&apos;.$N$14"/>
+    <table:named-range table:name="cell_resistance" table:base-cell-address="$&apos;Donor models&apos;.$F$14" table:cell-range-address="$&apos;Battery models&apos;.$F$14"/>
+    <table:named-range table:name="cell_volume" table:base-cell-address="$&apos;Donor models&apos;.$B$51" table:cell-range-address="$&apos;Battery pack&apos;.$G$6"/>
+    <table:named-range table:name="cell_width" table:base-cell-address="$&apos;Donor models&apos;.$I$14" table:cell-range-address="$&apos;Battery models&apos;.$I$14"/>
+    <table:named-range table:name="commute_climb" table:base-cell-address="$Commute.$E$15" table:cell-range-address="$Commute.$E$15"/>
+    <table:named-range table:name="commute_descent" table:base-cell-address="$Commute.$F$15" table:cell-range-address="$Commute.$F$15"/>
+    <table:named-range table:name="commute_duration" table:base-cell-address="$Commute.$C$15" table:cell-range-address="$Commute.$C$15"/>
+    <table:named-range table:name="commute_length" table:base-cell-address="$Commute.$B$15" table:cell-range-address="$Commute.$B$15"/>
+    <table:named-range table:name="commute_max_speed" table:base-cell-address="$Commute.$C$14" table:cell-range-address="$Commute.$D$14"/>
+    <table:named-range table:name="commute_name" table:base-cell-address="$Commute.$A$14" table:cell-range-address="$Commute.$A$14"/>
+    <table:named-range table:name="commute_roundtrip" table:base-cell-address="$Commute.$J$14" table:cell-range-address="$Commute.$K$14"/>
+    <table:named-range table:name="connector_resistance" table:base-cell-address="$Commute.$B$29" table:cell-range-address="$&apos;Battery pack&apos;.$B$19"/>
+    <table:named-range table:name="contactor_resistance" table:base-cell-address="$&apos;Donor models&apos;.$B$19" table:cell-range-address="$&apos;Battery pack&apos;.$B$11"/>
+    <table:named-range table:name="copper_resistivity" table:base-cell-address="$&apos;Donor models&apos;.$B$4" table:cell-range-address="$General.$B$4"/>
+    <table:named-range table:name="current_density" table:base-cell-address="$General.$B$5" table:cell-range-address="$General.$B$5"/>
+    <table:named-range table:name="donor_car" table:base-cell-address="$Commute.$A$14" table:cell-range-address="$&apos;Donor models&apos;.$A$14"/>
+    <table:named-range table:name="driver_mass" table:base-cell-address="$General.$B$7" table:cell-range-address="$General.$B$7"/>
+    <table:named-range table:name="fuse_base_losses" table:base-cell-address="$&apos;Donor models&apos;.$B$21" table:cell-range-address="$&apos;Battery pack&apos;.$B$13"/>
+    <table:named-range table:name="fuse_base_losses_current" table:base-cell-address="$&apos;Donor models&apos;.$D$21" table:cell-range-address="$&apos;Battery pack&apos;.$D$13"/>
+    <table:named-range table:name="fuse_base_resistance" table:base-cell-address="$&apos;Donor models&apos;.$B$29" table:cell-range-address="$&apos;Battery pack&apos;.$B$18"/>
+    <table:named-range table:name="fuse_losses" table:base-cell-address="$&apos;Donor models&apos;.$B$20" table:cell-range-address="$&apos;Battery pack&apos;.$B$12"/>
+    <table:named-range table:name="fuse_losses_current" table:base-cell-address="$&apos;Donor models&apos;.$D$20" table:cell-range-address="$&apos;Battery pack&apos;.$D$12"/>
+    <table:named-range table:name="fuse_resistance" table:base-cell-address="$&apos;Donor models&apos;.$B$28" table:cell-range-address="$&apos;Battery pack&apos;.$B$17"/>
+    <table:named-range table:name="incline_length" table:base-cell-address="$Commute.$G$14" table:cell-range-address="$Commute.$G$14"/>
+    <table:named-range table:name="incline_speed" table:base-cell-address="$Commute.$J$14" table:cell-range-address="$Commute.$J$14"/>
+    <table:named-range table:name="incline_start" table:base-cell-address="$Commute.$H$14" table:cell-range-address="$Commute.$H$14"/>
+    <table:named-range table:name="incline_stop" table:base-cell-address="$Commute.$I$14" table:cell-range-address="$Commute.$I$14"/>
+    <table:named-range table:name="pack_cable_cross_section" table:base-cell-address="$&apos;Donor models&apos;.$C$18" table:cell-range-address="$&apos;Battery pack&apos;.$G$10"/>
+    <table:named-range table:name="pack_cable_length" table:base-cell-address="$&apos;Donor models&apos;.$B$18" table:cell-range-address="$&apos;Battery pack&apos;.$B$10"/>
+    <table:named-range table:name="pack_cable_resistance" table:base-cell-address="$&apos;Donor models&apos;.$B$27" table:cell-range-address="$&apos;Battery pack&apos;.$B$16"/>
+    <table:named-range table:name="pack_cost_pln" table:base-cell-address="$&apos;Donor models&apos;.$B$65" table:cell-range-address="$&apos;Battery pack&apos;.$G$17"/>
+    <table:named-range table:name="pack_cost_usd" table:base-cell-address="$&apos;Donor models&apos;.$B$64" table:cell-range-address="$&apos;Battery pack&apos;.$G$16"/>
+    <table:named-range table:name="pack_current" table:base-cell-address="$&apos;Donor models&apos;.$B$16" table:cell-range-address="$&apos;Battery pack&apos;.$B$7"/>
+    <table:named-range table:name="pack_discharge_voltage" table:base-cell-address="$&apos;Donor models&apos;.$B$36" table:cell-range-address="$&apos;Battery pack&apos;.$B$27"/>
+    <table:named-range table:name="pack_losses" table:base-cell-address="$&apos;Donor models&apos;.$B$38" table:cell-range-address="$&apos;Battery pack&apos;.$B$30"/>
+    <table:named-range table:name="pack_nominal_charging_voltage" table:base-cell-address="$&apos;Power &amp; Energy&apos;.$B$35" table:cell-range-address="$&apos;Battery pack&apos;.$B$23"/>
+    <table:named-range table:name="pack_nominal_voltage" table:base-cell-address="$&apos;Donor models&apos;.$B$33" table:cell-range-address="$&apos;Battery pack&apos;.$B$22"/>
+    <table:named-range table:name="pack_power" table:base-cell-address="$&apos;Donor models&apos;.$B$37" table:cell-range-address="$&apos;Battery pack&apos;.$B$29"/>
+    <table:named-range table:name="pack_regen_current" table:base-cell-address="$&apos;Power &amp; Energy&apos;.$B$17" table:cell-range-address="$&apos;Battery pack&apos;.$B$8"/>
+    <table:named-range table:name="pack_regen_losses" table:base-cell-address="$&apos;Power &amp; Energy&apos;.$B$45" table:cell-range-address="$&apos;Battery pack&apos;.$B$33"/>
+    <table:named-range table:name="pack_regen_power" table:base-cell-address="$&apos;Power &amp; Energy&apos;.$B$44" table:cell-range-address="$&apos;Battery pack&apos;.$B$32"/>
+    <table:named-range table:name="pack_regen_voltage" table:base-cell-address="$&apos;Power &amp; Energy&apos;.$B$37" table:cell-range-address="$&apos;Battery pack&apos;.$B$28"/>
+    <table:named-range table:name="pack_resistance" table:base-cell-address="$&apos;Donor models&apos;.$B$32" table:cell-range-address="$&apos;Battery pack&apos;.$B$21"/>
+    <table:named-range table:name="pack_sag_voltage" table:base-cell-address="$&apos;Donor models&apos;.$B$35" table:cell-range-address="$&apos;Battery pack&apos;.$B$25"/>
+    <table:named-range table:name="pack_surplus_regen_voltage" table:base-cell-address="$&apos;Power &amp; Energy&apos;.$B$38" table:cell-range-address="$&apos;Battery pack&apos;.$B$26"/>
+    <table:named-range table:name="parallel_pack_resistance" table:base-cell-address="$&apos;Donor models&apos;.$B$31" table:cell-range-address="$&apos;Battery pack&apos;.$B$20"/>
+    <table:named-range table:name="passenger_mass" table:base-cell-address="$General.$B$6" table:cell-range-address="$General.$B$6"/>
+    <table:named-range table:name="tire_front_ratio" table:base-cell-address="$Commute.$I$14" table:cell-range-address="$&apos;Donor models&apos;.$I$14"/>
+    <table:named-range table:name="tire_front_rim" table:base-cell-address="$Commute.$J$14" table:cell-range-address="$&apos;Donor models&apos;.$J$14"/>
+    <table:named-range table:name="tire_front_width" table:base-cell-address="$Commute.$H$14" table:cell-range-address="$&apos;Donor models&apos;.$H$14"/>
+    <table:named-range table:name="tire_rear_ratio" table:base-cell-address="$Commute.$L$14" table:cell-range-address="$&apos;Donor models&apos;.$L$14"/>
+    <table:named-range table:name="tire_rear_rim" table:base-cell-address="$Commute.$M$14" table:cell-range-address="$&apos;Donor models&apos;.$M$14"/>
+    <table:named-range table:name="tire_rear_width" table:base-cell-address="$Commute.$K$14" table:cell-range-address="$&apos;Donor models&apos;.$K$14"/>
+    <table:named-range table:name="usd" table:base-cell-address="$&apos;Donor models&apos;.$D$3" table:cell-range-address="$General.$D$3"/>
+    <table:named-range table:name="vat" table:base-cell-address="$&apos;Donor models&apos;.$B$2" table:cell-range-address="$General.$B$2"/>
+    <table:named-range table:name="vat_factor" table:base-cell-address="$&apos;Donor models&apos;.$D$2" table:cell-range-address="$General.$D$2"/>
+   </table:named-expressions>
+  </office:spreadsheet>
+ </office:body>
+</office:document>
