@@ -14,7 +14,7 @@
      <config:config-item-map-named config:name="Tables">
       <config:config-item-map-entry config:name="Battery models">
        <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">6</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">4</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -65,7 +65,7 @@
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="Donor models">
        <config:config-item config:name="CursorPositionX" config:type="int">1</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">13</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">4</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -115,7 +115,7 @@
        <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
       </config:config-item-map-entry>
      </config:config-item-map-named>
-     <config:config-item config:name="ActiveTable" config:type="string">Battery models</config:config-item>
+     <config:config-item config:name="ActiveTable" config:type="string">Donor models</config:config-item>
      <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">493</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
@@ -1070,12 +1070,16 @@
     <table:table-row table:style-name="ro4">
      <table:table-cell office:value-type="string">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="10.378cm" svg:height="0.596cm" svg:x="4.057cm" svg:y="0.713cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
-       <dc:date>2013-02-21T00:00:00</dc:date>
+       <dc:date>2013-02-23T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://www.autoevolution.com/engine/fiat-panda-2003-11.html</text:span></text:p>
       </office:annotation>
       <text:p>Fiat Panda 169 1,1</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="2.11">
+      <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="6.275cm" svg:height="0.596cm" svg:x="6.315cm" svg:y="0.713cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-23T00:00:00</dc:date>
+       <text:p text:style-name="P1">http://carspector.com/car/fiat/029832</text:p>
+      </office:annotation>
       <text:p>2,11</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="0.33">
@@ -1085,6 +1089,10 @@
       <text:p>0,6963</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="840">
+      <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="6.503cm" svg:height="0.596cm" svg:x="13.525cm" svg:y="0.713cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-23T00:00:00</dc:date>
+       <text:p text:style-name="P1">http://en.wikipedia.org/wiki/Fiat_Panda</text:p>
+      </office:annotation>
       <text:p>840</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="1255">
