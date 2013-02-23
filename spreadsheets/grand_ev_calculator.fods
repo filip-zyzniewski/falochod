@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:initial-creator>Filip Żyźniewski</meta:initial-creator><meta:creation-date>2013-02-16T17:43:49</meta:creation-date><dc:date>2013-02-22T09:19:45</dc:date><dc:creator>Filip Å»yÅºniewski</dc:creator><meta:editing-duration>P2DT5H18M28S</meta:editing-duration><meta:editing-cycles>61</meta:editing-cycles><meta:generator>LibreOffice/3.6$Linux_X86_64 LibreOffice_project/360m1$Build-2</meta:generator><meta:document-statistic meta:table-count="6" meta:cell-count="347" meta:object-count="0"/></office:meta>
+ <office:meta><meta:initial-creator>Filip Żyźniewski</meta:initial-creator><meta:creation-date>2013-02-16T17:43:49</meta:creation-date><dc:date>2013-02-22T09:19:45</dc:date><dc:creator>Filip Å»yÅºniewski</dc:creator><meta:editing-duration>P2DT5H18M28S</meta:editing-duration><meta:editing-cycles>61</meta:editing-cycles><meta:generator>LibreOffice/3.6$Linux_X86_64 LibreOffice_project/360m1$Build-2</meta:generator><meta:document-statistic meta:table-count="6" meta:cell-count="379" meta:object-count="0"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
@@ -13,8 +13,8 @@
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
      <config:config-item-map-named config:name="Tables">
       <config:config-item-map-entry config:name="Battery models">
-       <config:config-item config:name="CursorPositionX" config:type="int">12</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">13</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">6</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -82,7 +82,7 @@
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="General">
        <config:config-item config:name="CursorPositionX" config:type="int">1</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">4</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">6</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -115,7 +115,7 @@
        <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
       </config:config-item-map-entry>
      </config:config-item-map-named>
-     <config:config-item config:name="ActiveTable" config:type="string">Commute</config:config-item>
+     <config:config-item config:name="ActiveTable" config:type="string">Battery models</config:config-item>
      <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">493</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
@@ -194,7 +194,9 @@
  </office:settings>
  <office:scripts>
   <office:script script:language="ooo:Basic">
-   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <ooo:library-embedded ooo:name="Standard"/>
+   </ooo:libraries>
   </office:script>
  </office:scripts>
  <office:font-face-decls>
@@ -306,7 +308,7 @@
    <style:table-column-properties fo:break-before="auto" style:column-width="2.424cm"/>
   </style:style>
   <style:style style:name="co14" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="4.112cm"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="4.221cm"/>
   </style:style>
   <style:style style:name="co15" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="1.605cm"/>
@@ -342,39 +344,36 @@
    <style:table-column-properties fo:break-before="auto" style:column-width="2.94cm"/>
   </style:style>
   <style:style style:name="co26" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="1.169cm"/>
-  </style:style>
-  <style:style style:name="co27" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="1.688cm"/>
   </style:style>
-  <style:style style:name="co28" style:family="table-column">
+  <style:style style:name="co27" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="2.15cm"/>
   </style:style>
-  <style:style style:name="co29" style:family="table-column">
+  <style:style style:name="co28" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="5.664cm"/>
   </style:style>
-  <style:style style:name="co30" style:family="table-column">
+  <style:style style:name="co29" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="2.641cm"/>
   </style:style>
-  <style:style style:name="co31" style:family="table-column">
+  <style:style style:name="co30" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="1.279cm"/>
   </style:style>
-  <style:style style:name="co32" style:family="table-column">
+  <style:style style:name="co31" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="5.745cm"/>
   </style:style>
-  <style:style style:name="co33" style:family="table-column">
+  <style:style style:name="co32" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="0.924cm"/>
   </style:style>
-  <style:style style:name="co34" style:family="table-column">
+  <style:style style:name="co33" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="4.519cm"/>
   </style:style>
-  <style:style style:name="co35" style:family="table-column">
+  <style:style style:name="co34" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="2.341cm"/>
   </style:style>
-  <style:style style:name="co36" style:family="table-column">
+  <style:style style:name="co35" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="0.953cm"/>
   </style:style>
-  <style:style style:name="co37" style:family="table-column">
+  <style:style style:name="co36" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="3.24cm"/>
   </style:style>
   <style:style style:name="ro1" style:family="table-row">
@@ -415,85 +414,71 @@
    <number:boolean/>
   </number:boolean-style>
   <style:style style:name="ce1" style:family="table-cell" style:parent-style-name="Default">
-   <style:text-properties style:text-position="" fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="ce2" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N11">
-   <style:text-properties style:text-position=""/>
-  </style:style>
+  <style:style style:name="ce2" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N11"/>
   <style:style style:name="ce3" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
    <style:paragraph-properties fo:text-align="end" fo:margin-left="0cm"/>
-   <style:text-properties style:text-position=""/>
   </style:style>
   <style:style style:name="ce4" style:family="table-cell" style:parent-style-name="Default">
-   <style:text-properties style:text-position="" style:font-name="Arial1"/>
-  </style:style>
-  <style:style style:name="ce5" style:family="table-cell" style:parent-style-name="Default">
-   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
-  </style:style>
-  <style:style style:name="ce6" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N11"/>
-  <style:style style:name="ce7" style:family="table-cell" style:parent-style-name="Default">
-   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
-   <style:paragraph-properties fo:text-align="end" fo:margin-left="0cm"/>
-  </style:style>
-  <style:style style:name="ce8" style:family="table-cell" style:parent-style-name="Default">
    <style:text-properties style:font-name="Arial1"/>
   </style:style>
-  <style:style style:name="ce9" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce5" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:wrap-option="wrap"/>
    <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="ce10" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce6" style:family="table-cell" style:parent-style-name="Default">
    <style:text-properties style:font-name="Arial" style:font-name-asian="DejaVu Sans" style:font-name-complex="Lohit Hindi"/>
   </style:style>
-  <style:style style:name="ce11" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce7" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap"/>
    <style:paragraph-properties fo:text-align="center" fo:margin-left="0cm"/>
    <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="ce12" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce8" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:wrap-option="wrap"/>
   </style:style>
-  <style:style style:name="ce13" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N99"/>
-  <style:style style:name="ce14" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N99">
+  <style:style style:name="ce9" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N99"/>
+  <style:style style:name="ce10" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N99">
    <style:text-properties style:font-name="Arial" style:font-name-asian="DejaVu Sans" style:font-name-complex="Lohit Hindi"/>
   </style:style>
-  <style:style style:name="ce15" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N2"/>
-  <style:style style:name="ce16" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N111"/>
-  <style:style style:name="ce17" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N107"/>
-  <style:style style:name="ce18" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce11" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N2"/>
+  <style:style style:name="ce12" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N111"/>
+  <style:style style:name="ce13" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N107"/>
+  <style:style style:name="ce14" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="top"/>
    <style:paragraph-properties fo:text-align="center" fo:margin-left="0cm"/>
    <style:text-properties fo:font-size="20pt" fo:font-weight="bold" style:font-size-asian="20pt" style:font-weight-asian="bold" style:font-size-complex="20pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="ce19" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce15" style:family="table-cell" style:parent-style-name="Default">
    <style:text-properties fo:font-size="14pt" fo:font-weight="bold" style:font-size-asian="14pt" style:font-weight-asian="bold" style:font-size-complex="14pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="ce20" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce16" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap"/>
    <style:paragraph-properties fo:text-align="end" fo:margin-left="0cm"/>
   </style:style>
-  <style:style style:name="ce21" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce17" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties style:vertical-align="middle"/>
   </style:style>
-  <style:style style:name="ce22" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce18" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
    <style:paragraph-properties fo:text-align="start" fo:margin-left="0cm"/>
   </style:style>
-  <style:style style:name="ce23" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce19" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap" style:vertical-align="middle"/>
    <style:paragraph-properties fo:text-align="start" fo:margin-left="0cm"/>
    <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:font-name="Times New Roman" fo:font-size="10pt" fo:language="pl" fo:country="PL" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="DejaVu Sans" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
-  <style:style style:name="ce24" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce20" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:wrap-option="wrap"/>
    <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:font-name="Times New Roman" fo:font-size="10pt" fo:language="pl" fo:country="PL" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="DejaVu Sans" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
-  <style:style style:name="ce25" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N0"/>
-  <style:style style:name="ce26" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce21" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N0"/>
+  <style:style style:name="ce22" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:wrap-option="wrap" style:vertical-align="middle"/>
   </style:style>
-  <style:style style:name="ce27" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N109"/>
+  <style:style style:name="ce23" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N109"/>
   <style:style style:name="gr1" style:family="graphic">
    <style:graphic-properties draw:marker-start="Arrowhead_20_1" draw:marker-start-width="0.2cm" draw:marker-start-center="false" draw:fill="solid" draw:fill-color="#ffffc0" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:min-height="0.396cm" fo:padding-top="0.1cm" fo:padding-bottom="0.1cm" fo:padding-left="0.1cm" fo:padding-right="0.1cm" draw:shadow="hidden" draw:shadow-offset-x="0.1cm" draw:shadow-offset-y="0.1cm" draw:caption-escape-direction="auto"/>
   </style:style>
@@ -553,7 +538,7 @@
      <text:p><text:sheet-name>???</text:sheet-name> (<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2013-02-23">00.00.0000</text:date>, <text:time style:data-style-name="N2" text:time-value="0000-00-00T14:06:21">?</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2013-02-23">00.00.0000</text:date>, <text:time style:data-style-name="N2" text:time-value="0000-00-00T14:11:28">?</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -571,7 +556,7 @@
     <table:content-validation table:name="val3" table:condition="of:cell-content-is-in-list([$&apos;Battery models&apos;.$A$2:.$A$11])" table:allow-empty-cell="false" table:display-list="unsorted" table:base-cell-address="&apos;Donor models&apos;.A14"/>
    </table:content-validations>
    <table:table table:name="General" table:style-name="ta1">
-    <table:table-column table:style-name="co1" table:default-cell-style-name="ce5"/>
+    <table:table-column table:style-name="co1" table:default-cell-style-name="ce1"/>
     <table:table-column table:style-name="co2" table:number-columns-repeated="3" table:default-cell-style-name="Default"/>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="Default"/>
@@ -581,14 +566,14 @@
      <table:table-cell office:value-type="string">
       <text:p>VAT tax rate</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce6" office:value-type="percentage" office:value="0.23">
+     <table:table-cell table:style-name="ce2" office:value-type="percentage" office:value="0.23">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="14.593cm" svg:height="0.596cm" svg:x="9.011cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="0.461cm">
        <dc:date>2013-02-21T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://pl.wikipedia.org/wiki/Podatek_od_towar%C3%B3w_i_us%C5%82ug#Stawki_podatku</text:span></text:p>
       </office:annotation>
       <text:p>23,00%</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string">
+     <table:table-cell table:style-name="ce3" office:value-type="string">
       <text:p>multiplier</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=1+[.B2]" office:value-type="percentage" office:value="1.23">
@@ -606,7 +591,7 @@
       </office:annotation>
       <text:p>3,15</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string">
+     <table:table-cell table:style-name="ce3" office:value-type="string">
       <text:p>multiplier</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D2]*[.B3]" office:value-type="float" office:value="3.8745">
@@ -624,7 +609,7 @@
       </office:annotation>
       <text:p>1,678E-008</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce8" office:value-type="string">
+     <table:table-cell table:style-name="ce4" office:value-type="string">
       <text:p>Ωm</text:p>
      </table:table-cell>
      <table:table-cell/>
@@ -690,47 +675,47 @@
     <table:table-column table:style-name="co8" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co2" table:number-columns-repeated="2" table:default-cell-style-name="Default"/>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce9" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce5" table:number-columns-repeated="2"/>
      <table:table-cell/>
-     <table:table-cell table:style-name="ce9" table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce11" office:value-type="string" table:number-columns-spanned="4" table:number-rows-spanned="1">
+     <table:table-cell table:style-name="ce5" table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce7" office:value-type="string" table:number-columns-spanned="4" table:number-rows-spanned="1">
       <text:p>Steepest incline</text:p>
      </table:table-cell>
-     <table:covered-table-cell table:number-columns-repeated="3" table:style-name="ce9"/>
-     <table:table-cell table:style-name="ce12"/>
+     <table:covered-table-cell table:number-columns-repeated="3" table:style-name="ce5"/>
+     <table:table-cell table:style-name="ce8"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>Name</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>length [km]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>Duration [min]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>Max speed on flat [km/h]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>total climb [m]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>total descent [m]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>Length [m]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>start height [m]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>end height [m]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>speed [km/h]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>Roundtrip</text:p>
      </table:table-cell>
     </table:table-row>
@@ -778,7 +763,7 @@
      <table:table-cell office:value-type="float" office:value="30">
       <text:p>30</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce13" office:value-type="boolean" office:boolean-value="true">
+     <table:table-cell table:style-name="ce9" office:value-type="boolean" office:boolean-value="true">
       <text:p>PRAWDA</text:p>
      </table:table-cell>
     </table:table-row>
@@ -786,7 +771,7 @@
      <table:table-cell table:number-columns-repeated="11"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce5" office:value-type="string">
+     <table:table-cell table:style-name="ce1" office:value-type="string">
       <text:p>Choose the commute:</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="10"/>
@@ -795,34 +780,34 @@
      <table:table-cell table:content-validation-name="val1" office:value-type="string">
       <text:p>Work</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 2; 0)" office:value-type="float" office:value="22">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 2; 0)" office:value-type="float" office:value="22">
       <text:p>22</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 3; 0)" office:value-type="float" office:value="35">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 3; 0)" office:value-type="float" office:value="35">
       <text:p>35</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 4; 0)" office:value-type="float" office:value="90">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 4; 0)" office:value-type="float" office:value="90">
       <text:p>90</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 5; 0)" office:value-type="float" office:value="353">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 5; 0)" office:value-type="float" office:value="353">
       <text:p>353</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 6; 0)" office:value-type="float" office:value="444">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 6; 0)" office:value-type="float" office:value="444">
       <text:p>444</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 7; 0)" office:value-type="float" office:value="754">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 7; 0)" office:value-type="float" office:value="754">
       <text:p>754</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 8; 0)" office:value-type="float" office:value="309">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 8; 0)" office:value-type="float" office:value="309">
       <text:p>309</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 9; 0)" office:value-type="float" office:value="377">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 9; 0)" office:value-type="float" office:value="377">
       <text:p>377</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 10; 0)" office:value-type="float" office:value="30">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 10; 0)" office:value-type="float" office:value="30">
       <text:p>30</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce14" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 10; 0)" office:value-type="boolean" office:boolean-value="30">
+     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(commute_name; [.$A2:.$P$11]; 10; 0)" office:value-type="boolean" office:boolean-value="30">
       <text:p>PRAWDA</text:p>
      </table:table-cell>
     </table:table-row>
@@ -833,7 +818,7 @@
      <table:table-cell table:formula="of:=IF(commute_roundtrip; 2; 1)*[.B14]" office:value-type="float" office:value="44">
       <text:p>44</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=IF(commute_roundtrip; 2; 1)*[.C14]" office:value-type="float" office:value="70">
+     <table:table-cell table:style-name="ce6" table:formula="of:=IF(commute_roundtrip; 2; 1)*[.C14]" office:value-type="float" office:value="70">
       <text:p>70</text:p>
      </table:table-cell>
      <table:table-cell/>
@@ -867,65 +852,65 @@
     <table:table-column table:style-name="co13" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co2" table:number-columns-repeated="3" table:default-cell-style-name="Default"/>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce9" table:number-columns-repeated="7"/>
-     <table:table-cell table:style-name="ce11" office:value-type="string" table:number-columns-spanned="3" table:number-rows-spanned="1">
+     <table:table-cell table:style-name="ce5" table:number-columns-repeated="7"/>
+     <table:table-cell table:style-name="ce7" office:value-type="string" table:number-columns-spanned="3" table:number-rows-spanned="1">
       <text:p>Front tires</text:p>
      </table:table-cell>
-     <table:covered-table-cell table:number-columns-repeated="2" table:style-name="ce9"/>
-     <table:table-cell table:style-name="ce11" office:value-type="string" table:number-columns-spanned="3" table:number-rows-spanned="1">
+     <table:covered-table-cell table:number-columns-repeated="2" table:style-name="ce5"/>
+     <table:table-cell table:style-name="ce7" office:value-type="string" table:number-columns-spanned="3" table:number-rows-spanned="1">
       <text:p>Rear tires</text:p>
      </table:table-cell>
-     <table:covered-table-cell table:number-columns-repeated="2" table:style-name="ce9"/>
-     <table:table-cell table:style-name="ce12" table:number-columns-repeated="5"/>
+     <table:covered-table-cell table:number-columns-repeated="2" table:style-name="ce5"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="5"/>
     </table:table-row>
     <table:table-row table:style-name="ro5">
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>Model</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>Frontal area [m^2]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>Drag coefficient (Cd)</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="11.22cm" svg:height="0.596cm" svg:x="11.268cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="0.456cm">
        <dc:date>2013-02-21T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Automobile_drag_coefficient#Drag_area</text:span></text:p>
       </office:annotation>
       <text:p>Cda</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>Mass</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>Gross mass</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>ICE mass</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>width [mm]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>height ratio</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
-      <text:p>rim diameter [inch]</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
-      <text:p>width [mm]</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
-      <text:p>height ratio</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>rim diameter [inch]</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce5" office:value-type="string">
+      <text:p>width [mm]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce5" office:value-type="string">
+      <text:p>height ratio</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce5" office:value-type="string">
+      <text:p>rim diameter [inch]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" office:value-type="string">
       <text:p>Seats</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="11.572cm" svg:height="0.596cm" svg:x="33.801cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="0.456cm">
        <dc:date>2013-02-21T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://isap.sejm.gov.pl/Download?id=WDU20120000996&amp;type=2 p. 66</text:span></text:p>
@@ -1142,7 +1127,7 @@
      <table:table-cell table:number-columns-repeated="18"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce5" office:value-type="string">
+     <table:table-cell table:style-name="ce1" office:value-type="string">
       <text:p>Select the donor:</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="17"/>
@@ -1151,46 +1136,46 @@
      <table:table-cell table:content-validation-name="val2" office:value-type="string">
       <text:p>Fiat Panda 169 1,1</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 2; 0)" office:value-type="float" office:value="2.11">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 2; 0)" office:value-type="float" office:value="2.11">
       <text:p>2,11</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 3; 0)" office:value-type="float" office:value="0.33">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 3; 0)" office:value-type="float" office:value="0.33">
       <text:p>0,33</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 4; 0)" office:value-type="float" office:value="0.6963">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 4; 0)" office:value-type="float" office:value="0.6963">
       <text:p>0,6963</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 5; 0)" office:value-type="float" office:value="840">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 5; 0)" office:value-type="float" office:value="840">
       <text:p>840</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 6; 0)" office:value-type="float" office:value="1255">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 6; 0)" office:value-type="float" office:value="1255">
       <text:p>1255</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 7; 0)" office:value-type="float" office:value="66">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 7; 0)" office:value-type="float" office:value="66">
       <text:p>66</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 8; 0)" office:value-type="float" office:value="155">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 8; 0)" office:value-type="float" office:value="155">
       <text:p>155</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 9; 0)" office:value-type="float" office:value="80">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 9; 0)" office:value-type="float" office:value="80">
       <text:p>80</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 10; 0)" office:value-type="float" office:value="13">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 10; 0)" office:value-type="float" office:value="13">
       <text:p>13</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 11; 0)" office:value-type="float" office:value="155">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 11; 0)" office:value-type="float" office:value="155">
       <text:p>155</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 12; 0)" office:value-type="float" office:value="80">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 12; 0)" office:value-type="float" office:value="80">
       <text:p>80</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 13; 0)" office:value-type="float" office:value="13">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 13; 0)" office:value-type="float" office:value="13">
       <text:p>13</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 14; 0)" office:value-type="float" office:value="5">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 14; 0)" office:value-type="float" office:value="5">
       <text:p>5</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce10" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 15; 0)" office:value-type="float" office:value="415">
+     <table:table-cell table:style-name="ce6" table:formula="of:=VLOOKUP(car_model; [.$A2:.$P$11]; 15; 0)" office:value-type="float" office:value="415">
       <text:p>415</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="3"/>
@@ -1222,63 +1207,63 @@
     <table:table-column table:style-name="co23" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co24" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co25" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co10" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co26" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co27" table:default-cell-style-name="Default"/>
-    <table:table-column table:style-name="co28" table:default-cell-style-name="Default"/>
     <table:table-row table:style-name="ro3">
-     <table:table-cell table:style-name="ce11" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Model</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce11" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Capacity [Ah]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce11" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Nominal voltage [V]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce11" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Energy capacity [Wh]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce11" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Charging voltage [V]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce11" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Internal resistance [m<text:span text:style-name="T2">Ω]</text:span></text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce11" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Max continuous current [A]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce11" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Max impulse current [A]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce11" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Width [mm]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce11" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Height [mm]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce11" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Depth [mm]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce11" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Mass [kg]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce11" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Energy density [Wh/kg]</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce11" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Price</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce11" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>Price</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>Price / Wh</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro4">
      <table:table-cell office:value-type="string">
-      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="9.64cm" svg:height="0.596cm" svg:x="4.711cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="0.851cm">
-       <dc:date>2013-02-20T00:00:00</dc:date>
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="9.64cm" svg:height="0.596cm" svg:x="4.82cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="0.851cm">
+       <dc:date>2013-02-23T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://www.gbsystem.com.cn/products-show-en.asp?id=45</text:span></text:p>
       </office:annotation>
       <text:p>GBS GBS-LFMP60AH</text:p>
@@ -1316,18 +1301,18 @@
      <table:table-cell office:value-type="float" office:value="2">
       <text:p>2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce15" table:formula="of:=[.D2]/[.L2]" office:value-type="float" office:value="96">
+     <table:table-cell table:style-name="ce11" table:formula="of:=[.D2]/[.L2]" office:value-type="float" office:value="96">
       <text:p>96,00</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce16" office:value-type="currency" office:currency="USD" office:value="66">
-      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="22.883cm" svg:height="0.596cm" svg:x="31.36cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="0.851cm">
+     <table:table-cell table:style-name="ce12" office:value-type="currency" office:currency="USD" office:value="66">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="22.883cm" svg:height="0.596cm" svg:x="31.797cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="0.851cm">
        <dc:date>2013-02-20T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://3xe-electric-cars.com/lithium-battery-accessory/lithium-batteries-lifepo4-lifeypo4/gbs-battery/gbs-60ah-lifepo4-lithium-battery-44526-detail</text:span></text:p>
       </office:annotation>
       <text:p>$66,00</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce17" table:formula="of:=250.46*vat_factor" office:value-type="currency" office:currency="PLN" office:value="308.0658">
-      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="21.864cm" svg:height="0.596cm" svg:x="33.048cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="0.851cm">
+     <table:table-cell table:style-name="ce13" table:formula="of:=250.46*vat_factor" office:value-type="currency" office:currency="PLN" office:value="308.0658">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="21.864cm" svg:height="0.596cm" svg:x="33.485cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="0.851cm">
        <dc:date>2013-02-20T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://3xe-electric-cars.com/lithium-battery-accessory/lithium-batteries-lifepo4-lifeypo4/gbs-battery/gbs-60ah-eu-delivery-1-83-cells-detail</text:span></text:p>
       </office:annotation>
@@ -1339,7 +1324,7 @@
     </table:table-row>
     <table:table-row table:style-name="ro4">
      <table:table-cell office:value-type="string">
-      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="16.08cm" svg:height="0.596cm" svg:x="4.711cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.278cm">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="16.08cm" svg:height="0.596cm" svg:x="4.82cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.278cm">
        <dc:date>2013-02-20T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.winston-battery.com/index.php/products/power-battery/item/wb-lyp60aha?category_id=176</text:span></text:p>
       </office:annotation>
@@ -1348,18 +1333,22 @@
      <table:table-cell office:value-type="float" office:value="60">
       <text:p>60</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="float" office:value="2.8">
-      <text:p>2,8</text:p>
+     <table:table-cell office:value-type="float" office:value="3">
+      <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="16.145cm" svg:height="0.596cm" svg:x="8.495cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.278cm">
+       <dc:date>2013-02-23T00:00:00</dc:date>
+       <text:p text:style-name="P1">estimated from http://en.winston-battery.com/images/stories/winston/WB-LYP60AHA-2.png at 1C</text:p>
+      </office:annotation>
+      <text:p>3</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.B3]*[.C3]" office:value-type="float" office:value="168">
-      <text:p>168</text:p>
+     <table:table-cell table:formula="of:=[.B3]*[.C3]" office:value-type="float" office:value="180">
+      <text:p>180</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="4">
       <text:p>4</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="0.7">
-      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="10.552cm" svg:height="0.596cm" svg:x="15.873cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.278cm">
-       <dc:date>2013-02-20T00:00:00</dc:date>
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="10.552cm" svg:height="0.596cm" svg:x="15.982cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.278cm">
+       <dc:date>2013-02-23T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://www.ev-power.eu/docs/pdf/Winston-InternalResistance.pdf</text:span></text:p>
       </office:annotation>
       <text:p>0,7</text:p>
@@ -1373,8 +1362,8 @@
      <table:table-cell office:value-type="float" office:value="115">
       <text:p>115</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="float" office:value="200">
-      <text:p>200</text:p>
+     <table:table-cell office:value-type="float" office:value="203">
+      <text:p>203</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="61">
       <text:p>61</text:p>
@@ -1382,30 +1371,170 @@
      <table:table-cell office:value-type="float" office:value="2.3">
       <text:p>2,3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce15" table:formula="of:=[.D3]/[.L3]" office:value-type="float" office:value="73.0434782608696">
-      <text:p>73,04</text:p>
+     <table:table-cell table:style-name="ce11" table:formula="of:=[.D3]/[.L3]" office:value-type="float" office:value="78.2608695652174">
+      <text:p>78,26</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce16" office:value-type="currency" office:currency="USD" office:value="66">
-      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="25.167cm" svg:height="0.596cm" svg:x="31.36cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.278cm">
+     <table:table-cell table:style-name="ce12" office:value-type="currency" office:currency="USD" office:value="66">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="25.167cm" svg:height="0.596cm" svg:x="31.797cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.278cm">
        <dc:date>2013-02-20T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://3xe-electric-cars.com/lithium-battery-accessory/lithium-batteries-lifepo4-lifeypo4/winston-battery/winston-battery-60ah-lifepo4-lithium-battery-6251-detail</text:span></text:p>
       </office:annotation>
       <text:p>$66,00</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce17" table:formula="of:=250.46*vat_factor" office:value-type="currency" office:currency="PLN" office:value="308.0658">
-      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="24.12cm" svg:height="0.596cm" svg:x="33.048cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.278cm">
+     <table:table-cell table:style-name="ce13" table:formula="of:=250.46*vat_factor" office:value-type="currency" office:currency="PLN" office:value="308.0658">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="24.12cm" svg:height="0.596cm" svg:x="33.485cm" svg:y="0cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.278cm">
        <dc:date>2013-02-20T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://3xe-electric-cars.com/lithium-battery-accessory/lithium-batteries-lifepo4-lifeypo4/winston-battery/winston-battery-60ah-eu-delivery-1-83-cells-detail</text:span></text:p>
       </office:annotation>
       <text:p>308,07 zł</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.N3]/[.D3]" office:value-type="currency" office:currency="USD" office:value="0.392857142857143">
-      <text:p>$0,39</text:p>
+     <table:table-cell table:formula="of:=[.N3]/[.D3]" office:value-type="currency" office:currency="USD" office:value="0.366666666666667">
+      <text:p>$0,37</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro4">
      <table:table-cell office:value-type="string">
-      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="16.41cm" svg:height="0.596cm" svg:x="4.711cm" svg:y="0.195cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+      <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="16.593cm" svg:height="0.596cm" svg:x="4.82cm" svg:y="0.195cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-23T00:00:00</dc:date>
+       <text:p text:style-name="P1">http://en.winston-battery.com/index.php/products/power-battery/item/wb-lyp100ahaa-2?category_id=176</text:p>
+      </office:annotation>
+      <text:p>Winston WB-LYP100AHA</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="100">
+      <text:p>100</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="3">
+      <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="16.227cm" svg:height="0.596cm" svg:x="8.495cm" svg:y="0.195cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-23T00:00:00</dc:date>
+       <text:p text:style-name="P1">estimated from http://en.winston-battery.com/images/stories/winston/WB-LYP100AHA(A)-2.png at 1C</text:p>
+      </office:annotation>
+      <text:p>3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B4]*[.C4]" office:value-type="float" office:value="300">
+      <text:p>300</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.6">
+      <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="10.78cm" svg:height="0.596cm" svg:x="15.982cm" svg:y="0.195cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-23T00:00:00</dc:date>
+       <text:p text:style-name="P1">http://www.ev-power.eu/docs/pdf/Winston-InternalResistance.pdf</text:p>
+      </office:annotation>
+      <text:p>0,6</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B4]*3" office:value-type="float" office:value="300">
+      <text:p>300</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B4]*20" office:value-type="float" office:value="2000">
+      <text:p>2000</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="142">
+      <text:p>142</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="218">
+      <text:p>218</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="67">
+      <text:p>67</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="3.3">
+      <text:p>3,3</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce11" table:formula="of:=[.D4]/[.L4]" office:value-type="float" office:value="90.9090909090909">
+      <text:p>90,91</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="currency" office:currency="USD" office:value="110">
+      <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="25.609cm" svg:height="0.596cm" svg:x="31.797cm" svg:y="0.195cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-23T00:00:00</dc:date>
+       <text:p text:style-name="P1">http://3xe-electric-cars.com/lithium-battery-accessory/lithium-batteries-lifepo4-lifeypo4/winston-battery/winston-battery-100ah-lifepo4-lithium-battery-784-detail</text:p>
+      </office:annotation>
+      <text:p>$110,00</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:formula="of:=425.28*vat_factor" office:value-type="currency" office:currency="PLN" office:value="523.0944">
+      <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="24.582cm" svg:height="0.596cm" svg:x="33.485cm" svg:y="0.195cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-23T00:00:00</dc:date>
+       <text:p text:style-name="P1">http://3xe-electric-cars.com/lithium-battery-accessory/lithium-batteries-lifepo4-lifeypo4/winston-battery/winston-battery-100ah-eu-delivery-1-49-cells-detail</text:p>
+      </office:annotation>
+      <text:p>523,09 zł</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.N4]/[.D4]" office:value-type="currency" office:currency="USD" office:value="0.366666666666667">
+      <text:p>$0,37</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string">
+      <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="16.208cm" svg:height="0.596cm" svg:x="4.82cm" svg:y="0.621cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-23T00:00:00</dc:date>
+       <text:p text:style-name="P1">http://en.winston-battery.com/index.php/products/power-battery/item/wb-lyp160aha?category_id=176</text:p>
+      </office:annotation>
+      <text:p>Winston WB-LYP160AHA</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="160">
+      <text:p>160</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="3">
+      <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="12.285cm" svg:height="0.596cm" svg:x="8.495cm" svg:y="0.621cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-23T00:00:00</dc:date>
+       <text:p text:style-name="P1">http://en.winston-battery.com/images/stories/winston/WB-LYP160AHA-2.png</text:p>
+      </office:annotation>
+      <text:p>3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B5]*[.C5]" office:value-type="float" office:value="480">
+      <text:p>480</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.5">
+      <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="10.778cm" svg:height="0.596cm" svg:x="15.982cm" svg:y="0.621cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-23T00:00:00</dc:date>
+       <text:p text:style-name="P1">http://www.ev-power.eu/docs/pdf/Winston-InternalResistance.pdf</text:p>
+      </office:annotation>
+      <text:p>0,5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B5]*3" office:value-type="float" office:value="480">
+      <text:p>480</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.B5]*20" office:value-type="float" office:value="3200">
+      <text:p>3200</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="209">
+      <text:p>209</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="280">
+      <text:p>280</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="65">
+      <text:p>65</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.6">
+      <text:p>5,6</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce11" table:formula="of:=[.D5]/[.L5]" office:value-type="float" office:value="85.7142857142857">
+      <text:p>85,71</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="currency" office:currency="USD" office:value="176">
+      <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="24.562cm" svg:height="0.596cm" svg:x="31.797cm" svg:y="0.621cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-23T00:00:00</dc:date>
+       <text:p text:style-name="P1">http://3xe-electric-cars.com/lithium-battery-accessory/lithium-batteries-lifepo4-lifeypo4/winston-battery/winston-battery-160ah-lifepo4-lithium-battery76-detail</text:p>
+      </office:annotation>
+      <text:p>$176,00</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:formula="of:=250.46*vat_factor" office:value-type="currency" office:currency="PLN" office:value="308.0658">
+      <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="24.527cm" svg:height="0.596cm" svg:x="33.485cm" svg:y="0.621cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+       <dc:date>2013-02-23T00:00:00</dc:date>
+       <text:p text:style-name="P1">http://3xe-electric-cars.com/lithium-battery-accessory/lithium-batteries-lifepo4-lifeypo4/winston-battery/winston-battery-160ah-eu-delivery-1-31-cells-detail</text:p>
+      </office:annotation>
+      <text:p>308,07 zł</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.N5]/[.D5]" office:value-type="currency" office:currency="USD" office:value="0.366666666666667">
+      <text:p>$0,37</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="16.41cm" svg:height="0.596cm" svg:x="4.82cm" svg:y="1.194cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.364cm">
        <dc:date>2013-02-20T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.calb.cn/Product/?id-115.html And http://www.calibpower.com/ProductDetails.aspx?p=2&amp;id=2</text:span></text:p>
       </office:annotation>
@@ -1417,7 +1546,7 @@
      <table:table-cell office:value-type="float" office:value="3.2">
       <text:p>3,2</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.B4]*[.C4]" office:value-type="float" office:value="192">
+     <table:table-cell table:formula="of:=[.B6]*[.C6]" office:value-type="float" office:value="192">
       <text:p>192</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="3.6">
@@ -1426,7 +1555,7 @@
      <table:table-cell office:value-type="float" office:value="1">
       <text:p>1</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.B4]*2" office:value-type="float" office:value="120">
+     <table:table-cell table:formula="of:=[.B6]*2" office:value-type="float" office:value="120">
       <text:p>120</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="600">
@@ -1444,84 +1573,84 @@
      <table:table-cell office:value-type="float" office:value="2.5">
       <text:p>2,5</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce15" table:formula="of:=[.D4]/[.L4]" office:value-type="float" office:value="76.8">
+     <table:table-cell table:style-name="ce11" table:formula="of:=[.D6]/[.L6]" office:value-type="float" office:value="76.8">
       <text:p>76,80</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce16" office:value-type="currency" office:currency="USD" office:value="78">
-      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="22.773cm" svg:height="0.596cm" svg:x="31.36cm" svg:y="0.195cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+     <table:table-cell table:style-name="ce12" office:value-type="currency" office:currency="USD" office:value="78">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="22.773cm" svg:height="0.596cm" svg:x="31.797cm" svg:y="1.194cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.364cm">
        <dc:date>2013-02-20T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://3xe-electric-cars.com/lithium-battery-accessory/lithium-batteries-lifepo4-lifeypo4/calb-battery/calb-60ah-lifepo4-lithium-battery-6275-detail</text:span></text:p>
       </office:annotation>
       <text:p>$78,00</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce17" table:formula="of:=294.98*vat_factor" office:value-type="currency" office:currency="PLN" office:value="362.8254">
-      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="22.084cm" svg:height="0.596cm" svg:x="33.048cm" svg:y="0.195cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+     <table:table-cell table:style-name="ce13" table:formula="of:=294.98*vat_factor" office:value-type="currency" office:currency="PLN" office:value="362.8254">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="22.084cm" svg:height="0.596cm" svg:x="33.485cm" svg:y="1.194cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.364cm">
        <dc:date>2013-02-20T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://3xe-electric-cars.com/lithium-battery-accessory/lithium-batteries-lifepo4-lifeypo4/calb-battery/calb-60ah-eu-delivery-1-83-cells-detail</text:span></text:p>
       </office:annotation>
       <text:p>362,83 zł</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.N4]/[.D4]" office:value-type="currency" office:currency="USD" office:value="0.40625">
+     <table:table-cell table:formula="of:=[.N6]/[.D6]" office:value-type="currency" office:currency="USD" office:value="0.40625">
       <text:p>$0,41</text:p>
      </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="ro4" table:number-rows-repeated="8">
+    <table:table-row table:style-name="ro4" table:number-rows-repeated="6">
      <table:table-cell table:number-columns-repeated="16"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce5" office:value-type="string">
+     <table:table-cell table:style-name="ce1" office:value-type="string">
       <text:p>Select the battery model:</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="15"/>
     </table:table-row>
     <table:table-row table:style-name="ro4">
      <table:table-cell table:content-validation-name="val3" office:value-type="string">
-      <text:p>CALB SE60AHA</text:p>
+      <text:p>Winston WB-LYP60AHA</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 2; 0)" office:value-type="float" office:value="60">
       <text:p>60</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 3; 0)" office:value-type="float" office:value="3.2">
-      <text:p>3,2</text:p>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 3; 0)" office:value-type="float" office:value="3">
+      <text:p>3</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 4; 0)" office:value-type="float" office:value="192">
-      <text:p>192</text:p>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 4; 0)" office:value-type="float" office:value="180">
+      <text:p>180</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 5; 0)" office:value-type="float" office:value="3.6">
-      <text:p>3,6</text:p>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 5; 0)" office:value-type="float" office:value="4">
+      <text:p>4</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 6; 0)" office:value-type="float" office:value="1">
-      <text:p>1</text:p>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 6; 0)" office:value-type="float" office:value="0.7">
+      <text:p>0,7</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 7; 0)" office:value-type="float" office:value="120">
-      <text:p>120</text:p>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 7; 0)" office:value-type="float" office:value="180">
+      <text:p>180</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 8; 0)" office:value-type="float" office:value="600">
-      <text:p>600</text:p>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 8; 0)" office:value-type="float" office:value="1200">
+      <text:p>1200</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 9; 0)" office:value-type="float" office:value="142">
-      <text:p>142</text:p>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 9; 0)" office:value-type="float" office:value="115">
+      <text:p>115</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 10; 0)" office:value-type="float" office:value="217">
-      <text:p>217</text:p>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 10; 0)" office:value-type="float" office:value="203">
+      <text:p>203</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 11; 0)" office:value-type="float" office:value="50">
-      <text:p>50</text:p>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 11; 0)" office:value-type="float" office:value="61">
+      <text:p>61</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 12; 0)" office:value-type="float" office:value="2.5">
-      <text:p>2,5</text:p>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 12; 0)" office:value-type="float" office:value="2.3">
+      <text:p>2,3</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 13; 0)" office:value-type="float" office:value="76.8">
-      <text:p>76,8</text:p>
+     <table:table-cell table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 13; 0)" office:value-type="float" office:value="78.2608695652174">
+      <text:p>78,2608695652</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce16" table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 14; 0)" office:value-type="currency" office:currency="USD" office:value="78">
-      <text:p>$78,00</text:p>
+     <table:table-cell table:style-name="ce12" table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 14; 0)" office:value-type="currency" office:currency="USD" office:value="66">
+      <text:p>$66,00</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce17" table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 15; 0)" office:value-type="currency" office:currency="PLN" office:value="362.8254">
-      <text:p>362,83 zł</text:p>
+     <table:table-cell table:style-name="ce13" table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 15; 0)" office:value-type="currency" office:currency="PLN" office:value="308.0658">
+      <text:p>308,07 zł</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce16" table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 16; 0)" office:value-type="currency" office:currency="USD" office:value="0.40625">
-      <text:p>$0,41</text:p>
+     <table:table-cell table:style-name="ce12" table:formula="of:=VLOOKUP(battery_model; [.$A2:.$P$11]; 16; 0)" office:value-type="currency" office:currency="USD" office:value="0.366666666666667">
+      <text:p>$0,37</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro4" table:number-rows-repeated="1048561">
@@ -1532,6 +1661,7 @@
     </table:table-row>
    </table:table>
    <table:table table:name="Battery pack" table:style-name="ta1">
+    <table:table-column table:style-name="co28" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co29" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co30" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co31" table:default-cell-style-name="Default"/>
@@ -1539,23 +1669,22 @@
     <table:table-column table:style-name="co33" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co34" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co35" table:default-cell-style-name="Default"/>
-    <table:table-column table:style-name="co36" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co7" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co2" table:number-columns-repeated="4" table:default-cell-style-name="Default"/>
-    <table:table-column table:style-name="co37" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co36" table:default-cell-style-name="Default"/>
     <table:table-row table:style-name="ro6">
-     <table:table-cell table:style-name="ce18" office:value-type="string" table:number-columns-spanned="9" table:number-rows-spanned="1">
+     <table:table-cell table:style-name="ce14" office:value-type="string" table:number-columns-spanned="9" table:number-rows-spanned="1">
       <text:p>Battery Pack</text:p>
      </table:table-cell>
-     <table:covered-table-cell table:style-name="ce20"/>
+     <table:covered-table-cell table:style-name="ce16"/>
      <table:covered-table-cell table:number-columns-repeated="7"/>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>Number of cells in parallel</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" office:value-type="string">
+     <table:table-cell table:style-name="ce5" office:value-type="string">
       <text:p>parallel pack resistance</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce26" office:value-type="string" table:number-columns-spanned="2" table:number-rows-spanned="5">
+     <table:table-cell table:style-name="ce22" office:value-type="string" table:number-columns-spanned="2" table:number-rows-spanned="5">
       <text:p>This is a recursive formula – observe what is added to a parallel pack when a next cell is added. See http://en.wikipedia.org/wiki/Series_and_parallel_circuits#Resistors and <text:a xlink:href="http://en.wikipedia.org/wiki/Series_and_parallel_circuits#Resistors2">http://en.wikipedia.org/wiki/Series_and_parallel_circuits#Resistors2</text:a></text:p>
      </table:table-cell>
      <table:covered-table-cell/>
@@ -1566,76 +1695,76 @@
      <table:table-cell office:value-type="float" office:value="1">
       <text:p>1</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=cell_resistance/1000" office:value-type="float" office:value="0.001">
-      <text:p>0,001</text:p>
+     <table:table-cell table:formula="of:=cell_resistance/1000" office:value-type="float" office:value="0.0007">
+      <text:p>0,0007</text:p>
      </table:table-cell>
      <table:covered-table-cell table:number-columns-repeated="2"/>
      <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro7">
-     <table:table-cell table:style-name="ce19" office:value-type="string">
+     <table:table-cell table:style-name="ce15" office:value-type="string">
       <text:p>Electrical</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
-     <table:table-cell table:style-name="ce19" office:value-type="string">
+     <table:table-cell table:style-name="ce15" office:value-type="string">
       <text:p>Mechanical</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce4"/>
      <table:table-cell/>
      <table:table-cell office:value-type="float" office:value="2">
       <text:p>2</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=1/(1/([.K2]+connector_resistance)+1/(cell_resistance+connector_resistance))" office:value-type="float" office:value="0.00102244555973215">
-      <text:p>0,0010224456</text:p>
+     <table:table-cell table:formula="of:=1/(1/([.K2]+connector_resistance)+1/(cell_resistance+connector_resistance))" office:value-type="float" office:value="0.00072274502472074">
+      <text:p>0,000722745</text:p>
      </table:table-cell>
      <table:covered-table-cell table:number-columns-repeated="2"/>
      <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro4">
      <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:style-name="ce5"/>
+     <table:table-cell table:style-name="ce1"/>
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="float" office:value="3">
       <text:p>3</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=1/(1/([.K3]+connector_resistance)+1/(cell_resistance+connector_resistance))" office:value-type="float" office:value="0.00104484474304376">
-      <text:p>0,0010448447</text:p>
+     <table:table-cell table:formula="of:=1/(1/([.K3]+connector_resistance)+1/(cell_resistance+connector_resistance))" office:value-type="float" office:value="0.00074544237039422">
+      <text:p>0,0007454424</text:p>
      </table:table-cell>
      <table:covered-table-cell table:number-columns-repeated="2"/>
      <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce5" office:value-type="string">
+     <table:table-cell table:style-name="ce1" office:value-type="string">
       <text:p>Battery pack data</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce5" office:value-type="string">
+     <table:table-cell table:style-name="ce1" office:value-type="string">
       <text:p>value</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce5" office:value-type="string">
+     <table:table-cell table:style-name="ce1" office:value-type="string">
       <text:p>unit</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce5" office:value-type="string">
+     <table:table-cell table:style-name="ce1" office:value-type="string">
       <text:p>notes</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce5"/>
-     <table:table-cell table:style-name="ce5" office:value-type="string">
+     <table:table-cell table:style-name="ce1"/>
+     <table:table-cell table:style-name="ce1" office:value-type="string">
       <text:p>data</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce5" office:value-type="string">
+     <table:table-cell table:style-name="ce1" office:value-type="string">
       <text:p>value</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce5" office:value-type="string">
+     <table:table-cell table:style-name="ce1" office:value-type="string">
       <text:p>unit</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce5" office:value-type="string">
+     <table:table-cell table:style-name="ce1" office:value-type="string">
       <text:p>notes</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="4">
       <text:p>4</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=1/(1/([.K4]+connector_resistance)+1/(cell_resistance+connector_resistance))" office:value-type="float" office:value="0.00106719664443965">
-      <text:p>0,0010671966</text:p>
+     <table:table-cell table:formula="of:=1/(1/([.K4]+connector_resistance)+1/(cell_resistance+connector_resistance))" office:value-type="float" office:value="0.000768090668259715">
+      <text:p>0,0007680907</text:p>
      </table:table-cell>
      <table:covered-table-cell table:number-columns-repeated="2"/>
      <table:table-cell/>
@@ -1648,15 +1777,15 @@
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:style-name="ce21" office:value-type="string" table:number-columns-spanned="1" table:number-rows-spanned="5">
+     <table:table-cell table:style-name="ce17" office:value-type="string" table:number-columns-spanned="1" table:number-rows-spanned="5">
       <text:p>conversion dependent</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce23"/>
+     <table:table-cell table:style-name="ce19"/>
      <table:table-cell office:value-type="string">
       <text:p>Cell volume</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=cell_width*cell_height*cell_depth/100^3" office:value-type="float" office:value="1.5407">
-      <text:p>1,5407</text:p>
+     <table:table-cell table:formula="of:=cell_width*cell_height*cell_depth/100^3" office:value-type="float" office:value="1.424045">
+      <text:p>1,424045</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>L</text:p>
@@ -1667,18 +1796,18 @@
      <table:table-cell office:value-type="string">
       <text:p>Desired current</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=cell_max_continuous_current*cells_parallel" office:value-type="float" office:value="120">
+     <table:table-cell table:formula="of:=cell_max_continuous_current*cells_parallel" office:value-type="float" office:value="180">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="12.998cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="2.087cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2013-02-20T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Series_and_parallel_circuits#Cells_and_batteries_2</text:span></text:p>
       </office:annotation>
-      <text:p>120</text:p>
+      <text:p>180</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>A</text:p>
      </table:table-cell>
      <table:covered-table-cell/>
-     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:style-name="ce20"/>
      <table:table-cell office:value-type="string">
       <text:p>Amount of cells</text:p>
      </table:table-cell>
@@ -1691,8 +1820,8 @@
      <table:table-cell office:value-type="string">
       <text:p>Desired regen current</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=pack_current" office:value-type="float" office:value="120">
-      <text:p>120</text:p>
+     <table:table-cell table:formula="of:=pack_current" office:value-type="float" office:value="180">
+      <text:p>180</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>A</text:p>
@@ -1702,13 +1831,13 @@
      <table:table-cell office:value-type="string">
       <text:p>Pack volume</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=cell_volume*cell_count" office:value-type="float" office:value="66.2501">
-      <text:p>66,2501</text:p>
+     <table:table-cell table:formula="of:=cell_volume*cell_count" office:value-type="float" office:value="61.233935">
+      <text:p>61,233935</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>L</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce12" office:value-type="string" table:number-columns-spanned="1" table:number-rows-spanned="2">
+     <table:table-cell table:style-name="ce8" office:value-type="string" table:number-columns-spanned="1" table:number-rows-spanned="2">
       <text:p>excluding connectors etc.</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="5"/>
@@ -1726,8 +1855,8 @@
      <table:table-cell office:value-type="string">
       <text:p>Pack mass</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce25" table:formula="of:=cell_mass*cell_count" office:value-type="float" office:value="107.5">
-      <text:p>107,5</text:p>
+     <table:table-cell table:style-name="ce21" table:formula="of:=cell_mass*cell_count" office:value-type="float" office:value="98.9">
+      <text:p>98,9</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>kg</text:p>
@@ -1750,12 +1879,12 @@
      <table:table-cell office:value-type="string">
       <text:p>Pack cable cross section</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=ROUNDUP(pack_current/cable_current_density; 5)" office:value-type="float" office:value="30">
+     <table:table-cell table:formula="of:=ROUNDUP(pack_current/cable_current_density; 5)" office:value-type="float" office:value="45">
       <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="2.899cm" svg:height="0.991cm" svg:x="23.712cm" svg:y="3.426cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2013-02-20T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">Not to exceed current density</text:span></text:p>
       </office:annotation>
-      <text:p>30</text:p>
+      <text:p>45</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>mm^2</text:p>
@@ -1773,19 +1902,19 @@
       </office:annotation>
       <text:p>0,0002</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce8" office:value-type="string">
+     <table:table-cell table:style-name="ce4" office:value-type="string">
       <text:p>Ω</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell office:value-type="string">
       <text:p>Pack cable diameter</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=SQRT([.G10]/PI())" office:value-type="float" office:value="3.09019361618552">
+     <table:table-cell table:formula="of:=SQRT([.G10]/PI())" office:value-type="float" office:value="3.78469878303024">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="8.248cm" svg:height="0.596cm" svg:x="23.712cm" svg:y="3.872cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2013-02-20T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Circle#Area_enclosed</text:span></text:p>
       </office:annotation>
-      <text:p>3,0901936162</text:p>
+      <text:p>3,784698783</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>mm</text:p>
@@ -1806,7 +1935,7 @@
      <table:table-cell office:value-type="string">
       <text:p>W @</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce22" office:value-type="float" office:value="200">
+     <table:table-cell table:style-name="ce18" office:value-type="float" office:value="200">
       <text:p>200</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="10"/>
@@ -1825,20 +1954,20 @@
      <table:table-cell office:value-type="string">
       <text:p>W @</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce22" office:value-type="float" office:value="250">
+     <table:table-cell table:style-name="ce18" office:value-type="float" office:value="250">
       <text:p>250</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="10"/>
     </table:table-row>
     <table:table-row table:style-name="ro8">
      <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:style-name="ce19" office:value-type="string">
+     <table:table-cell table:style-name="ce15" office:value-type="string">
       <text:p>Financial</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="8"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce5" office:value-type="string">
+     <table:table-cell table:style-name="ce1" office:value-type="string">
       <text:p>Calculated data</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="13"/>
@@ -1847,22 +1976,22 @@
      <table:table-cell office:value-type="string">
       <text:p>Pack cable resistance</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=copper_resistivity*pack_cable_length/pack_cable_cross_section" office:value-type="float" office:value="0.000000001678">
+     <table:table-cell table:formula="of:=copper_resistivity*pack_cable_length/pack_cable_cross_section" office:value-type="float" office:value="0.00000000111866666666667">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="10.799cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="6.254cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2013-02-20T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity</text:span></text:p>
       </office:annotation>
-      <text:p>1,678E-009</text:p>
+      <text:p>1,11866666666667E-009</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce8" office:value-type="string">
+     <table:table-cell table:style-name="ce4" office:value-type="string">
       <text:p>Ω</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell office:value-type="string">
       <text:p>Pack cost</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=cell_count*cell_price_usd" office:value-type="currency" office:currency="USD" office:value="3354">
-      <text:p>$3 354,00</text:p>
+     <table:table-cell table:formula="of:=cell_count*cell_price_usd" office:value-type="currency" office:currency="USD" office:value="2838">
+      <text:p>$2 838,00</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="7"/>
     </table:table-row>
@@ -1877,15 +2006,15 @@
       </office:annotation>
       <text:p>0,000375</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce8" office:value-type="string">
+     <table:table-cell table:style-name="ce4" office:value-type="string">
       <text:p>Ω</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell office:value-type="string">
       <text:p>Pack cost</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=cell_count*cell_price_pln" office:value-type="currency" office:currency="PLN" office:value="15601.4922">
-      <text:p>15 601,49 zł</text:p>
+     <table:table-cell table:formula="of:=cell_count*cell_price_pln" office:value-type="currency" office:currency="PLN" office:value="13246.8294">
+      <text:p>13 246,83 zł</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="7"/>
     </table:table-row>
@@ -1900,7 +2029,7 @@
       </office:annotation>
       <text:p>0,0001376</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce8" office:value-type="string">
+     <table:table-cell table:style-name="ce4" office:value-type="string">
       <text:p>Ω</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="11"/>
@@ -1916,7 +2045,7 @@
       </office:annotation>
       <text:p>0,000023492</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce8" office:value-type="string">
+     <table:table-cell table:style-name="ce4" office:value-type="string">
       <text:p>Ω</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="11"/>
@@ -1925,32 +2054,32 @@
      <table:table-cell office:value-type="string">
       <text:p>Parallel pack internal resistance</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=VLOOKUP(cells_parallel; [.$J$2:.$K$5]; 2; 0)" office:value-type="float" office:value="0.001">
+     <table:table-cell table:formula="of:=VLOOKUP(cells_parallel; [.$J$2:.$K$5]; 2; 0)" office:value-type="float" office:value="0.0007">
       <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="2.899cm" svg:height="1.386cm" svg:x="8.904cm" svg:y="8.039cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2013-02-20T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">Calculated with a recursive formula from F1</text:span></text:p>
       </office:annotation>
-      <text:p>0,001</text:p>
+      <text:p>0,0007</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce8" office:value-type="string">
+     <table:table-cell table:style-name="ce4" office:value-type="string">
       <text:p>Ω</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:style-name="ce20"/>
      <table:table-cell table:number-columns-repeated="9"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string">
       <text:p>Pack internal resistance</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=parallel_pack_resistance*cells_series+cell_connector_resistance*(cells_series-1)+fuse_resistance+fuse_base_resistance+pack_cable_resistance" office:value-type="float" office:value="0.044499265678">
+     <table:table-cell table:formula="of:=parallel_pack_resistance*cells_series+cell_connector_resistance*(cells_series-1)+fuse_resistance+fuse_base_resistance+pack_cable_resistance" office:value-type="float" office:value="0.0315992651186667">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="11.135cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="8.485cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2013-02-20T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Series_and_parallel_circuits#Resistors</text:span></text:p>
       </office:annotation>
-      <text:p>0,0444992657</text:p>
+      <text:p>0,0315992651</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce8" office:value-type="string">
+     <table:table-cell table:style-name="ce4" office:value-type="string">
       <text:p>Ω</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="11"/>
@@ -1959,12 +2088,12 @@
      <table:table-cell office:value-type="string">
       <text:p>Pack nominal voltage</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=cell_nominal_voltage*cells_series" office:value-type="float" office:value="137.6">
+     <table:table-cell table:formula="of:=cell_nominal_voltage*cells_series" office:value-type="float" office:value="129">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="12.421cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="8.931cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2013-02-21T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Series_and_parallel_circuits#Cells_and_batteries</text:span></text:p>
       </office:annotation>
-      <text:p>137,6</text:p>
+      <text:p>129</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>V</text:p>
@@ -1975,12 +2104,12 @@
      <table:table-cell office:value-type="string">
       <text:p>Pack nominal charging voltage</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=cell_charging_voltage*cells_series" office:value-type="float" office:value="154.8">
+     <table:table-cell table:formula="of:=cell_charging_voltage*cells_series" office:value-type="float" office:value="172">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="12.608cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="9.377cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2013-02-21T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Series_and_parallel_circuits#Cells_and_batteries</text:span></text:p>
       </office:annotation>
-      <text:p>154,8</text:p>
+      <text:p>172</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>V</text:p>
@@ -1991,12 +2120,12 @@
      <table:table-cell office:value-type="string">
       <text:p>Pack short circuit current</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=pack_nominal_voltage/pack_resistance" office:value-type="float" office:value="3092.18585753041">
+     <table:table-cell table:formula="of:=pack_nominal_voltage/pack_resistance" office:value-type="float" office:value="4082.37341962094">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="9.294cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="9.824cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2013-02-20T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Ohm&apos;s_law#Circuit_analysis</text:span></text:p>
       </office:annotation>
-      <text:p>3092,1858575304</text:p>
+      <text:p>4082,3734196209</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>A</text:p>
@@ -2007,26 +2136,26 @@
      <table:table-cell office:value-type="string">
       <text:p>Pack sag voltage</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=pack_current*pack_resistance" office:value-type="float" office:value="5.33991188136">
+     <table:table-cell table:formula="of:=pack_current*pack_resistance" office:value-type="float" office:value="5.68786772136">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="9.321cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="10.27cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2013-02-20T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Ohm&apos;s_law#Circuit_analysis</text:span></text:p>
       </office:annotation>
-      <text:p>5,3399118814</text:p>
+      <text:p>5,6878677214</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>V</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce5"/>
+     <table:table-cell table:style-name="ce1"/>
      <table:table-cell table:number-columns-repeated="8"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string">
       <text:p>Pack surplus regen voltage</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=pack_regen_current*pack_resistance" office:value-type="float" office:value="5.33991188136">
-      <text:p>5,3399118814</text:p>
+     <table:table-cell table:formula="of:=pack_regen_current*pack_resistance" office:value-type="float" office:value="5.68786772136">
+      <text:p>5,6878677214</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>V</text:p>
@@ -2037,12 +2166,12 @@
      <table:table-cell office:value-type="string">
       <text:p>Pack discharge voltage</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=pack_nominal_voltage-pack_sag_voltage" office:value-type="float" office:value="132.26008811864">
+     <table:table-cell table:formula="of:=pack_nominal_voltage-pack_sag_voltage" office:value-type="float" office:value="123.31213227864">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="14.644cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="11.162cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2013-02-21T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Kirchhoff&apos;s_circuit_laws#Kirchhoff.27s_voltage_law_.28KVL.29</text:span></text:p>
       </office:annotation>
-      <text:p>132,2600881186</text:p>
+      <text:p>123,3121322786</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>V</text:p>
@@ -2053,80 +2182,80 @@
      <table:table-cell office:value-type="string">
       <text:p>Pack regen max voltage</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=pack_nominal_charging_voltage+pack_surplus_regen_voltage" office:value-type="float" office:value="160.13991188136">
+     <table:table-cell table:formula="of:=pack_nominal_charging_voltage+pack_surplus_regen_voltage" office:value-type="float" office:value="177.68786772136">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="14.64cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="11.609cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2013-02-21T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Kirchhoff&apos;s_circuit_laws#Kirchhoff.27s_voltage_law_.28KVL.29</text:span></text:p>
       </office:annotation>
-      <text:p>160,1399118814</text:p>
+      <text:p>177,6878677214</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>V</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="9"/>
-     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce23" table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string">
       <text:p>Pack output power</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=pack_discharge_voltage*pack_current" office:value-type="float" office:value="15871.2105742368">
+     <table:table-cell table:formula="of:=pack_discharge_voltage*pack_current" office:value-type="float" office:value="22196.1838101552">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="8.66cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="12.055cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2013-02-21T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Electric_power#Definition</text:span></text:p>
       </office:annotation>
-      <text:p>15871,2105742368</text:p>
+      <text:p>22196,1838101552</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>W</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:style-name="ce20"/>
      <table:table-cell table:number-columns-repeated="9"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string">
       <text:p>Pack heat losses</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=pack_sag_voltage*pack_current" office:value-type="float" office:value="640.7894257632">
+     <table:table-cell table:formula="of:=pack_sag_voltage*pack_current" office:value-type="float" office:value="1023.8161898448">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="8.66cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="12.501cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2013-02-20T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Electric_power#Definition</text:span></text:p>
       </office:annotation>
-      <text:p>640,7894257632</text:p>
+      <text:p>1023,8161898448</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>W</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:style-name="ce20"/>
      <table:table-cell table:number-columns-repeated="7"/>
-     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce23" table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string">
       <text:p>Pack discharge efficiency</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce6" table:formula="of:=pack_power/(pack_power+pack_losses)" office:value-type="percentage" office:value="0.961192500862209">
+     <table:table-cell table:style-name="ce2" table:formula="of:=pack_power/(pack_power+pack_losses)" office:value-type="percentage" office:value="0.95590800216">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="11.129cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="12.948cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2013-02-21T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Energy_conversion_efficiency#Overview</text:span></text:p>
       </office:annotation>
-      <text:p>96,12%</text:p>
+      <text:p>95,59%</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="10"/>
-     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce23" table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string">
       <text:p>Pack regen input power</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=pack_regen_voltage*pack_regen_current" office:value-type="float" office:value="19216.7894257632">
+     <table:table-cell table:formula="of:=pack_regen_voltage*pack_regen_current" office:value-type="float" office:value="31983.8161898448">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="8.617cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="13.394cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2013-02-21T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Electric_power#Definition</text:span></text:p>
       </office:annotation>
-      <text:p>19216,7894257632</text:p>
+      <text:p>31983,8161898448</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>W</text:p>
@@ -2137,12 +2266,12 @@
      <table:table-cell office:value-type="string">
       <text:p>Pack regen heat losses</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=pack_surplus_regen_voltage*pack_regen_current" office:value-type="float" office:value="640.7894257632">
+     <table:table-cell table:formula="of:=pack_surplus_regen_voltage*pack_regen_current" office:value-type="float" office:value="1023.8161898448">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="8.534cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="13.84cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2013-02-21T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Electric_power#Definition</text:span></text:p>
       </office:annotation>
-      <text:p>640,7894257632</text:p>
+      <text:p>1023,8161898448</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>W</text:p>
@@ -2153,67 +2282,67 @@
      <table:table-cell office:value-type="string">
       <text:p>Pack regen efficiency</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce6" table:formula="of:=pack_regen_power/(pack_regen_power+pack_regen_losses)" office:value-type="percentage" office:value="0.967730737440131">
+     <table:table-cell table:style-name="ce2" table:formula="of:=pack_regen_power/(pack_regen_power+pack_regen_losses)" office:value-type="percentage" office:value="0.968982440846779">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="11.01cm" svg:height="0.596cm" svg:x="8.904cm" svg:y="14.286cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2013-02-21T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Energy_conversion_efficiency#Overview</text:span></text:p>
       </office:annotation>
-      <text:p>96,77%</text:p>
+      <text:p>96,90%</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="10"/>
-     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce23" table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro4" table:number-rows-repeated="2">
      <table:table-cell table:number-columns-repeated="12"/>
-     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce23" table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro4">
      <table:table-cell table:number-columns-repeated="14"/>
     </table:table-row>
     <table:table-row table:style-name="ro4">
      <table:table-cell table:number-columns-repeated="12"/>
-     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce23" table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro4" table:number-rows-repeated="4">
      <table:table-cell table:number-columns-repeated="14"/>
     </table:table-row>
     <table:table-row table:style-name="ro4">
      <table:table-cell table:number-columns-repeated="4"/>
-     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:style-name="ce20"/>
      <table:table-cell table:number-columns-repeated="7"/>
-     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce23" table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro4">
      <table:table-cell table:number-columns-repeated="14"/>
     </table:table-row>
     <table:table-row table:style-name="ro4">
      <table:table-cell table:number-columns-repeated="4"/>
-     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:style-name="ce20"/>
      <table:table-cell table:number-columns-repeated="7"/>
-     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce23" table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro4">
      <table:table-cell table:number-columns-repeated="12"/>
-     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce23" table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro4">
      <table:table-cell table:number-columns-repeated="4"/>
-     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:style-name="ce20"/>
      <table:table-cell table:number-columns-repeated="7"/>
-     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce23" table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro4" table:number-rows-repeated="2">
      <table:table-cell table:number-columns-repeated="14"/>
     </table:table-row>
     <table:table-row table:style-name="ro4">
      <table:table-cell table:number-columns-repeated="4"/>
-     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:style-name="ce20"/>
      <table:table-cell table:number-columns-repeated="7"/>
-     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce23" table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro4" table:number-rows-repeated="2">
      <table:table-cell table:number-columns-repeated="4"/>
-     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:style-name="ce20"/>
      <table:table-cell table:number-columns-repeated="9"/>
     </table:table-row>
     <table:table-row table:style-name="ro4">
@@ -2221,25 +2350,25 @@
     </table:table-row>
     <table:table-row table:style-name="ro4">
      <table:table-cell table:number-columns-repeated="4"/>
-     <table:table-cell table:style-name="ce23"/>
+     <table:table-cell table:style-name="ce19"/>
      <table:table-cell table:number-columns-repeated="9"/>
     </table:table-row>
     <table:table-row table:style-name="ro4">
      <table:table-cell table:number-columns-repeated="4"/>
-     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:style-name="ce20"/>
      <table:table-cell table:number-columns-repeated="7"/>
-     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce23" table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro4">
      <table:table-cell table:number-columns-repeated="14"/>
     </table:table-row>
     <table:table-row table:style-name="ro4" table:number-rows-repeated="4">
      <table:table-cell table:number-columns-repeated="12"/>
-     <table:table-cell table:style-name="ce27" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce23" table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro4">
      <table:table-cell/>
-     <table:table-cell table:style-name="ce15"/>
+     <table:table-cell table:style-name="ce11"/>
      <table:table-cell table:number-columns-repeated="12"/>
     </table:table-row>
     <table:table-row table:style-name="ro4" table:number-rows-repeated="1048514">
