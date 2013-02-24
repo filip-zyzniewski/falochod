@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:initial-creator>Filip Żyźniewski</meta:initial-creator><meta:creation-date>2013-02-16T17:43:49</meta:creation-date><dc:date>2013-02-22T09:19:45</dc:date><dc:creator>Filip Å»yÅºniewski</dc:creator><meta:editing-duration>P2DT5H18M28S</meta:editing-duration><meta:editing-cycles>61</meta:editing-cycles><meta:generator>LibreOffice/3.6$Linux_X86_64 LibreOffice_project/360m1$Build-2</meta:generator><meta:document-statistic meta:table-count="8" meta:cell-count="901" meta:object-count="0"/></office:meta>
+ <office:meta><meta:initial-creator>Filip Żyźniewski</meta:initial-creator><meta:creation-date>2013-02-16T17:43:49</meta:creation-date><dc:date>2013-02-22T09:19:45</dc:date><dc:creator>Filip Å»yÅºniewski</dc:creator><meta:editing-duration>P2DT5H18M28S</meta:editing-duration><meta:editing-cycles>61</meta:editing-cycles><meta:generator>LibreOffice/3.6$Linux_X86_64 LibreOffice_project/360m1$Build-2</meta:generator><meta:document-statistic meta:table-count="8" meta:cell-count="903" meta:object-count="0"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="VisibleAreaTop" config:type="int">426</config:config-item>
+   <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
-   <config:config-item config:name="VisibleAreaWidth" config:type="int">21117</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">17567</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">25904</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">17961</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
@@ -48,7 +48,7 @@
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="Commute">
        <config:config-item config:name="CursorPositionX" config:type="int">3</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">3</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">4</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -99,7 +99,7 @@
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="Industrial AC Motors">
        <config:config-item config:name="CursorPositionX" config:type="int">3</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">34</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">35</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -115,8 +115,8 @@
        <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="Power RPM Torque">
-       <config:config-item config:name="CursorPositionX" config:type="int">1</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">8</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">2</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">15</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -125,7 +125,7 @@
        <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
-       <config:config-item config:name="PositionBottom" config:type="int">6</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">9</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
        <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -715,7 +715,7 @@
    <style:table-column-properties fo:break-before="auto" style:column-width="0.7398in"/>
   </style:style>
   <style:style style:name="co38" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="0.6429in"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.75in"/>
   </style:style>
   <style:style style:name="co39" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="1.6618in"/>
@@ -1222,8 +1222,8 @@
      <table:table-cell office:value-type="float" office:value="35">
       <text:p>35</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="float" office:value="65">
-      <text:p>65</text:p>
+     <table:table-cell office:value-type="float" office:value="63">
+      <text:p>63</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="353">
       <office:annotation draw:style-name="gr2" draw:text-style-name="P1" svg:width="1.1413in" svg:height="0.5457in" svg:x="5.3039in" svg:y="0.487in" draw:caption-point-x="-0.2402in" draw:caption-point-y="0.3551in">
@@ -1279,8 +1279,8 @@
      <table:table-cell table:style-name="ce8" table:formula="of:=VLOOKUP(commute_name; [.$A$4:.$P$11]; 3; 0)" office:value-type="float" office:value="35">
       <text:p>35</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce8" table:formula="of:=VLOOKUP(commute_name; [.$A$4:.$P$11]; 4; 0)" office:value-type="float" office:value="65">
-      <text:p>65</text:p>
+     <table:table-cell table:style-name="ce8" table:formula="of:=VLOOKUP(commute_name; [.$A$4:.$P$11]; 4; 0)" office:value-type="float" office:value="63">
+      <text:p>63</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce8" table:formula="of:=VLOOKUP(commute_name; [.$A$4:.$P$11]; 5; 0)" office:value-type="float" office:value="353">
       <text:p>353</text:p>
@@ -3248,19 +3248,16 @@
     <table:table-column table:style-name="co2" table:number-columns-repeated="2" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co37" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co38" table:default-cell-style-name="Default"/>
-    <table:table-column table:style-name="co2" table:number-columns-repeated="4" table:default-cell-style-name="Default"/>
-    <table:table-row table:style-name="ro2">
-     <table:table-cell table:number-columns-repeated="9"/>
-    </table:table-row>
+    <table:table-column table:style-name="co2" table:number-columns-repeated="5" table:default-cell-style-name="Default"/>
     <table:table-row table:style-name="ro5">
      <table:table-cell table:style-name="ce1" office:value-type="string" table:number-columns-spanned="7" table:number-rows-spanned="1">
       <text:p>Power, RPM and torque requirements</text:p>
      </table:table-cell>
      <table:covered-table-cell table:number-columns-repeated="6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:number-columns-repeated="10"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell table:style-name="ce2" office:value-type="string">
@@ -3272,7 +3269,7 @@
      <table:table-cell table:style-name="ce2" office:value-type="string">
       <text:p>unit</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="6"/>
+     <table:table-cell table:number-columns-repeated="7"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
@@ -3281,7 +3278,7 @@
      <table:table-cell office:value-type="float" office:value="0">
       <text:p>0</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="7"/>
+     <table:table-cell table:number-columns-repeated="8"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
@@ -3290,7 +3287,7 @@
      <table:table-cell table:style-name="ce3" office:value-type="percentage" office:value="0.9">
       <text:p>90.00%</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="7"/>
+     <table:table-cell table:number-columns-repeated="8"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
@@ -3299,7 +3296,7 @@
      <table:table-cell table:style-name="ce3" office:value-type="percentage" office:value="0.95">
       <text:p>95.00%</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="7"/>
+     <table:table-cell table:number-columns-repeated="8"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
@@ -3311,7 +3308,7 @@
      <table:table-cell office:value-type="string">
       <text:p>kg/kg</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="6"/>
+     <table:table-cell table:number-columns-repeated="7"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string">
@@ -3320,16 +3317,16 @@
      <table:table-cell table:style-name="ce11" table:content-validation-name="val6" office:value-type="boolean" office:boolean-value="true">
       <text:p>TRUE</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="7"/>
+     <table:table-cell table:number-columns-repeated="8"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:number-columns-repeated="10"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell table:style-name="ce2" office:value-type="string">
       <text:p>Calculated data</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="8"/>
+     <table:table-cell table:number-columns-repeated="9"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string">
@@ -3341,7 +3338,7 @@
      <table:table-cell office:value-type="string">
       <text:p>kg</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="6"/>
+     <table:table-cell table:number-columns-repeated="7"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
@@ -3350,7 +3347,7 @@
      <table:table-cell table:style-name="ce3" table:formula="of:=gearbox_efficiency*controller_efficiency*ac_motor_efficiency" office:value-type="percentage" office:value="0.749835">
       <text:p>74.98%</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="7"/>
+     <table:table-cell table:number-columns-repeated="8"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
@@ -3362,14 +3359,14 @@
      <table:table-cell office:value-type="string">
       <text:p>kg/kg</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="6"/>
+     <table:table-cell table:number-columns-repeated="7"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
       <text:p>Air drag coefficient</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce15" table:formula="of:=car_drag_area*air_density/2" office:value-type="float" office:value="0.46616115">
-      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="2.8in" svg:height="0.2346in" svg:x="3.6118in" svg:y="1.9862in" draw:caption-point-x="-0.2402in" draw:caption-point-y="0.5945in">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="2.8in" svg:height="0.2346in" svg:x="3.6118in" svg:y="1.8181in" draw:caption-point-x="-0.2402in" draw:caption-point-y="0.5945in">
        <dc:date>2013-02-24T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Drag_equation</text:span></text:p>
       </office:annotation>
@@ -3378,32 +3375,37 @@
      <table:table-cell office:value-type="string">
       <text:p>N/(m/s)^2</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="6"/>
+     <table:table-cell table:number-columns-repeated="7"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:number-columns-repeated="10"/>
     </table:table-row>
-    <table:table-row table:style-name="ro3">
-     <table:table-cell table:style-name="ce2"/>
-     <table:table-cell table:style-name="ce2" office:value-type="string">
+    <table:table-row table:style-name="ro5">
+     <table:table-cell table:style-name="ce7"/>
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>on flat</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce2" office:value-type="string">
-      <text:p>on incline</text:p>
+     <table:table-cell table:style-name="ce7" office:value-type="string">
+      <text:p>on steepest incline</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce2" office:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string">
+      <text:p>commute incline</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string">
+      <text:p>commute decline</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string">
       <text:p>unit</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell table:style-name="ce2"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
       <text:p>Rolling resistance</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce15" table:formula="of:=rrc*total_mass*gravitational_acceleration" office:value-type="float" office:value="116.34563842297">
-      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="4.8791in" svg:height="0.2346in" svg:x="3.6118in" svg:y="2.5059in" draw:caption-point-x="-0.2402in" draw:caption-point-y="0.5945in">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="4.8791in" svg:height="0.2346in" svg:x="3.6118in" svg:y="2.4933in" draw:caption-point-x="-0.2402in" draw:caption-point-y="0.5945in">
        <dc:date>2013-02-24T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://en.wikipedia.org/wiki/Rolling_resistance#Rolling_resistance_coefficient</text:span></text:p>
       </office:annotation>
@@ -3412,40 +3414,43 @@
      <table:table-cell table:style-name="ce16" table:formula="of:=flat_rolling_resistance*incline_cosinus" office:value-type="float" office:value="115.875359154695">
       <text:p>115.88</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell office:value-type="string">
       <text:p>N</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string">
       <text:p>Speed</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce15" table:formula="of:=commute_max_speed*1000/3600" office:value-type="float" office:value="18.0555555555556">
-      <text:p>18.06</text:p>
+     <table:table-cell table:style-name="ce15" table:formula="of:=commute_max_speed*1000/3600" office:value-type="float" office:value="17.5">
+      <text:p>17.50</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" table:formula="of:=incline_speed_kmh*1000/3600" office:value-type="float" office:value="8.33333333333333">
       <text:p>8.33</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell office:value-type="string">
       <text:p>m/s</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string">
       <text:p>Air drag</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce15" table:formula="of:=air_drag_coefficient*flat_speed^2" office:value-type="float" office:value="151.969973668982">
-      <text:p>151.97</text:p>
+     <table:table-cell table:style-name="ce15" table:formula="of:=air_drag_coefficient*flat_speed^2" office:value-type="float" office:value="142.7618521875">
+      <text:p>142.76</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" table:formula="of:=air_drag_coefficient*incline_speed^2" office:value-type="float" office:value="32.3723020833333">
       <text:p>32.37</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell office:value-type="string">
       <text:p>N</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
@@ -3457,73 +3462,78 @@
      <table:table-cell table:style-name="ce15" table:formula="of:=total_mass*gravitational_acceleration*incline_sinus" office:value-type="float" office:value="774.369748819284">
       <text:p>774.37</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell office:value-type="string">
       <text:p>N</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string">
       <text:p>Total drag</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce15" table:formula="of:=flat_air_drag+flat_rolling_resistance+flat_incline" office:value-type="float" office:value="268.315612091952">
-      <text:p>268.32</text:p>
+     <table:table-cell table:style-name="ce15" table:formula="of:=flat_air_drag+flat_rolling_resistance+flat_incline" office:value-type="float" office:value="259.10749061047">
+      <text:p>259.11</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce15" table:formula="of:=incline_air_drag+incline_rolling_resistance+incline_force" office:value-type="float" office:value="922.617410057312">
       <text:p>922.62</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell office:value-type="string">
       <text:p>N</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
       <text:p>Power at wheels</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce15" table:formula="of:=flat_drag*flat_speed" office:value-type="float" office:value="4844.58744054913">
-      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="4.6953in" svg:height="0.2346in" svg:x="3.6118in" svg:y="3.3614in" draw:caption-point-x="-0.2402in" draw:caption-point-y="0.5945in">
+     <table:table-cell table:style-name="ce15" table:formula="of:=flat_drag*flat_speed" office:value-type="float" office:value="4534.38108568323">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P1" svg:width="4.6953in" svg:height="0.2346in" svg:x="3.6118in" svg:y="3.3488in" draw:caption-point-x="-0.2402in" draw:caption-point-y="0.5945in">
        <dc:date>2013-02-24T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">http://answers.yahoo.com/question/index?qid=20080713070258AAUNzl8</text:span></text:p>
       </office:annotation>
-      <text:p>4844.59</text:p>
+      <text:p>4534.38</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce15" table:formula="of:=incline_drag*incline_speed" office:value-type="float" office:value="7688.47841714427">
       <text:p>7688.48</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell office:value-type="string">
       <text:p>W</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell table:style-name="ce2"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string">
       <text:p>Motor power</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=flat_power_at_wheels/gearbox_efficiency" office:value-type="float" office:value="5382.87493394348">
-      <text:p>5382.8749339435</text:p>
+     <table:table-cell table:formula="of:=flat_power_at_wheels/gearbox_efficiency" office:value-type="float" office:value="5038.2012063147">
+      <text:p>5038.2012063147</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce8" table:formula="of:=incline_power_at_wheels/gearbox_efficiency" office:value-type="float" office:value="8542.75379682697">
       <text:p>8542.753796827</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell office:value-type="string">
       <text:p>W</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell table:style-name="ce8"/>
+     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
       <text:p>Power at controller input</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce15" table:formula="of:=flat_power_at_wheels/powertrain_efficiency" office:value-type="float" office:value="6460.8713124209">
-      <text:p>6460.87</text:p>
+     <table:table-cell table:style-name="ce15" table:formula="of:=flat_power_at_wheels/powertrain_efficiency" office:value-type="float" office:value="6047.17182537922">
+      <text:p>6047.17</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce15" table:formula="of:=incline_power_at_wheels/powertrain_efficiency" office:value-type="float" office:value="10253.560339467">
       <text:p>10253.56</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell office:value-type="string">
       <text:p>W</text:p>
      </table:table-cell>
@@ -3534,21 +3544,21 @@
      <table:table-cell office:value-type="string">
       <text:p>Ratio</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=CONCATENATE(&quot;&gt;=&quot;; ROUND([.B28]; 3))" office:value-type="string" office:string-value="&gt;=2.375">
-      <text:p>&gt;=2.375</text:p>
+     <table:table-cell table:formula="of:=CONCATENATE(&quot;&gt;=&quot;; ROUND([.B27]; 3))" office:value-type="string" office:string-value="&gt;=2.293">
+      <text:p>&gt;=2.293</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
       <text:p>Torque at wheels</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce15" table:formula="of:=flat_drag*tyre_radius" office:value-type="float" office:value="76.9395017673672">
-      <text:p>76.94</text:p>
+     <table:table-cell table:style-name="ce15" table:formula="of:=flat_drag*tyre_radius" office:value-type="float" office:value="74.2990729325523">
+      <text:p>74.30</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce15" table:formula="of:=incline_drag*tyre_radius" office:value-type="float" office:value="264.560542333934">
       <text:p>264.56</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell office:value-type="string">
       <text:p>Nm</text:p>
      </table:table-cell>
@@ -3557,21 +3567,21 @@
      <table:table-cell office:value-type="string">
       <text:p>Ratio</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=CONCATENATE(&quot;&lt;=&quot;; ROUND([.B29]; 3))" office:value-type="string" office:string-value="&lt;=10.478">
-      <text:p>&lt;=10.478</text:p>
+     <table:table-cell table:formula="of:=CONCATENATE(&quot;&lt;=&quot;; ROUND([.B28]; 3))" office:value-type="string" office:string-value="&lt;=10.81">
+      <text:p>&lt;=10.81</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
       <text:p>Wheels rotations</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce15" table:formula="of:=60*(flat_speed/tyre_circumference)" office:value-type="float" office:value="601.282842253601">
-      <text:p>601.28</text:p>
+     <table:table-cell table:style-name="ce15" table:formula="of:=60*(flat_speed/tyre_circumference)" office:value-type="float" office:value="582.781831722721">
+      <text:p>582.78</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" table:formula="of:=60*(incline_speed/tyre_circumference)" office:value-type="float" office:value="277.5151579632">
       <text:p>277.52</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell office:value-type="string">
       <text:p>RPM</text:p>
      </table:table-cell>
@@ -3582,42 +3592,40 @@
      <table:table-cell office:value-type="string">
       <text:p>Ratio</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=CONCATENATE(&quot;&gt;=&quot;; ROUND([.C28]; 3))" office:value-type="string" office:string-value="&gt;=8.165">
+     <table:table-cell table:formula="of:=CONCATENATE(&quot;&gt;=&quot;; ROUND([.C27]; 3))" office:value-type="string" office:string-value="&gt;=8.165">
       <text:p>&gt;=8.165</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
       <text:p>Minimal gearbox ratio</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce15" table:formula="of:=(flat_torque_at_wheels/gearbox_efficiency)/ac_motor_torque" office:value-type="float" office:value="2.3746759804743">
-      <text:p>2.37</text:p>
+     <table:table-cell table:style-name="ce15" table:formula="of:=(flat_torque_at_wheels/gearbox_efficiency)/ac_motor_torque" office:value-type="float" office:value="2.29318126335038">
+      <text:p>2.29</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" table:formula="of:=(incline_torque_at_wheels/gearbox_efficiency)/ac_motor_torque" office:value-type="float" office:value="8.16544883746711">
       <text:p>8.17</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
      <table:covered-table-cell table:style-name="ce10"/>
      <table:table-cell office:value-type="string">
       <text:p>Ratio</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=CONCATENATE(&quot;&lt;=&quot;; ROUND([.C29]; 3))" office:value-type="string" office:string-value="&lt;=22.701">
+     <table:table-cell table:formula="of:=CONCATENATE(&quot;&lt;=&quot;; ROUND([.C28]; 3))" office:value-type="string" office:string-value="&lt;=22.701">
       <text:p>&lt;=22.701</text:p>
      </table:table-cell>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
       <text:p>Maximal gearbox ratio</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce15" table:formula="of:=ac_motor_max_rpm/flat_wheels_rpm" office:value-type="float" office:value="10.4775981572793">
-      <text:p>10.48</text:p>
+     <table:table-cell table:style-name="ce15" table:formula="of:=ac_motor_max_rpm/flat_wheels_rpm" office:value-type="float" office:value="10.8102203210025">
+      <text:p>10.81</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce15" table:formula="of:=ac_motor_max_rpm/incline_wheels_rpm" office:value-type="float" office:value="22.7014626741052">
       <text:p>22.70</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="6"/>
+     <table:table-cell table:number-columns-repeated="7"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string">
@@ -3629,7 +3637,7 @@
      <table:table-cell table:style-name="ce8" table:formula="of:=DMAX(gears_db;&quot;gear&quot;;TRANSPOSE(IF(single_gear; single_gear_criteria; incline_gear_criteria)))" office:value-type="float" office:value="2">
       <text:p>2</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="6"/>
+     <table:table-cell table:number-columns-repeated="7"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
@@ -3641,116 +3649,119 @@
      <table:table-cell table:style-name="ce8" table:formula="of:=VLOOKUP(incline_gear; gears_db; 2; 0)" office:value-type="float" office:value="10.31">
       <text:p>10.31</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="6"/>
+     <table:table-cell table:number-columns-repeated="7"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
       <text:p>Motor rotations</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce15" table:formula="of:=flat_wheels_rpm*flat_gearbox_ratio" office:value-type="float" office:value="6199.22610363462">
-      <text:p>6199.23</text:p>
+     <table:table-cell table:style-name="ce15" table:formula="of:=flat_wheels_rpm*flat_gearbox_ratio" office:value-type="float" office:value="6008.48068506125">
+      <text:p>6008.48</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" table:formula="of:=incline_wheels_rpm*incline_gearbox_ratio" office:value-type="float" office:value="2861.18127860059">
       <text:p>2861.18</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell office:value-type="string">
       <text:p>RPM</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
-      <text:p>Motor frequency</text:p>
+      <text:p>Motor synchronous frequency</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce15" table:formula="of:=ac_motor_poles/2*flat_motor_rpm/60" office:value-type="float" office:value="206.640870121154">
-      <text:p>206.64</text:p>
+     <table:table-cell table:style-name="ce15" table:formula="of:=ac_motor_poles/2*flat_motor_rpm/60" office:value-type="float" office:value="200.282689502042">
+      <text:p>200.28</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" table:formula="of:=ac_motor_poles/2*incline_motor_rpm/60" office:value-type="float" office:value="95.3727092866865">
       <text:p>95.37</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell office:value-type="string">
       <text:p>Hz</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
       <text:p>Motor torque</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce15" table:formula="of:=(flat_torque_at_wheels/gearbox_efficiency)/flat_gearbox_ratio" office:value-type="float" office:value="8.29178809864933">
-      <text:p>8.29</text:p>
+     <table:table-cell table:style-name="ce15" table:formula="of:=(flat_torque_at_wheels/gearbox_efficiency)/flat_gearbox_ratio" office:value-type="float" office:value="8.00722846562694">
+      <text:p>8.01</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" table:formula="of:=(incline_torque_at_wheels/gearbox_efficiency)/incline_gearbox_ratio" office:value-type="float" office:value="28.5117515178289">
       <text:p>28.51</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell office:value-type="string">
       <text:p>Nm</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:number-columns-repeated="10"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell/>
      <table:table-cell table:style-name="ce2" office:value-type="string">
       <text:p>Motor capabilities</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="7"/>
+     <table:table-cell table:number-columns-repeated="8"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
       <text:p>Rotations</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MAX(flat_motor_rpm; incline_motor_rpm)" office:value-type="float" office:value="6199.22610363462">
-      <text:p>6199.2261036346</text:p>
+     <table:table-cell table:style-name="ce15" table:formula="of:=MAX(flat_motor_rpm; incline_motor_rpm)" office:value-type="float" office:value="6008.48068506125">
+      <text:p>6008.48</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>RPM</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="6"/>
+     <table:table-cell table:number-columns-repeated="7"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
-      <text:p>Frequency</text:p>
+      <text:p>Synchronous frequency</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MAX(flat_motor_hz; incline_motor_hz)" office:value-type="float" office:value="206.640870121154">
-      <text:p>206.6408701212</text:p>
+     <table:table-cell table:style-name="ce15" table:formula="of:=MAX(flat_motor_hz; incline_motor_hz)" office:value-type="float" office:value="200.282689502042">
+      <text:p>200.28</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>Hz</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="6"/>
+     <table:table-cell table:number-columns-repeated="7"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string">
       <text:p>Torque</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MAX(flat_motor_torque; incline_motor_torque)" office:value-type="float" office:value="28.5117515178289">
-      <text:p>28.5117515178</text:p>
+     <table:table-cell table:style-name="ce15" table:formula="of:=MAX(flat_motor_torque; incline_motor_torque)" office:value-type="float" office:value="28.5117515178289">
+      <text:p>28.51</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>Nm</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="6"/>
+     <table:table-cell table:number-columns-repeated="7"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string">
       <text:p>Power</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=MAX(flat_motor_power; incline_motor_power)" office:value-type="float" office:value="8542.75379682697">
-      <text:p>8542.753796827</text:p>
+     <table:table-cell table:style-name="ce15" table:formula="of:=MAX(flat_motor_power; incline_motor_power)" office:value-type="float" office:value="8542.75379682697">
+      <text:p>8542.75</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>W</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="6"/>
+     <table:table-cell table:number-columns-repeated="7"/>
     </table:table-row>
     <table:table-row table:style-name="ro2" table:number-rows-repeated="1048535">
-     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:number-columns-repeated="10"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:number-columns-repeated="10"/>
     </table:table-row>
    </table:table>
    <table:table table:name="Battery models" table:style-name="ta1">
@@ -4959,9 +4970,9 @@
     <table:named-range table:name="ac_motor_power_50hz" table:base-cell-address="$&apos;Industrial AC Motors&apos;.$B$33" table:cell-range-address="$&apos;Industrial AC Motors&apos;.$B$33"/>
     <table:named-range table:name="ac_motor_torque" table:base-cell-address="$&apos;Industrial AC Motors&apos;.$G$33" table:cell-range-address="$&apos;Industrial AC Motors&apos;.$G$33"/>
     <table:named-range table:name="air_density" table:base-cell-address="$General.$B$9" table:cell-range-address="$General.$B$9"/>
-    <table:named-range table:name="air_drag_coefficient" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$14" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$15"/>
+    <table:named-range table:name="air_drag_coefficient" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$14" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$14"/>
     <table:named-range table:name="battery_model" table:base-cell-address="$&apos;Donor models&apos;.$A$14" table:cell-range-address="$&apos;Battery models&apos;.$A$33"/>
-    <table:named-range table:name="brake_steering_resistance_coefficient" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$8" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$8"/>
+    <table:named-range table:name="brake_steering_resistance_coefficient" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$8" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$7"/>
     <table:named-range table:name="cable_current_density" table:base-cell-address="$General.$B$5" table:cell-range-address="$General.$B$6"/>
     <table:named-range table:name="car_drag_area" table:base-cell-address="$Commute.$D$14" table:cell-range-address="$&apos;Donor models&apos;.$D$32"/>
     <table:named-range table:name="car_gross_mass" table:base-cell-address="$Commute.$F$14" table:cell-range-address="$&apos;Donor models&apos;.$F$32"/>
@@ -4998,29 +5009,29 @@
     <table:named-range table:name="commute_roundtrip" table:base-cell-address="$Commute.$J$14" table:cell-range-address="$Commute.$K$29"/>
     <table:named-range table:name="connector_resistance" table:base-cell-address="$Commute.$B$29" table:cell-range-address="$&apos;Battery pack&apos;.$B$19"/>
     <table:named-range table:name="contactor_resistance" table:base-cell-address="$&apos;Donor models&apos;.$B$19" table:cell-range-address="$&apos;Battery pack&apos;.$B$11"/>
-    <table:named-range table:name="controller_efficiency" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$7" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$7"/>
+    <table:named-range table:name="controller_efficiency" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$7" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$6"/>
     <table:named-range table:name="copper_resistivity" table:base-cell-address="$&apos;Donor models&apos;.$B$4" table:cell-range-address="$General.$B$5"/>
     <table:named-range table:name="current_density" table:base-cell-address="$General.$B$5" table:cell-range-address="$General.$B$6"/>
     <table:named-range table:name="donor_car" table:base-cell-address="$Commute.$A$14" table:cell-range-address="$&apos;Donor models&apos;.$A$32"/>
     <table:named-range table:name="driver_mass" table:base-cell-address="$General.$B$7" table:cell-range-address="$General.$B$8"/>
-    <table:named-range table:name="flat_air_drag" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$19" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$20"/>
-    <table:named-range table:name="flat_drag" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$20" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$22"/>
-    <table:named-range table:name="flat_gear" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$28" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$30"/>
-    <table:named-range table:name="flat_gearbox_ratio" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$28" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$31"/>
-    <table:named-range table:name="flat_gear_criteria" table:base-cell-address="$&apos;Power RPM Torque&apos;.$G$24" table:cell-range-address="$&apos;Power RPM Torque&apos;.$G$25:.$H$26"/>
-    <table:named-range table:name="flat_incline" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$20" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$21"/>
-    <table:named-range table:name="flat_max_gearbox_ratio" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$26" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$29"/>
-    <table:named-range table:name="flat_min_gearbox_ratio" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$25" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$28"/>
-    <table:named-range table:name="flat_motor_hz" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$30" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$33"/>
-    <table:named-range table:name="flat_motor_power" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$24" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$24"/>
-    <table:named-range table:name="flat_motor_rpm" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$29" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$32"/>
-    <table:named-range table:name="flat_motor_torque" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$33" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$34"/>
-    <table:named-range table:name="flat_power_at_wheels" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$21" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$23"/>
-    <table:named-range table:name="flat_rolling_resistance" table:base-cell-address="$&apos;Power RPM Torque&apos;.$A$18" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$18"/>
-    <table:named-range table:name="flat_speed" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$18" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$19"/>
-    <table:named-range table:name="flat_supply_power" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$22" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$25"/>
-    <table:named-range table:name="flat_torque_at_wheels" table:base-cell-address="$&apos;Power RPM Torque&apos;.$C$23" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$26"/>
-    <table:named-range table:name="flat_wheels_rpm" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$24" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$27"/>
+    <table:named-range table:name="flat_air_drag" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$19" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$19"/>
+    <table:named-range table:name="flat_drag" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$20" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$21"/>
+    <table:named-range table:name="flat_gear" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$28" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$29"/>
+    <table:named-range table:name="flat_gearbox_ratio" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$28" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$30"/>
+    <table:named-range table:name="flat_gear_criteria" table:base-cell-address="$&apos;Power RPM Torque&apos;.$G$24" table:cell-range-address="$&apos;Power RPM Torque&apos;.$I$24:.$J$25"/>
+    <table:named-range table:name="flat_incline" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$20" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$20"/>
+    <table:named-range table:name="flat_max_gearbox_ratio" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$26" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$28"/>
+    <table:named-range table:name="flat_min_gearbox_ratio" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$25" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$27"/>
+    <table:named-range table:name="flat_motor_hz" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$30" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$32"/>
+    <table:named-range table:name="flat_motor_power" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$24" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$23"/>
+    <table:named-range table:name="flat_motor_rpm" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$29" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$31"/>
+    <table:named-range table:name="flat_motor_torque" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$33" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$33"/>
+    <table:named-range table:name="flat_power_at_wheels" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$21" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$22"/>
+    <table:named-range table:name="flat_rolling_resistance" table:base-cell-address="$&apos;Power RPM Torque&apos;.$A$18" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$17"/>
+    <table:named-range table:name="flat_speed" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$18" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$18"/>
+    <table:named-range table:name="flat_supply_power" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$22" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$24"/>
+    <table:named-range table:name="flat_torque_at_wheels" table:base-cell-address="$&apos;Power RPM Torque&apos;.$C$23" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$25"/>
+    <table:named-range table:name="flat_wheels_rpm" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$24" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$26"/>
     <table:named-range table:name="fuse_base_losses" table:base-cell-address="$&apos;Donor models&apos;.$B$21" table:cell-range-address="$&apos;Battery pack&apos;.$B$13"/>
     <table:named-range table:name="fuse_base_losses_current" table:base-cell-address="$&apos;Donor models&apos;.$D$21" table:cell-range-address="$&apos;Battery pack&apos;.$D$13"/>
     <table:named-range table:name="fuse_base_resistance" table:base-cell-address="$&apos;Donor models&apos;.$B$29" table:cell-range-address="$&apos;Battery pack&apos;.$B$18"/>
@@ -5028,37 +5039,37 @@
     <table:named-range table:name="fuse_losses_current" table:base-cell-address="$&apos;Donor models&apos;.$D$20" table:cell-range-address="$&apos;Battery pack&apos;.$D$12"/>
     <table:named-range table:name="fuse_resistance" table:base-cell-address="$&apos;Donor models&apos;.$B$28" table:cell-range-address="$&apos;Battery pack&apos;.$B$17"/>
     <table:named-range table:name="fwd" table:base-cell-address="$&apos;Donor models&apos;.$P$33" table:cell-range-address="$&apos;Donor models&apos;.$P$32"/>
-    <table:named-range table:name="gearbox_efficiency" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$6" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$6"/>
+    <table:named-range table:name="gearbox_efficiency" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$6" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$5"/>
     <table:named-range table:name="gears" table:base-cell-address="$&apos;Donor models&apos;.$Q$33" table:cell-range-address="$&apos;Donor models&apos;.$Q$32:.$V$32"/>
     <table:named-range table:name="gears_db" table:base-cell-address="$&apos;Donor models&apos;.$W$41" table:cell-range-address="$&apos;Donor models&apos;.$X$32:.$Y$38"/>
     <table:named-range table:name="gravitational_acceleration" table:base-cell-address="$General.$B$10" table:cell-range-address="$General.$B$10"/>
     <table:named-range table:name="inch" table:base-cell-address="$General.$B$11" table:cell-range-address="$General.$B$11"/>
-    <table:named-range table:name="incline_air_drag" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$36" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$20"/>
+    <table:named-range table:name="incline_air_drag" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$36" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$19"/>
     <table:named-range table:name="incline_cosinus" table:base-cell-address="$Commute.$H$33" table:cell-range-address="$Commute.$H$33"/>
-    <table:named-range table:name="incline_drag" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$38" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$22"/>
+    <table:named-range table:name="incline_drag" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$38" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$21"/>
     <table:named-range table:name="incline_end" table:base-cell-address="$Commute.$I$27" table:cell-range-address="$Commute.$I$29"/>
-    <table:named-range table:name="incline_force" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$37" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$21"/>
-    <table:named-range table:name="incline_gear" table:base-cell-address="$&apos;Power RPM Torque&apos;.$C$28" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$30"/>
-    <table:named-range table:name="incline_gearbox_ratio" table:base-cell-address="$&apos;Power RPM Torque&apos;.$C$29" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$31"/>
-    <table:named-range table:name="incline_gear_criteria" table:base-cell-address="$&apos;Power RPM Torque&apos;.$G$26" table:cell-range-address="$&apos;Power RPM Torque&apos;.$G$27:.$H$28"/>
+    <table:named-range table:name="incline_force" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$37" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$20"/>
+    <table:named-range table:name="incline_gear" table:base-cell-address="$&apos;Power RPM Torque&apos;.$C$28" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$29"/>
+    <table:named-range table:name="incline_gearbox_ratio" table:base-cell-address="$&apos;Power RPM Torque&apos;.$C$29" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$30"/>
+    <table:named-range table:name="incline_gear_criteria" table:base-cell-address="$&apos;Power RPM Torque&apos;.$G$26" table:cell-range-address="$&apos;Power RPM Torque&apos;.$I$26:.$J$27"/>
     <table:named-range table:name="incline_height" table:base-cell-address="$Commute.$H$31" table:cell-range-address="$Commute.$H$31"/>
     <table:named-range table:name="incline_length" table:base-cell-address="$Commute.$G$14" table:cell-range-address="$Commute.$G$29"/>
-    <table:named-range table:name="incline_motor_hz" table:base-cell-address="$&apos;Power RPM Torque&apos;.$C$32" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$33"/>
-    <table:named-range table:name="incline_motor_power" table:base-cell-address="$&apos;Power RPM Torque&apos;.$C$24" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$24"/>
-    <table:named-range table:name="incline_motor_rpm" table:base-cell-address="$&apos;Power RPM Torque&apos;.$C$30" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$32"/>
-    <table:named-range table:name="incline_motor_torque" table:base-cell-address="$&apos;Power RPM Torque&apos;.$C$33" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$34"/>
-    <table:named-range table:name="incline_power_at_wheels" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$39" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$23"/>
-    <table:named-range table:name="incline_rolling_resistance" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$34" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$18"/>
+    <table:named-range table:name="incline_motor_hz" table:base-cell-address="$&apos;Power RPM Torque&apos;.$C$32" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$32"/>
+    <table:named-range table:name="incline_motor_power" table:base-cell-address="$&apos;Power RPM Torque&apos;.$C$24" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$23"/>
+    <table:named-range table:name="incline_motor_rpm" table:base-cell-address="$&apos;Power RPM Torque&apos;.$C$30" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$31"/>
+    <table:named-range table:name="incline_motor_torque" table:base-cell-address="$&apos;Power RPM Torque&apos;.$C$33" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$33"/>
+    <table:named-range table:name="incline_power_at_wheels" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$39" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$22"/>
+    <table:named-range table:name="incline_rolling_resistance" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$34" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$17"/>
     <table:named-range table:name="incline_sinus" table:base-cell-address="$Commute.$H$32" table:cell-range-address="$Commute.$H$32"/>
-    <table:named-range table:name="incline_speed" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$35" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$19"/>
+    <table:named-range table:name="incline_speed" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$35" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$18"/>
     <table:named-range table:name="incline_speed_kmh" table:base-cell-address="$Commute.$D$7" table:cell-range-address="$Commute.$J$29"/>
     <table:named-range table:name="incline_start" table:base-cell-address="$Commute.$H$14" table:cell-range-address="$Commute.$H$29"/>
     <table:named-range table:name="incline_steepness" table:base-cell-address="$Commute.$H$34" table:cell-range-address="$Commute.$H$34"/>
-    <table:named-range table:name="incline_supply_power" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$40" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$25"/>
-    <table:named-range table:name="incline_torque_at_wheels" table:base-cell-address="$&apos;Power RPM Torque&apos;.$C$24" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$26"/>
-    <table:named-range table:name="incline_wheels_rpm" table:base-cell-address="$&apos;Power RPM Torque&apos;.$C$25" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$27"/>
-    <table:named-range table:name="motor_top_hz" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$37" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$38"/>
-    <table:named-range table:name="motor_top_rpm" table:base-cell-address="$&apos;Power RPM Torque&apos;.$A$35" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$37"/>
+    <table:named-range table:name="incline_supply_power" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$40" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$24"/>
+    <table:named-range table:name="incline_torque_at_wheels" table:base-cell-address="$&apos;Power RPM Torque&apos;.$C$24" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$25"/>
+    <table:named-range table:name="incline_wheels_rpm" table:base-cell-address="$&apos;Power RPM Torque&apos;.$C$25" table:cell-range-address="$&apos;Power RPM Torque&apos;.$C$26"/>
+    <table:named-range table:name="motor_top_hz" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$37" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$37"/>
+    <table:named-range table:name="motor_top_rpm" table:base-cell-address="$&apos;Power RPM Torque&apos;.$A$35" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$36"/>
     <table:named-range table:name="pack_cable_cross_section" table:base-cell-address="$&apos;Donor models&apos;.$C$18" table:cell-range-address="$&apos;Battery pack&apos;.$G$10"/>
     <table:named-range table:name="pack_cable_length" table:base-cell-address="$&apos;Donor models&apos;.$B$18" table:cell-range-address="$&apos;Battery pack&apos;.$B$10"/>
     <table:named-range table:name="pack_cable_resistance" table:base-cell-address="$&apos;Donor models&apos;.$B$27" table:cell-range-address="$&apos;Battery pack&apos;.$B$16"/>
@@ -5080,14 +5091,14 @@
     <table:named-range table:name="pack_surplus_regen_voltage" table:base-cell-address="$Tyres.$B$38" table:cell-range-address="$&apos;Battery pack&apos;.$B$26"/>
     <table:named-range table:name="pack_volume" table:base-cell-address="$&apos;Battery models&apos;.$G$8" table:cell-range-address="$&apos;Battery pack&apos;.$G$8"/>
     <table:named-range table:name="parallel_pack_resistance" table:base-cell-address="$&apos;Donor models&apos;.$B$31" table:cell-range-address="$&apos;Battery pack&apos;.$B$20"/>
-    <table:named-range table:name="passengers" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$5" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$5"/>
+    <table:named-range table:name="passengers" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$5" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$4"/>
     <table:named-range table:name="passenger_mass" table:base-cell-address="$General.$B$6" table:cell-range-address="$General.$B$7"/>
-    <table:named-range table:name="powertrain_efficiency" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$12" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$13"/>
+    <table:named-range table:name="powertrain_efficiency" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$12" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$12"/>
     <table:named-range table:name="rear_tyre_model" table:base-cell-address="$Tyres.$A$22" table:cell-range-address="$Tyres.$A$33"/>
-    <table:named-range table:name="rrc" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$13" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$14"/>
-    <table:named-range table:name="single_gear" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$9" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$9"/>
-    <table:named-range table:name="single_gear_criteria" table:base-cell-address="$&apos;Power RPM Torque&apos;.$G$24" table:cell-range-address="$&apos;Power RPM Torque&apos;.$G$25:.$H$28"/>
-    <table:named-range table:name="total_mass" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$11" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$12"/>
+    <table:named-range table:name="rrc" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$13" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$13"/>
+    <table:named-range table:name="single_gear" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$9" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$8"/>
+    <table:named-range table:name="single_gear_criteria" table:base-cell-address="$&apos;Power RPM Torque&apos;.$G$24" table:cell-range-address="$&apos;Power RPM Torque&apos;.$I$24:.$J$27"/>
+    <table:named-range table:name="total_mass" table:base-cell-address="$&apos;Power RPM Torque&apos;.$B$11" table:cell-range-address="$&apos;Power RPM Torque&apos;.$B$11"/>
     <table:named-range table:name="tyre_circumference" table:base-cell-address="$&apos;Donor models&apos;.$D$16" table:cell-range-address="$&apos;Donor models&apos;.$O$35"/>
     <table:named-range table:name="tyre_front_model" table:base-cell-address="$Tyres.$A$32" table:cell-range-address="$Tyres.$A$30"/>
     <table:named-range table:name="tyre_front_radius" table:base-cell-address="$&apos;Donor models&apos;.$H$34" table:cell-range-address="$&apos;Donor models&apos;.$H$34"/>
