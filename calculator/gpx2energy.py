@@ -537,7 +537,7 @@ class Commute(object):
     @prop
     def average_speed(self):
         "Average speed [km/h]."
-        return self.distance/(self.duration/60),
+        return self.distance/(self.duration/60)
     
     @prop
     def top_speed(self):
