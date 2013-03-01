@@ -94,19 +94,35 @@ class Car(object):
     
     # max speed [m/s]
     max_speed = 100*1000/3600
-
-    # http://en.wikipedia.org/wiki/Weight#ISO_definition
-    weight = mass * Earth.g # [N]
-
+    
     battery_pack_efficiency = 0.95
     controller_efficiency = 0.95
     motor_efficiency = 0.87
     gearbox_efficiency = 0.9
 
-    electrical_efficiency = battery_pack_efficiency * controller_efficiency * motor_efficiency
-    mechanical_efficiency = gearbox_efficiency
 
-    efficiency = electrical_efficiency * mechanical_efficiency
+    def __init__(self, properties={}):
+        vars(self).update(properties)
+
+    @prop
+    def weight(self):
+        "Weight of the car [N]."
+        # http://en.wikipedia.org/wiki/Weight#ISO_definition
+        return self.mass * Earth.g
+
+    @prop
+    def electrical_efficiency(self):
+        return self.battery_pack_efficiency * \
+               self.controller_efficiency * \
+               self.motor_efficiency
+
+    @prop
+    def mechanical_efficiency(self):
+        return self.gearbox_efficiency
+
+    @prop
+    def efficiency(self):
+        return self.electrical_efficiency * self.mechanical_efficiency
 
 class Point(object):
     "Class representing a single point of a track."
@@ -605,7 +621,7 @@ def print_stats(stats):
 if __name__ == '__main__':
 
     if len(sys.argv) > 1:
-        commute = Commute(Car, sys.argv[1:])
+        commute = Commute(Car(), sys.argv[1:])
 
         for track in commute.tracks:
             print 'Track', track.filename
