@@ -1,5 +1,6 @@
 import flask
-import gpx2energy
+import track_gpx
+import utils
 
 """
 Author: Filip Zyzniewski <filip.zyzniewski@gmail.com>
@@ -26,7 +27,7 @@ app = flask.Flask(__name__)
 
 
 def stats2table(stats):
-    for stat, unit in gpx2energy.stats_units:
+    for stat, unit in utils.stats_units:
         value = stats[stat]
         print 'VALUE', stat, value
         if isinstance(value, tuple):
@@ -63,14 +64,14 @@ def index():
         ]:
             form[efficiency] /= 100.0
 
-        car = gpx2energy.Car()
+        car = track_gpx.Car()
         vars(car).update(form)
 
         for file in files:
             file.name = file.filename
 
 
-        commute = gpx2energy.Commute(car, files)
+        commute = track_gpx.Commute(car, files)
         print vars(car)
     else:
         commute = None

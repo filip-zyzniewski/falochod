@@ -24,33 +24,8 @@ License:
     along with gpx2energy.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-import datetime
-import functools
 import math
-import operator
-import sys
-import urllib
-import xml.etree.ElementTree
-
-gpx_namespaces = {'gpx': 'http://www.topografix.com/GPX/1/1'}
-
-class prop(property):
-    "A property that caches the result for future accesses."
-
-    def __init__(self, function):
-
-        attribute = function.__name__
-
-        @functools.wraps(function)
-        def cached(obj):
-            try:
-                return vars(obj)[attribute]
-            except KeyError:
-                value = function(obj)
-                vars(obj)[attribute] = value
-                return value
-
-        super(prop, self).__init__(cached)
+from utils import prop
 
 class Earth(object):
     "Class representing the Earth."
@@ -68,7 +43,8 @@ class Earth(object):
     air_density = 1.2922 # [kg/m^3]
 
 class Car(object):
-    # smart fortwo
+    """A Car class with example default properties of
+    Smart Fortwo W450."""
 
     # Drag coefficient
     # http://clubsmartcar.com/index.php?showtopic=9972
@@ -100,10 +76,6 @@ class Car(object):
     motor_efficiency = 0.87
     gearbox_efficiency = 0.9
 
-
-    def __init__(self, properties={}):
-        vars(self).update(properties)
-
     @prop
     def weight(self):
         "Weight of the car [N]."
@@ -126,63 +98,6 @@ class Car(object):
 
 class Point(object):
     "Class representing a single point of a track."
-
-    gpx_path = 'gpx:trkpt'
-
-    def __init__(self, track, index, trkpt):
-        self.track = track
-        self.car = track.car
-        self.index = index
-        self.lat = float(trkpt.attrib['lat'])
-        self.lon = float(trkpt.attrib['lon'])
-        self.elevation = float(trkpt.find('gpx:ele', gpx_namespaces).text)
-        time = trkpt.find('gpx:time', gpx_namespaces).text
-        self.time = datetime.datetime.strptime(time[:-1],'%Y-%m-%dT%H:%M:%S.%f')
-
-    @prop
-    def previous(self):
-        "Previous point of the track."
-        if self.index > 0:
-            return self.track.points[self.index - 1]
-
-    @prop
-    def next(self):
-        "Next point of the track."
-        if self.index < len(self.track.points) - 1:
-            return self.track.points[self.index + 1]
-
-    def url(self, other=None):
-        """Google maps URL of the point or
-        a route from the point to another."""
-
-        url = 'https://maps.google.pl/maps?%s'
-        if other:
-            query = 'from: %s %s to: %s %s' % (
-                self.lat, self.lon,
-                other.lat, other.lon
-            )
-        else:
-            query = '%s %s' % (self.lat, self.lon)
-        return url % urllib.urlencode({'q': query})
-
-    @prop
-    def flat_distance(self):
-        "Distance from the previous point as seen from the sky [m]."
-        # http://en.wikipedia.org/wiki/Haversine_formula
-        
-        if self.previous:
-            dlat = math.radians(self.lat - self.previous.lat)
-            dlon = math.radians(self.lon - self.previous.lon)
-
-            a = math.sin(dlat/2) ** 2 + math.cos(math.radians(self.lat)) \
-                * math.cos(math.radians(self.previous.lat)) * \
-                math.sin(dlon/2) ** 2
-
-            c = 2 * math.atan2(math.sqrt(a), math.sqrt(1-a))
-
-            return Earth.radius * c
-        else:
-            return 0
 
     @prop
     def distance(self):
@@ -347,50 +262,9 @@ class Point(object):
         # http://en.wikipedia.org/wiki/Power_(physics)#Average_power
         return power * self.period
 
-    def __repr__(self):
-        return '%s(%f, %f)' % (
-            type(self).__name__,
-            self.lat,
-            self.lon
-        )
-
-
 class Track(object):
     "Class representing a track recorded with a GPS device."
 
-    gpx_path = 'gpx:trk/gpx:trkseg'
-
-    def __init__(self, commute, file):
-        self.commute = commute
-        self.car = commute.car
-        if hasattr(file, 'read'):
-            self.file = file
-            self.filename = self.file.name
-        else:
-            self.file = file
-            self.filename = file
-
-    @property
-    def tree(self):
-        "Parsed XML tree."
-        return xml.etree.ElementTree.parse(self.file)
-
-    @property
-    def trk(self):
-        "Track segment from the XML tree."
-        # For now I assume one trkseg per file.
-        trk, = self.tree.findall(self.gpx_path, gpx_namespaces)
-        return trk
-
-    @prop
-    def points(self):
-        "A list of track points."
-        trkpts = self.trk.findall(Point.gpx_path, gpx_namespaces)
-        return  [
-            Point(self, index, trkpt) for
-            (index, trkpt) in enumerate(trkpts)
-        ]
-        
     @prop
     def start_time(self):
         "Start time of the journey."
@@ -470,54 +344,10 @@ class Track(object):
 
         return -steepest[0]*100, steepest[1][0], steepest[1][-1]
 
-    @prop
-    def stats(self):
-        "Track stats."
-        return {
-            'distance': self.distance,
-            'duration': self.duration,
-            'average speed': self.average_speed,
-            'energy': self.energy,
-            'energy rate': self.energy_rate,
-            'top speed': (
-                self.top_speed[0],
-                self.top_speed[1].url(self.top_speed[2])
-            ),
-            'average motor power': self.average_motor_power,
-            'peak output power': (
-                self.peak_output_power[0],
-                self.peak_output_power[1].url(self.peak_output_power[2])
-            ),
-            'peak regen power': (
-                self.peak_regen_power[0],
-                self.peak_regen_power[1].url(self.peak_regen_power[2])
-            ),
-            'steepest incline': (
-                self.steepest_incline[0],
-                self.steepest_incline[1].url(self.steepest_incline[2])
-            ),
-            'steepest decline': (
-                self.steepest_decline[0],
-                self.steepest_decline[1].url(self.steepest_decline[2])
-            )
-        }
-
 
 class Commute(object):
     """Groups together tracks, for example two tracks
     for both directions of the commute."""
-
-    def __init__(self, car, files):
-        self.car = car
-        self.files = files
-
-    @prop
-    def tracks(self):
-        "Tracks making up this commute."
-        tracks = []
-        for file in self.files:
-            tracks.append(Track(self, file))
-        return tracks
 
     @prop
     def energy(self):
@@ -573,69 +403,3 @@ class Commute(object):
     def steepest_decline(self):
         "Steepest decline during the commute [%]."
         return max(track.steepest_decline[0] for track in self.tracks)
-
-    @prop
-    def stats(self):
-        "Commute stats."
-        return {
-            'distance': self.distance,
-            'duration': self.duration,
-            'average speed': self.average_speed,
-            'top speed': self.top_speed,
-            'energy': self.energy,
-            'energy rate': self.energy_rate,
-            'peak output power': self.peak_output_power,
-            'average motor power': self.average_motor_power,
-            'peak regen power': self.peak_regen_power,
-            'steepest incline': self.steepest_incline,
-            'steepest decline': self.steepest_decline,
-        }
-
-stats_units = (
-    ('distance', 'km'),
-    ('duration', 'min'),
-    ('average speed', 'km/h'),
-    ('top speed', 'km/h'),
-    ('energy', 'Wh'),
-    ('energy rate', 'Wh/km'),
-    ('average motor power', 'W'),
-    ('peak output power', 'W'),
-    ('steepest incline', '%'),
-    ('peak regen power', 'W'),
-    ('steepest decline', '%')
-)
-
-def print_stats(stats):
-    for stat, unit in stats_units:
-        value = stats[stat]
-        if isinstance(value, float):
-            value = '%.02f %s' % (value, unit)
-        elif isinstance(value, tuple):
-            if isinstance(value[0], float):
-                subvalue = '%.02f %s' % (value[0], unit)
-                value = (subvalue,) + value[1:]
-
-            value = ' '.join(str(v) for v in value)
-
-        print '   %s: %s' % (
-            stat,
-            value
-        )
-
-if __name__ == '__main__':
-
-    if len(sys.argv) > 1:
-        commute = Commute(Car(), sys.argv[1:])
-
-        for track in commute.tracks:
-            print 'Track', track.filename
-            print_stats(track.stats)
-            print
-
-        print 'Total commute'
-        print_stats(commute.stats)
-    else:
-        sys.stderr.write('Usage: %s file.gps [...]\n' % sys.argv[0])
-        sys.exit(1)
-        
-
