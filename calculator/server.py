@@ -84,4 +84,4 @@ def manual():
     return flask.render_template('manual.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
