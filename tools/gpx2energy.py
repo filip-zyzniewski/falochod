@@ -581,7 +581,6 @@ def print_stats(stats):
         ('peak regen power', 'W'),
         ('steepest decline', '%')
     )
-    dunits = dict(units)
     
     for stat, unit in units:
         value = stats[stat]
