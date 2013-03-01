@@ -61,7 +61,7 @@
 					<td>
 						{% if url %}<a href="{{ url }}">{% endif %}
 						{{ stat }}
-						{% if url %}</a>{% endif %}
+						{% if url %}</a><a href="#links">**</a>{% endif %}
 					</td>
 					<td>{{ value }}</td>
 					<td>{{ unit }}</td>
@@ -73,11 +73,14 @@
 </td>
 </tr>
 </table>
-<p>Peak values might be wrong because of low elevation resolution of GPS.<p>
 <p id="badvalues">
 * Vehicle power and max speed are used to filter out bad points logged by the
 GPS receiver.
-
+</p>
+<p id="links">
+** Some value names are links - these links lead to google maps rendition
+of the track fragment where the value has been achieved.
+Note that peak values might be wrong because of low elevation resolution of GPS.
 </p>
 </body>
 </html>
