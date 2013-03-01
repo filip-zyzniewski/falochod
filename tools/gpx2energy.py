@@ -11,7 +11,7 @@ import xml.etree.ElementTree
 gpx_namespaces = {'gpx': 'http://www.topografix.com/GPX/1/1'}
 
 class prop(property):
-    "A property that caches the result."
+    "A property that caches the result for future accesses."
 
     def __init__(self, function):
 
@@ -29,44 +29,50 @@ class prop(property):
         super(prop, self).__init__(cached)
 
 class Earth(object):
-    # http://en.wikipedia.org/wiki/Earth_radius
-    radius = 6371*1000 # m
+    "Class representing the Earth."
 
+    # http://en.wikipedia.org/wiki/Earth_radius
+    radius = 6371*1000 # [m]
+
+    # gravitational acceleration [m/s^2]
     # http://pl.wikipedia.org/wiki/Przyspieszenie_ziemskie#Wybrane_warto.C5.9Bci_przyspieszenia_ziemskiego_.5Bm.2Fs.C2.B2.5D
     # for Krakow
-    g = 9.8105 # m/s^2
+    g = 9.8105
 
     # http://en.wikipedia.org/wiki/Density_of_air
     # at 0 degrees C
-    air_density = 1.2922 # kg/m^3
+    air_density = 1.2922 # [kg/m^3]
 
 class Car(object):
     # smart fortwo
 
+    # Drag coefficient
     # http://clubsmartcar.com/index.php?showtopic=9972
     cx = 0.37
 
     # http://clubsmartcar.com/index.php?showtopic=9972
-    frontal_area = 1.95
+    frontal_area = 1.95 # [m^2]
 
+    # Drag area
     # http://en.wikipedia.org/wiki/Drag_area
-    cda = cx * frontal_area
+    cda = cx * frontal_area # [m^2]
 
-    # including driver and batteries
-    mass = 880 # kg
+    # including the driver and batteries
+    mass = 880 # [kg]
 
     # tyres and brakes/steering
-    rrc = 0.01355 # kg/kg
+    # rolling resistance coefficient
+    rrc = 0.01355 # [kg/kg]
 
     # ICE power of the vehicle used to create
-    # the GPX file
-    power = 40000 # W
+    # the GPX file [W]
+    power = 40000
     
-    # max speed in m/s
+    # max speed [m/s]
     max_speed = 100*1000/3600
 
     # http://en.wikipedia.org/wiki/Weight#ISO_definition
-    weight = mass * Earth.g # N
+    weight = mass * Earth.g # [N]
 
     battery_pack_efficiency = 0.95
     controller_efficiency = 0.95
@@ -79,6 +85,8 @@ class Car(object):
     efficiency = electrical_efficiency * mechanical_efficiency
 
 class Point(object):
+    "Class representing a single point of a track."
+
     gpx_path = 'gpx:trkpt'
 
     def __init__(self, track, index, trkpt):
@@ -92,15 +100,20 @@ class Point(object):
 
     @prop
     def previous(self):
+        "Previous point of the track."
         if self.index > 0:
             return self.track.points[self.index - 1]
 
     @prop
     def next(self):
+        "Next point of the track."
         if self.index < len(self.track.points) - 1:
             return self.track.points[self.index + 1]
 
     def url(self, other=None):
+        """Google maps URL of the point or
+        a route from the point to another."""
+
         url = 'https://maps.google.pl/maps?%s'
         if other:
             query = 'from: %s %s to: %s %s' % (
@@ -113,6 +126,7 @@ class Point(object):
 
     @prop
     def flat_distance(self):
+        "Distance from the previous point as seen from the sky [m]."
         # http://en.wikipedia.org/wiki/Haversine_formula
         
         if self.previous:
@@ -131,52 +145,59 @@ class Point(object):
 
     @prop
     def distance(self):
+        "Actual road distance from the previous point [m]."
         # http://en.wikipedia.org/wiki/Pythagorean_theorem
         return math.sqrt(self.flat_distance**2 + self.climb**2)
 
     @prop
     def climb(self):
+        "Height increase [m]."
+        # unfortunately my Android phone provides 1m elevation
+        # resolution, which affects momentary
+        # calculations precision badly
         if self.previous:
             return self.elevation - self.previous.elevation
         else:
             return 0
 
     @prop
-    def incline_sinus(self):
+    def incline_sine(self):
+        "Sine of the climb angle."
         try:
             # http://en.wikipedia.org/wiki/Trigonometric_functions#Right-angled_triangle_definitions
-            sinus = self.climb / self.distance
+            sine = self.climb / self.distance
         except ZeroDivisionError:
-            sinus = 1
+            sine = 1
 
-        if -0.25 < sinus < 0.25:
+        if -0.25 < sine < 0.25:
             # reasonable value
-            return sinus
+            return sine
         else:
             if self.previous:
-                return self.previous.incline_sinus
+                return self.previous.incline_sine
             else:
                 return 0
 
     @prop
-    def incline_cosinus(self):
-        
+    def incline_cosine(self):
+        "Cosine of the climb angle."
         try:
             # http://en.wikipedia.org/wiki/Trigonometric_functions#Right-angled_triangle_definitions
-            cosinus = self.flat_distance / self.distance
+            cosine = self.flat_distance / self.distance
         except ZeroDivisionError:
-            cosinus = 0
-        if 0.75 < cosinus <= 1: 
+            cosine = 0
+        if 0.75 < cosine <= 1: 
             # reasonable value
-            return cosinus
+            return cosine
         else:
             if self.previous:
-                return self.previous.incline_cosinus
+                return self.previous.incline_cosine
             else:
                 return 1
 
     @prop
     def period(self):
+        "Time since the previous point [s]."
         if self.previous:
             return (self.time - self.previous.time).total_seconds()
         else:
@@ -184,6 +205,7 @@ class Point(object):
 
     @prop
     def speed(self):
+        "Vehicle speed [m/s]."
         # http://en.wikipedia.org/wiki/Speed#Definition
         speed = self.distance / self.period
         if 0 <= speed < Car.max_speed:
@@ -196,6 +218,7 @@ class Point(object):
 
     @prop
     def acceleration(self):
+        "Vehicle acceleration [m/s^2]."
         if self.previous and self.previous.previous:
             # http://en.wikipedia.org/wiki/Acceleration#Definition_and_properties
             acceleration = (self.speed - self.previous.speed)/self.period
@@ -212,31 +235,37 @@ class Point(object):
 
     @prop
     def air_drag(self):
+        "Force of air drag [N]."
         # http://en.wikipedia.org/wiki/Drag_equation
         return 0.5 * Earth.air_density * Car.cda * self.speed**2
 
     @prop
     def rolling_resistance(self):
+        "Force of rolling resistance [N]."
         # http://en.wikipedia.org/wiki/Rolling_resistance#Rolling_resistance_coefficient
-        return Car.rrc * Car.mass * Earth.g * self.incline_cosinus
+        return Car.rrc * Car.mass * Earth.g * self.incline_cosine
 
     @prop
     def incline_force(self):
+        "Gravitational backwards force of the incline [N]."
         # http://en.wikipedia.org/wiki/Inclined_plane#Frictionless_inclined_plane
-        return Car.mass * Earth.g * self.incline_sinus
+        return Car.mass * Earth.g * self.incline_sine
 
 
     @prop
     def acceleration_force(self):
+        "Force needed for acceleration [N]."
         # http://en.wikipedia.org/wiki/Force
         return Car.mass * self.acceleration
 
     @prop
     def force(self):
+        "Total force generated by the drivetrain [N]."
         return self.air_drag + self.rolling_resistance + self.incline_force + self.acceleration_force
 
     @prop
     def power_at_wheels(self):
+        "Driving power without drivetrain losses [W]."
         # http://en.wikipedia.org/wiki/Power_(physics)#Mechanical_power
         power = self.force * self.speed
 
@@ -246,6 +275,7 @@ class Point(object):
 
     @prop
     def output_power(self):
+        "Power generated by the motor [W]."
         if self.power_at_wheels > 0:
             return self.power_at_wheels / Car.mechanical_efficiency
         else:
@@ -253,6 +283,7 @@ class Point(object):
 
     @prop
     def regen_power(self):
+        "Regen power reaching the batteries [W]."
         if self.power_at_wheels > 0:
             return 0
         else:
@@ -260,13 +291,16 @@ class Point(object):
 
     @prop
     def motor_power(self):
+        "Motor power requirement [W]."
         if self.power_at_wheels > 0:
             return self.power_at_wheels / Car.mechanical_efficiency
         else:
+            # Regen stresses the motor too
             return - self.power_at_wheels * Car.mechanical_efficiency
 
     @prop
     def energy(self):
+        "Energy used to travel from the previous point [J]."
         power = self.output_power / Car.electrical_efficiency
         power -= self.regen_power * Car.electrical_efficiency
         # http://en.wikipedia.org/wiki/Power_(physics)#Average_power
@@ -281,6 +315,8 @@ class Point(object):
 
 
 class Track(object):
+    "Class representing a track recorded with a GPS device."
+
     gpx_path = 'gpx:trk/gpx:trkseg'
 
     def __init__(self, filename):
@@ -288,17 +324,19 @@ class Track(object):
 
     @property
     def tree(self):
+        "Parsed XML tree."
         return xml.etree.ElementTree.parse(self.filename)
 
     @property
     def trk(self):
+        "Track segment from the XML tree."
+        # For now I assume one trkseg per file.
         trk, = self.tree.findall(self.gpx_path, gpx_namespaces)
         return trk
 
     @prop
     def points(self):
         "A list of track points."
-
         trkpts = self.trk.findall(Point.gpx_path, gpx_namespaces)
         return  [
             Point(self, index, trkpt) for
@@ -307,19 +345,22 @@ class Track(object):
         
     @prop
     def start_time(self):
+        "Start time of the journey."
         return self.points[0].time
 
     @prop
     def end_time(self):
+        "End time of the journey."
         return self.points[-1].time
 
     @prop
     def duration(self):
+        "Duration of the journey [s]."
         return (self.end_time - self.start_time).total_seconds() / 60.0
 
     @prop
     def distance(self):
-        "Track distance [km]."
+        "Travelled distance [km]."
         return sum(point.distance for point in self.points) / 1000
 
     @prop
@@ -338,7 +379,7 @@ class Track(object):
         return self.energy/self.distance
 
     def sliding_window(self, attribute, width=20):
-        "Sliding window with width points."
+        "Sliding average window with width points."
         for i in xrange(len(self.points)-width):
             window = self.points[i:i+width]
             values = [getattr(point, attribute) for point in window]
@@ -346,46 +387,44 @@ class Track(object):
     
     @prop
     def top_speed(self):
-        "Top speed [km/h]."
+        "Max speed [km/h] and points where it has been rached."
         peak = max(self.sliding_window('speed', 15))
         return peak[0]*3600/1000, peak[1][0], peak[1][-1]
 
     @prop
     def peak_output_power(self):
-        "Peak power needed [W]."
+        "Peak power needed [W] and points where it was needed."
         peak = max(self.sliding_window('output_power'))
         return peak[0], peak[1][0], peak[1][-1]
 
     @prop
     def peak_regen_power(self):
-        "Peak power available for regen [W]."
+        "Peak power available for regen [W] and points where it was available."
         peak = max(self.sliding_window('regen_power'))
         return peak[0], peak[1][0], peak[1][-1]
 
     @prop
     def average_motor_power(self):
+        "Average power generated and regen'd by the motor [W]."
         return sum(point.motor_power for point in self.points)/len(self.points)
 
     @prop
     def steepest_incline(self):
-        "Steepest incline [percentage]."
-        # altitude seems to calculated with 1m resolution
-        # so we need to look at averages
-        steepest = max(self.sliding_window('incline_sinus'))
+        "Steepest incline [%]."
+        steepest = max(self.sliding_window('incline_sine'))
 
         return steepest[0]*100, steepest[1][0], steepest[1][-1]
    
     @prop
     def steepest_decline(self):
-        "Steepest decline [percentage]."
-        # altitude seems to calculated with 1m resolution
-        # so we need to look at averages
-        steepest = min(self.sliding_window('incline_sinus'))
+        "Steepest decline [%]."
+        steepest = min(self.sliding_window('incline_sine'))
 
         return -steepest[0]*100, steepest[1][0], steepest[1][-1]
 
     @prop
     def stats(self):
+        "Track stats."
         return {
             'distance': self.distance,
             'duration': self.duration,
@@ -417,11 +456,15 @@ class Track(object):
 
 
 class Commute(object):
+    """Groups together tracks, for example two tracks
+    for both directions of the commute."""
+
     def __init__(self, filenames):
         self.filenames = filenames
 
     @prop
     def tracks(self):
+        "Tracks making up this commute."
         tracks = []
         for filename in self.filenames:
             tracks.append(Track(filename))
@@ -429,50 +472,62 @@ class Commute(object):
 
     @prop
     def energy(self):
+        "Energy needed for this commute [Wh]."
         return sum(track.energy for track in self.tracks)
 
     @prop
     def distance(self):
+        "Total distance travelled [km]"
         return sum(track.distance for track in self.tracks)
 
     @prop
     def duration(self):
+        "Total duration of the commute."
         return sum(track.duration for track in self.tracks)
 
     @prop
     def average_speed(self):
+        "Average speed [km/h]."
         return self.distance/(self.duration/60),
     
     @prop
     def top_speed(self):
+        "Max speed reached during the commute [km/h]."
         return max(track.top_speed[0] for track in self.tracks)
 
     @prop
     def energy_rate(self):
+        "Energy consumption rate of the commute [Wh/km]."
         return self.energy/self.distance
 
     @prop
     def peak_output_power(self):
+        "Peak output power needed during the commute [W]."
         return max(track.peak_output_power[0] for track in self.tracks)
     
     @prop
     def average_motor_power(self):
+        "Average power generated and regen'd by the motor during the commute [W]."
         return sum(track.average_motor_power for track in self.tracks)/len(self.tracks)
 
     @prop
     def peak_regen_power(self):
+        "Peak power available for regen during the commute [W]."
         return max(track.peak_regen_power[0] for track in self.tracks)
 
     @prop
     def steepest_incline(self):
+        "Steepest incline during the commute [%]."
         return max(track.steepest_incline[0] for track in self.tracks)
         
     @prop
     def steepest_decline(self):
+        "Steepest decline during the commute [%]."
         return max(track.steepest_decline[0] for track in self.tracks)
 
     @prop
     def stats(self):
+        "Commute stats."
         return {
             'distance': self.distance,
             'duration': self.duration,
@@ -522,15 +577,18 @@ def print_stats(stats):
 
 if __name__ == '__main__':
 
+    if len(sys.argv) > 1:
+        commute = Commute(sys.argv[1:])
 
-    commute = Commute(sys.argv[1:])
+        for track in commute.tracks:
+            print 'Track', track.filename
+            print_stats(track.stats)
+            print
 
-    for track in commute.tracks:
-        print 'Track', track.filename
-        print_stats(track.stats)
-        print
-
-    print 'Total commute'
-    print_stats(commute.stats)
+        print 'Total commute'
+        print_stats(commute.stats)
+    else:
+        sys.stderr.write('Usage: %s file.gps [...]\n' % sys.argv[0])
+        sys.exit(1)
         
 
