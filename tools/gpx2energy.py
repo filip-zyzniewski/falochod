@@ -3,7 +3,9 @@
 import datetime
 import functools
 import math
+import operator
 import sys
+import urllib
 import xml.etree.ElementTree
 
 gpx_namespaces = {'gpx': 'http://www.topografix.com/GPX/1/1'}
@@ -99,6 +101,17 @@ class Point(object):
     def next(self):
         if self.index < len(self.track.points) - 1:
             return self.track.points[self.index + 1]
+
+    def url(self, other=None):
+        url = 'https://maps.google.pl/maps?%s'
+        if other:
+            query = 'from: %s %s to: %s %s' % (
+                self.lat, self.lon,
+                other.lat, other.lon
+            )
+        else:
+            query = '%s %s' % (self.lat, self.lon)
+        return url % urllib.urlencode({'q': query})
 
     @prop
     def flat_distance(self):
@@ -258,9 +271,17 @@ class Point(object):
 class Track(object):
     gpx_path = 'gpx:trk/gpx:trkseg'
 
-    def __init__(self, tree):
-        tracks = tree.findall(self.gpx_path, gpx_namespaces)
-        self.trk, = tracks
+    def __init__(self, filename):
+        self.filename = filename
+
+    @property
+    def tree(self):
+        return xml.etree.ElementTree.parse(self.filename)
+
+    @property
+    def trk(self):
+        trk, = self.tree.findall(self.gpx_path, gpx_namespaces)
+        return trk
 
     @prop
     def points(self):
@@ -281,9 +302,18 @@ class Track(object):
         return self.points[-1].time
 
     @prop
+    def duration(self):
+        return (self.end_time - self.start_time).total_seconds() / 60.0
+
+    @prop
     def distance(self):
         "Track distance [km]."
         return sum(point.distance for point in self.points) / 1000
+
+    @prop
+    def average_speed(self):
+        "Average speed [km/h]."
+        return self.distance/(self.duration/60)
 
     @prop
     def energy(self):
@@ -295,55 +325,77 @@ class Track(object):
         "Energy needed per km [Wh/km]."
         return self.energy/self.distance
 
-    @prop
-    def max_power(self):
-        "Peak power needed [W]."
-        return max(point.power for point in self.points)
-
-    @prop
-    def max_regen_power(self):
-        "Peak power available for regen [W]."
-        return -min(point.power for point in self.points)
-
-    def sliding_window(self, width=20):
+    def sliding_window(self, attribute, width=20):
         "Sliding window with width points."
         for i in xrange(len(self.points)-width):
-            yield self.points[i:i+width]
+            window = self.points[i:i+width]
+            values = [getattr(point, attribute) for point in window]
+            yield sum(values)/len(values), window
     
+    @prop
+    def top_speed(self):
+        "Top speed [km/h]."
+        peak = max(self.sliding_window('speed', 15))
+        return peak[0]*3600/1000, peak[1][0], peak[1][-1]
+
+    @prop
+    def peak_power(self):
+        "Peak power needed [W]."
+        peak = max(self.sliding_window('power'))
+        return peak[0], peak[1][0], peak[1][-1]
+
+    @prop
+    def peak_regen_power(self):
+        "Peak power available for regen [W]."
+        peak = min(self.sliding_window('power'))
+        return -peak[0], peak[1][0], peak[1][-1]
+
     @prop
     def steepest_incline(self):
         "Steepest incline [percentage]."
         # altitude seems to calculated with 1m resolution
         # so we need to look at averages
-        steepest = 0
-        for window in self.sliding_window():
-            inclines = [point.incline_sinus for point in window]
-            incline = sum(inclines)/len(inclines)
-            steepest = max(incline, steepest)
-        return steepest*100
+        steepest = max(self.sliding_window('incline_sinus'))
+
+        return steepest[0]*100, steepest[1][0], steepest[1][-1]
    
     @prop
     def steepest_decline(self):
         "Steepest decline [percentage]."
         # altitude seems to calculated with 1m resolution
         # so we need to look at averages
-        steepest = 0
-        for window in self.sliding_window():
-            inclines = [point.incline_sinus for point in window]
-            incline = sum(inclines)/len(inclines)
-            steepest = min(incline, steepest)
-        return -steepest*100
+        steepest = min(self.sliding_window('incline_sinus'))
+
+        return -steepest[0]*100, steepest[1][0], steepest[1][-1]
 
     @prop
     def stats(self):
         return {
             'distance': self.distance,
+            'duration': self.duration,
+            'average speed': self.average_speed,
             'energy': self.energy,
-            'energy_rate': self.energy_rate,
-            'max_power': self.max_power,
-            'max_regen_power': self.max_regen_power,
-            'steepest_incline': self.steepest_incline,
-            'steepest_decline': self.steepest_decline,
+            'energy rate': self.energy_rate,
+            'top speed': (
+                self.top_speed[0],
+                self.top_speed[1].url(self.top_speed[2])
+            ),
+            'peak power': (
+                self.peak_power[0],
+                self.peak_power[1].url(self.peak_power[2])
+            ),
+            'peak regen power': (
+                self.peak_regen_power[0],
+                self.peak_regen_power[1].url(self.peak_regen_power[2])
+            ),
+            'steepest incline': (
+                self.steepest_incline[0],
+                self.steepest_incline[1].url(self.steepest_incline[2])
+            ),
+            'steepest decline': (
+                self.steepest_decline[0],
+                self.steepest_decline[1].url(self.steepest_decline[2])
+            )
         }
 
 
@@ -353,69 +405,96 @@ class Commute(object):
 
     @prop
     def tracks(self):
-        tracks = {}
+        tracks = []
         for filename in self.filenames:
-            tree = xml.etree.ElementTree.parse(filename)
-            tracks[filename] = Track(tree)
+            tracks.append(Track(filename))
         return tracks
 
     @prop
     def energy(self):
-        return sum(track.energy for track in self.tracks.values())
+        return sum(track.energy for track in self.tracks)
 
     @prop
     def distance(self):
-        return sum(track.distance for track in self.tracks.values())
+        return sum(track.distance for track in self.tracks)
+
+    @prop
+    def duration(self):
+        return sum(track.duration for track in self.tracks)
+
+    @prop
+    def average_speed(self):
+        return self.distance/(self.duration/60),
+    
+    @prop
+    def top_speed(self):
+        return max(track.top_speed[0] for track in self.tracks)
 
     @prop
     def energy_rate(self):
         return self.energy/self.distance
 
     @prop
-    def max_power(self):
-        return max(track.max_power for track in self.tracks.values())
+    def peak_power(self):
+        return max(track.peak_power[0] for track in self.tracks)
 
     @prop
-    def max_regen_power(self):
-        return max(track.max_regen_power for track in self.tracks.values())
+    def peak_regen_power(self):
+        return max(track.peak_regen_power[0] for track in self.tracks)
 
     @prop
     def steepest_incline(self):
-        return max(track.steepest_incline for track in self.tracks.values())
+        return max(track.steepest_incline[0] for track in self.tracks)
         
     @prop
     def steepest_decline(self):
-        return max(track.steepest_decline for track in self.tracks.values())
+        return max(track.steepest_decline[0] for track in self.tracks)
 
     @prop
     def stats(self):
         return {
             'distance': self.distance,
+            'duration': self.duration,
+            'average speed': self.average_speed,
+            'top speed': self.top_speed,
             'energy': self.energy,
-            'energy_rate': self.energy_rate,
-            'max_power': self.max_power,
-            'max_regen_power': self.max_regen_power,
-            'steepest_incline': self.steepest_incline,
-            'steepest_decline': self.steepest_decline,
+            'energy rate': self.energy_rate,
+            'peak power': self.peak_power,
+            'peak regen power': self.peak_regen_power,
+            'steepest incline': self.steepest_incline,
+            'steepest decline': self.steepest_decline,
         }
 
 
 def print_stats(stats):
-    units = {
-        'distance': 'km',
-        'energy': 'Wh',
-        'energy_rate': 'Wh/km',
-        'max_power': 'W',
-        'max_regen_power': 'W',
-        'steepest_incline': '%',
-        'steepest_decline': '%'
-    }
+    units = (
+        ('distance', 'km'),
+        ('duration', 'min'),
+        ('average speed', 'km/h'),
+        ('top speed', 'km/h'),
+        ('energy', 'Wh'),
+        ('energy rate', 'Wh/km'),
+        ('peak power', 'W'),
+        ('steepest incline', '%'),
+        ('peak regen power', 'W'),
+        ('steepest decline', '%')
+    )
+    dunits = dict(units)
     
-    for stat, value in stats.iteritems():
-        print '   %s: %.02f %s' % (
+    for stat, unit in units:
+        value = stats[stat]
+        if isinstance(value, float):
+            value = '%.02f %s' % (value, unit)
+        elif isinstance(value, tuple):
+            if isinstance(value[0], float):
+                subvalue = '%.02f %s' % (value[0], unit)
+                value = (subvalue,) + value[1:]
+
+            value = ' '.join(str(v) for v in value)
+
+        print '   %s: %s' % (
             stat,
-            value,
-            units[stat]
+            value
         )
 
 if __name__ == '__main__':
@@ -423,8 +502,8 @@ if __name__ == '__main__':
 
     commute = Commute(sys.argv[1:])
 
-    for filename, track in commute.tracks.iteritems():
-        print 'Track', filename
+    for track in commute.tracks:
+        print 'Track', track.filename
         print_stats(track.stats)
         print
 
