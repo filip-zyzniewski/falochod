@@ -591,23 +591,22 @@ class Commute(object):
             'steepest decline': self.steepest_decline,
         }
 
+stats_units = (
+    ('distance', 'km'),
+    ('duration', 'min'),
+    ('average speed', 'km/h'),
+    ('top speed', 'km/h'),
+    ('energy', 'Wh'),
+    ('energy rate', 'Wh/km'),
+    ('average motor power', 'W'),
+    ('peak output power', 'W'),
+    ('steepest incline', '%'),
+    ('peak regen power', 'W'),
+    ('steepest decline', '%')
+)
 
 def print_stats(stats):
-    units = (
-        ('distance', 'km'),
-        ('duration', 'min'),
-        ('average speed', 'km/h'),
-        ('top speed', 'km/h'),
-        ('energy', 'Wh'),
-        ('energy rate', 'Wh/km'),
-        ('average motor power', 'W'),
-        ('peak output power', 'W'),
-        ('steepest incline', '%'),
-        ('peak regen power', 'W'),
-        ('steepest decline', '%')
-    )
-    
-    for stat, unit in units:
+    for stat, unit in stats_units:
         value = stats[stat]
         if isinstance(value, float):
             value = '%.02f %s' % (value, unit)
