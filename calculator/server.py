@@ -29,7 +29,6 @@ app = flask.Flask(__name__)
 def stats2table(stats):
     for stat, unit in utils.stats_units:
         value = stats[stat]
-        print 'VALUE', stat, value
         if isinstance(value, tuple):
             url = value[1]
             value = value[0]
@@ -48,7 +47,6 @@ def index():
     files = [file for file in files if file.filename]
 
     if flask.request.method == 'POST' and files:
-        print 'FRF', flask.request.files
         form = dict(flask.request.form)
         form.pop('submit')
 
@@ -72,7 +70,6 @@ def index():
 
 
         commute = track_gpx.Commute(car, files)
-        print vars(car)
     else:
         commute = None
 
