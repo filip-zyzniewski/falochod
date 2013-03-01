@@ -305,6 +305,35 @@ class Track(object):
         "Peak power available for regen [W]."
         return -min(point.power for point in self.points)
 
+    def sliding_window(self, width=20):
+        "Sliding window with width points."
+        for i in xrange(len(self.points)-width):
+            yield self.points[i:i+width]
+    
+    @prop
+    def steepest_incline(self):
+        "Steepest incline [percentage]."
+        # altitude seems to calculated with 1m resolution
+        # so we need to look at averages
+        steepest = 0
+        for window in self.sliding_window():
+            inclines = [point.incline_sinus for point in window]
+            incline = sum(inclines)/len(inclines)
+            steepest = max(incline, steepest)
+        return steepest*100
+   
+    @prop
+    def steepest_decline(self):
+        "Steepest decline [percentage]."
+        # altitude seems to calculated with 1m resolution
+        # so we need to look at averages
+        steepest = 0
+        for window in self.sliding_window():
+            inclines = [point.incline_sinus for point in window]
+            incline = sum(inclines)/len(inclines)
+            steepest = min(incline, steepest)
+        return -steepest*100
+
     @prop
     def stats(self):
         return {
@@ -312,7 +341,9 @@ class Track(object):
             'energy': self.energy,
             'energy_rate': self.energy_rate,
             'max_power': self.max_power,
-            'max_regen_power': self.max_regen_power
+            'max_regen_power': self.max_regen_power,
+            'steepest_incline': self.steepest_incline,
+            'steepest_decline': self.steepest_decline,
         }
 
 
@@ -349,13 +380,23 @@ class Commute(object):
         return max(track.max_regen_power for track in self.tracks.values())
 
     @prop
+    def steepest_incline(self):
+        return max(track.steepest_incline for track in self.tracks.values())
+        
+    @prop
+    def steepest_decline(self):
+        return max(track.steepest_decline for track in self.tracks.values())
+
+    @prop
     def stats(self):
         return {
             'distance': self.distance,
             'energy': self.energy,
             'energy_rate': self.energy_rate,
             'max_power': self.max_power,
-            'max_regen_power': self.max_regen_power
+            'max_regen_power': self.max_regen_power,
+            'steepest_incline': self.steepest_incline,
+            'steepest_decline': self.steepest_decline,
         }
 
 
@@ -366,6 +407,8 @@ def print_stats(stats):
         'energy_rate': 'Wh/km',
         'max_power': 'W',
         'max_regen_power': 'W',
+        'steepest_incline': '%',
+        'steepest_decline': '%'
     }
     
     for stat, value in stats.iteritems():
