@@ -1,0 +1,34 @@
+body {
+	font-family: sans-serif;
+}
+
+form[name="gpx2energy"] input[type="text"] {
+	width: 5em;
+	text-align: right;
+}
+
+form[name="gpx2energy"] table td:first-child,
+form[name="gpx2energy"] table td[colspan="2"],
+form[name="gpx2energy"] table td[rowspan="2"] + td,
+form[name="gpx2energy"] table td[rowspan="4"] + td {
+	text-align: right;
+}
+
+form[name="gpx2energy"] h3 {
+	text-align: center;
+}
+
+form[name="gpx2energy"] table td[rowspan="4"],
+form[name="gpx2energy"] table td[rowspan="4"] + td,
+form[name="gpx2energy"] table td[rowspan="4"] + td + td {
+	padding-top: 4ex;
+}
+
+table.toplevel {
+	width: 100%;
+}
+
+td.side {
+	width: 50%;
+	vertical-align: top;
+}

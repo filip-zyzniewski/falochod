@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Data for gpx2energy</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"/>
+</head>
+<body>
+<h1>GPX2Energy - calculate your EV power and energy needs</h1>
+<h2>What is it?</h2>
+<p>
+This utility calculates power and energy requirements for a given
+commute using specified vehicle parameters.
+</p>
+<h2>How does it work?</h2>
+<p>
+It calculates momentary power requirements for each track point
+logged by the GPS receiver and aggregates them to provide
+the final results.
+</p>
+<p>
+Forces taken into account:
+<ul>
+	<li>Air drag</li>
+	<li>Rolling resistance</li>
+	<li>Force of incline</li>
+</ul>
+</p>
+<h2>What do I need to do to make use of it?</h2>
+<p>
+Firstly you need to find out the parameters of your
+chosen donor car, these are a must:
+<ul>
+	<li>Mass</li>
+	<li>Frontal area</li>
+	<li>Drag coefficient</li>
+	<li>possibly the Rolling resistance coefficient</li>
+</ul>
+You can get away with using default values for the rest
+for estimation purposes.
+</p>
+<p>
+Secondly, you need to use another car to perform the commute
+you want to do with your EV and record it with a GPS receiver
+(I use <a href="https://play.google.com/store/apps/details?id=com.google.android.maps.mytracks">My Tracks</a> for Android).
+</p>
+<p>
+Try to drive with lowest power level comfortable for you - if you get an electric motor according to 
+the power specifications shown by this utility, then you won't be able to go much faster.
+</p>
+<p>
+After logging the commute you need to save the logs as
+<a href="http://en.wikipedia.org/wiki/GPS_eXchange_Format">GPX</a> files.
+</p>
+<p>
+The last step is to set the vehicle parameters in the application form
+and upload the GPX files. In response you will get detailed
+power and energy statistics.
+</p>
+<h2>License</h2>
+<p>
+gpx2energy is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Foobar is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with gpx2energy.  If not, see
+<a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>.
+</p>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Data for gpx2energy</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"/>
+</head>
+<body>
+<h1>GPX2Energy - calculate your EV power and energy needs</h1>
+<a href="http://github.com/filip-zyzniewski/falochod/tree/master/calculator">Source code</a>
+<a href="manual">Instruction manual</a>
+<table class="toplevel">
+<tr>
+<td class="side">
+	<h2>Input</h2>
+	<form name="gpx2energy" method="POST" enctype="multipart/form-data" action="/">
+	<table>
+	<tr>
+		<td colspan="3"><h3>Vehicle data</h3></td>
+	</tr><tr>
+		<td colspan="2">Mass:</td><td><input type="text" name="mass" value="900"/> kg </td>
+	</tr><tr>
+		<td colspan="2">Frontal area:</td><td><input type="text" name="frontal_area" value="2"/> m<sup>2</sup></td>
+	</tr><tr>
+		<td colspan="2">Drag coefficient:</td><td><input type="text" name="cx" value="0.35"/></td>
+	</tr><tr>
+		<td colspan="2">Rolling resistance coefficient:</td><td><input type="text" name="rrc" value="0.01355"/> kg/kg</td>
+	</tr><tr>
+		<td colspan="2">Power:</td><td><input type="text" name="power" value="40"/> kW<a href="#badvalues">*</a></td>
+	</tr><tr>
+		<td colspan="2">Max speed:</td><td><input type="text" name="max_speed" value="100"/> km/h<a href="#badvalues">*</a></td>
+	</tr><tr>
+		<td rowspan="4">Efficiency:</td><td>Gearbox:</td><td><input type="text" name="gearbox_efficiency" value="90"/> %</td>
+	</tr><tr>
+			<td>Motor:</td><td><input type="text" name="motor_efficiency" value="87"/> %</td>
+	</tr><tr>
+			<td>Controller:</td><td><input type="text" name="controller_efficiency" value="95"/> %</td>
+	</tr><tr>
+			<td>Battery pack:</td><td><input type="text" name="battery_pack_efficiency" value="95"/> %</td>
+	</tr><tr>
+		<td colspan="3"><h3>Tracks</h3></td>
+	</tr><tr>
+		<td rowspan="2">GPX Files:</td><td>First:</td><td><input type="file" name="gpx1"/></td>
+	</tr><tr>
+		<td>Second:</td><td><input type="file" name="gpx2"/></td>
+	</tr><tr>
+		<td colspan="3"><input type="submit" name="submit" value="Upload"/></td>
+	</tr>
+	</table>
+	</form>
+</td>
+<td class="side">
+	<h2>Output</h2>
+	{% if commute %}
+		<table>
+		{% for track in commute.tracks + [commute] %}
+			<tr><td colspan="3"><h3>{{ getattr(track, 'filename', 'Total commute') }}</h3></td></tr>
+			{% for stat, url, value, unit in stats2table(track.stats) %}
+				<tr>
+					<td>
+						{% if url %}<a href="{{ url }}">{% endif %}
+						{{ stat }}
+						{% if url %}</a>{% endif %}
+					</td>
+					<td>{{ value }}</td>
+					<td>{{ unit }}</td>
+				</tr>
+			{% endfor %}
+		{% endfor %}
+		</table>
+	{% endif %}
+</td>
+</tr>
+</table>
+<p>Peak values might be wrong because of low elevation resolution of GPS.<p>
+<p id="badvalues">
+* Vehicle power and max speed are used to filter out bad points logged by the
+GPS receiver.
+
+</p>
+</body>
+</html>
