@@ -360,15 +360,20 @@ class Track(object):
 
     gpx_path = 'gpx:trk/gpx:trkseg'
 
-    def __init__(self, commute, filename):
+    def __init__(self, commute, file):
         self.commute = commute
         self.car = commute.car
-        self.filename = filename
+        if hasattr(file, 'read'):
+            self.file = file
+            self.filename = self.file.name
+        else:
+            self.file = file
+            self.filename = file
 
     @property
     def tree(self):
         "Parsed XML tree."
-        return xml.etree.ElementTree.parse(self.filename)
+        return xml.etree.ElementTree.parse(self.file)
 
     @property
     def trk(self):
@@ -502,16 +507,16 @@ class Commute(object):
     """Groups together tracks, for example two tracks
     for both directions of the commute."""
 
-    def __init__(self, car, filenames):
+    def __init__(self, car, files):
         self.car = car
-        self.filenames = filenames
+        self.files = files
 
     @prop
     def tracks(self):
         "Tracks making up this commute."
         tracks = []
-        for filename in self.filenames:
-            tracks.append(Track(self, filename))
+        for file in self.files:
+            tracks.append(Track(self, file))
         return tracks
 
     @prop
