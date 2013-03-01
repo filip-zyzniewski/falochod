@@ -73,12 +73,10 @@ class Car(object):
     motor_efficiency = 0.87
     gearbox_efficiency = 0.9
 
-    electrical_efficiency = battery_pack_efficiency * controller_efficiency
+    electrical_efficiency = battery_pack_efficiency * controller_efficiency * motor_efficiency
+    mechanical_efficiency = gearbox_efficiency
 
-    mechanical_efficiency = motor_efficiency * gearbox_efficiency
-
-
-    regen_efficiency = electrical_efficiency
+    efficiency = electrical_efficiency * mechanical_efficiency
 
 class Point(object):
     gpx_path = 'gpx:trkpt'
@@ -152,6 +150,7 @@ class Point(object):
             sinus = 1
 
         if -0.25 < sinus < 0.25:
+            # reasonable value
             return sinus
         else:
             if self.previous:
@@ -168,6 +167,7 @@ class Point(object):
         except ZeroDivisionError:
             cosinus = 0
         if 0.75 < cosinus <= 1: 
+            # reasonable value
             return cosinus
         else:
             if self.previous:
@@ -191,7 +191,7 @@ class Point(object):
         elif self.previous:
             return self.previous.speed
         else:
-            raise ValueError("impossible speed %s" % speed)
+            return 0
 
 
     @prop
@@ -236,29 +236,41 @@ class Point(object):
         return self.air_drag + self.rolling_resistance + self.incline_force + self.acceleration_force
 
     @prop
-    def power(self):
+    def power_at_wheels(self):
         # http://en.wikipedia.org/wiki/Power_(physics)#Mechanical_power
         power = self.force * self.speed
 
         assert -Car.power * 2 < power < Car.power * 1.2
 
-        if power >= 0:
-            power /= Car.mechanical_efficiency
-        else:
-            power *= Car.regen_efficiency
-
         return power
 
     @prop
-    def energy(self):
-        # http://en.wikipedia.org/wiki/Power_(physics)#Average_power
-        energy = self.power * self.period
-        if energy > 0:
-            energy /= Car.electrical_efficiency
+    def output_power(self):
+        if self.power_at_wheels > 0:
+            return self.power_at_wheels / Car.mechanical_efficiency
         else:
-            energy *= Car.electrical_efficiency
+            return 0
 
-        return energy
+    @prop
+    def regen_power(self):
+        if self.power_at_wheels > 0:
+            return 0
+        else:
+            return - self.power_at_wheels / Car.efficiency
+
+    @prop
+    def motor_power(self):
+        if self.power_at_wheels > 0:
+            return self.power_at_wheels / Car.mechanical_efficiency
+        else:
+            return - self.power_at_wheels * Car.mechanical_efficiency
+
+    @prop
+    def energy(self):
+        power = self.output_power / Car.electrical_efficiency
+        power -= self.regen_power * Car.electrical_efficiency
+        # http://en.wikipedia.org/wiki/Power_(physics)#Average_power
+        return power * self.period
 
     def __repr__(self):
         return '%s(%f, %f)' % (
@@ -339,16 +351,20 @@ class Track(object):
         return peak[0]*3600/1000, peak[1][0], peak[1][-1]
 
     @prop
-    def peak_power(self):
+    def peak_output_power(self):
         "Peak power needed [W]."
-        peak = max(self.sliding_window('power'))
+        peak = max(self.sliding_window('output_power'))
         return peak[0], peak[1][0], peak[1][-1]
 
     @prop
     def peak_regen_power(self):
         "Peak power available for regen [W]."
-        peak = min(self.sliding_window('power'))
-        return -peak[0], peak[1][0], peak[1][-1]
+        peak = max(self.sliding_window('regen_power'))
+        return peak[0], peak[1][0], peak[1][-1]
+
+    @prop
+    def average_motor_power(self):
+        return sum(point.motor_power for point in self.points)/len(self.points)
 
     @prop
     def steepest_incline(self):
@@ -380,9 +396,10 @@ class Track(object):
                 self.top_speed[0],
                 self.top_speed[1].url(self.top_speed[2])
             ),
-            'peak power': (
-                self.peak_power[0],
-                self.peak_power[1].url(self.peak_power[2])
+            'average motor power': self.average_motor_power,
+            'peak output power': (
+                self.peak_output_power[0],
+                self.peak_output_power[1].url(self.peak_output_power[2])
             ),
             'peak regen power': (
                 self.peak_regen_power[0],
@@ -435,8 +452,12 @@ class Commute(object):
         return self.energy/self.distance
 
     @prop
-    def peak_power(self):
-        return max(track.peak_power[0] for track in self.tracks)
+    def peak_output_power(self):
+        return max(track.peak_output_power[0] for track in self.tracks)
+    
+    @prop
+    def average_motor_power(self):
+        return sum(track.average_motor_power for track in self.tracks)/len(self.tracks)
 
     @prop
     def peak_regen_power(self):
@@ -459,7 +480,8 @@ class Commute(object):
             'top speed': self.top_speed,
             'energy': self.energy,
             'energy rate': self.energy_rate,
-            'peak power': self.peak_power,
+            'peak output power': self.peak_output_power,
+            'average motor power': self.average_motor_power,
             'peak regen power': self.peak_regen_power,
             'steepest incline': self.steepest_incline,
             'steepest decline': self.steepest_decline,
@@ -474,7 +496,8 @@ def print_stats(stats):
         ('top speed', 'km/h'),
         ('energy', 'Wh'),
         ('energy rate', 'Wh/km'),
-        ('peak power', 'W'),
+        ('average motor power', 'W'),
+        ('peak output power', 'W'),
         ('steepest incline', '%'),
         ('peak regen power', 'W'),
         ('steepest decline', '%')
