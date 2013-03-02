@@ -245,7 +245,7 @@ class Point(object):
         if self.power_at_wheels > 0:
             return 0
         else:
-            return - self.power_at_wheels / self.car.efficiency
+            return - self.power_at_wheels * self.car.efficiency
 
     @prop
     def motor_power(self):
