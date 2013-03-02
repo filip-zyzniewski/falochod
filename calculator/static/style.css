@@ -10,7 +10,7 @@ form[name="gpx2energy"] input[type="text"] {
 form[name="gpx2energy"] table td:first-child,
 form[name="gpx2energy"] table td[colspan="2"],
 form[name="gpx2energy"] table td[rowspan="2"] + td,
-form[name="gpx2energy"] table td[rowspan="4"] + td {
+form[name="gpx2energy"] table td[rowspan="5"] + td {
 	text-align: right;
 }
 
@@ -18,9 +18,9 @@ form[name="gpx2energy"] h3 {
 	text-align: center;
 }
 
-form[name="gpx2energy"] table td[rowspan="4"],
-form[name="gpx2energy"] table td[rowspan="4"] + td,
-form[name="gpx2energy"] table td[rowspan="4"] + td + td {
+form[name="gpx2energy"] table td[rowspan="5"],
+form[name="gpx2energy"] table td[rowspan="5"] + td,
+form[name="gpx2energy"] table td[rowspan="5"] + td + td {
 	padding-top: 4ex;
 }
 

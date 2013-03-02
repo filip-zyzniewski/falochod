@@ -59,7 +59,8 @@ def index():
             'battery_pack_efficiency',
             'controller_efficiency',
             'motor_efficiency',
-            'gearbox_efficiency'
+            'gearbox_efficiency',
+            'regen_efficiency'
         ]:
             form[efficiency] /= 100.0
 

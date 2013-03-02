@@ -72,6 +72,10 @@ class Car(object):
     motor_efficiency = 0.87
     gearbox_efficiency = 0.9
 
+    # for additional regen-related losses
+    # no losses for AC (it is symmetrical)
+    regen_efficiency = 1.0
+
     @prop
     def cda(self):
         "Drag area [m^2]."
@@ -97,6 +101,11 @@ class Car(object):
     @prop
     def efficiency(self):
         return self.electrical_efficiency * self.mechanical_efficiency
+
+    @prop
+    def total_regen_efficiency(self):
+        return self.efficiency * self.regen_efficiency
+        
 
 class Point(object):
     "Class representing a single point of a track."
@@ -245,7 +254,7 @@ class Point(object):
         if self.power_at_wheels > 0:
             return 0
         else:
-            return - self.power_at_wheels * self.car.efficiency
+            return - self.power_at_wheels * self.car.total_regen_efficiency
 
     @prop
     def motor_power(self):
@@ -260,7 +269,7 @@ class Point(object):
     def energy(self):
         "Energy used to travel from the previous point [J]."
         power = self.output_power / self.car.electrical_efficiency
-        power -= self.regen_power * self.car.electrical_efficiency
+        power -= self.regen_power 
         # http://en.wikipedia.org/wiki/Power_(physics)#Average_power
         return power * self.period
 
