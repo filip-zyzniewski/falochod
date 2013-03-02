@@ -40,12 +40,8 @@ def stats2table(stats):
 
         yield stat, url, value, unit
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def index():
-    return flask.redirect('./gpx2energy', 301)
-
-@app.route('/gpx2energy', methods=['GET', 'POST'])
-def gpx2energy():
     files = flask.request.files.values()
     files = [file for file in files if file.filename]
 
@@ -87,4 +83,4 @@ def manual():
     return flask.render_template('manual.html')
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run()

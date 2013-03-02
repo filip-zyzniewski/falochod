@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Data for gpx2energy</title>
+<title>GPX2Energy - calculate your EV power and energy needs</title>
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"/>
 </head>
 <body>
@@ -14,7 +14,7 @@
 <tr>
 <td class="side">
 	<h2>Input</h2>
-	<form name="gpx2energy" method="POST" enctype="multipart/form-data" action="./gpx2energy">
+	<form name="gpx2energy" method="POST" enctype="multipart/form-data" action="{{ url_for('index') }}">
 	<table>
 	<tr>
 		<td colspan="3"><h3>Vehicle data</h3></td>
