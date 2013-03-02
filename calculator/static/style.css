@@ -2,6 +2,10 @@ body {
 	font-family: sans-serif;
 }
 
+p.links a {
+	margin-right: 3em;
+}
+
 form[name="gpx2energy"] input[type="text"] {
 	width: 5em;
 	text-align: right;
