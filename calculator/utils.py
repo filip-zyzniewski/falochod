@@ -74,3 +74,9 @@ def print_stats(stats):
             stat,
             value
         )
+
+def total_seconds(delta):
+	total = delta.seconds
+	total += delta.days * 60*60*24
+	total += delta.microseconds/1000.0
+	return total

@@ -41,7 +41,9 @@ Car = track_physics.Car
 class Point(track_physics.Point):
     "Class representing a single point of a track."
 
-    gpx_path = 'gpx:trkpt'
+    gpx_path = '{%s}trkpt' % gpx_namespaces['gpx']
+    ele_path = '{%s}ele' % gpx_namespaces['gpx']
+    time_path = '{%s}time' % gpx_namespaces['gpx']
 
     def __init__(self, track, index, trkpt):
         self.track = track
@@ -49,8 +51,8 @@ class Point(track_physics.Point):
         self.index = index
         self.lat = float(trkpt.attrib['lat'])
         self.lon = float(trkpt.attrib['lon'])
-        self.elevation = float(trkpt.find('gpx:ele', gpx_namespaces).text)
-        time = trkpt.find('gpx:time', gpx_namespaces).text
+        self.elevation = float(trkpt.find(self.ele_path).text)
+        time = trkpt.find(self.time_path).text
         self.time = datetime.datetime.strptime(time[:-1],'%Y-%m-%dT%H:%M:%S.%f')
 
     @prop
@@ -109,7 +111,10 @@ class Point(track_physics.Point):
 class Track(track_physics.Track):
     "Class representing a track recorded with a GPS device."
 
-    gpx_path = 'gpx:trk/gpx:trkseg'
+    gpx_path = '{%s}trk/{%s}trkseg' % (
+        gpx_namespaces['gpx'],
+        gpx_namespaces['gpx']
+    )
 
     def __init__(self, commute, file):
         self.commute = commute
@@ -130,13 +135,13 @@ class Track(track_physics.Track):
     def trk(self):
         "Track segment from the XML tree."
         # For now I assume one trkseg per file.
-        trk, = self.tree.findall(self.gpx_path, gpx_namespaces)
+        trk, = self.tree.findall(self.gpx_path)
         return trk
 
     @prop
     def points(self):
         "A list of track points."
-        trkpts = self.trk.findall(Point.gpx_path, gpx_namespaces)
+        trkpts = self.trk.findall(Point.gpx_path)
         return  [
             Point(self, index, trkpt) for
             (index, trkpt) in enumerate(trkpts)

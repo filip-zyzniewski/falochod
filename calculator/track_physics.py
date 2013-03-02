@@ -25,7 +25,7 @@ License:
 """
 
 import math
-from utils import prop
+from utils import prop, total_seconds
 
 class Earth(object):
     "Class representing the Earth."
@@ -155,7 +155,7 @@ class Point(object):
     def period(self):
         "Time since the previous point [s]."
         if self.previous:
-            return (self.time - self.previous.time).total_seconds()
+            return total_seconds(self.time - self.previous.time)
         else:
             return 1
 
@@ -278,7 +278,7 @@ class Track(object):
     @prop
     def duration(self):
         "Duration of the journey [s]."
-        return (self.end_time - self.start_time).total_seconds() / 60.0
+        return total_seconds(self.end_time - self.start_time) / 60.0
 
     @prop
     def distance(self):
