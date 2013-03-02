@@ -27,9 +27,9 @@
 	</tr><tr>
 		<td colspan="2">Rolling resistance coefficient:</td><td><input type="text" name="rrc" value="{{ car.rrc }}"/> kg/kg</td>
 	</tr><tr>
-		<td colspan="2">Power:</td><td><input type="text" name="power" value="{{ car.power/1000.0 }}"/> kW<a href="#badvalues">*</a></td>
+		<td colspan="2">Power:</td><td><input type="text" name="power" value="{{ car.power/1000.0 }}"/> kW<a href="#badvalues"><sup>*</sup></a></td>
 	</tr><tr>
-		<td colspan="2">Max speed:</td><td><input type="text" name="max_speed" value="{{ car.max_speed*3600/1000.0 }}"/> km/h<a href="#badvalues">*</a></td>
+		<td colspan="2">Max speed:</td><td><input type="text" name="max_speed" value="{{ car.max_speed*3600/1000.0 }}"/> km/h<a href="#badvalues"><sup>*</sup></a></td>
 	</tr><tr>
 		<td rowspan="5">Efficiency:</td><td>Gearbox:</td><td><input type="text" name="gearbox_efficiency" value="{{ car.gearbox_efficiency*100 }}"/> %</td>
 	</tr><tr>
@@ -39,7 +39,7 @@
 	</tr><tr>
 			<td>Battery pack:</td><td><input type="text" name="battery_pack_efficiency" value="{{ car.battery_pack_efficiency*100 }}"/> %</td>
 	</tr><tr>
-			<td>Regen:</td><td><input type="text" name="regen_efficiency" value="{{ car.regen_efficiency*100 }}"/> %<a href="#regen">**</a></td>
+			<td>Regen:</td><td><input type="text" name="regen_efficiency" value="{{ car.regen_efficiency*100 }}"/> %<a href="#regen"><sup>**</sup></a></td>
 	</tr><tr>
 		<td colspan="3"><h3>Tracks</h3></td>
 	</tr><tr>
@@ -63,7 +63,7 @@
 					<td>
 						{% if url %}<a href="{{ url }}">{% endif %}
 						{{ stat }}
-						{% if url %}</a><a href="#links">***</a>{% endif %}
+						{% if url %}</a><a href="#links"><sup>***</sup></a>{% endif %}
 					</td>
 					<td>{{ value }}</td>
 					<td>{{ unit }}</td>
@@ -76,17 +76,17 @@
 </tr>
 </table>
 <p id="badvalues">
-* Vehicle power and max speed are used to filter out bad points logged by the
+<sup>*</sup> Vehicle power and max speed are used to filter out bad points logged by the
 GPS receiver.
 </p>
 <p id="regen">
-** Regen efficiency results from additional losses except for the ones nominal
+<sup>**</sup> Regen efficiency results from additional losses except for the ones nominal
 for the propulsion mode of the drivetrain. For an ACIM motor propulsion and
 braking modes are symmetrical, so there are no additional regen specific losses
 and regen efficiency is 100%.
 </p>
 <p id="links">
-*** Some value names are links - these links lead to google maps rendition
+<sup>***</sup> Some value names are links - these links lead to google maps rendition
 of the track fragment where the value has been achieved.
 Note that peak values might be wrong because of low elevation resolution of GPS.
 </p>
