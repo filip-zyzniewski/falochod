@@ -45,6 +45,8 @@ def index():
     files = flask.request.files.values()
     files = [file for file in files if file.filename]
 
+    car = track_gpx.Car()
+
     if flask.request.method == 'POST' and files:
         form = dict(flask.request.form)
         form.pop('submit')
@@ -61,7 +63,6 @@ def index():
         ]:
             form[efficiency] /= 100.0
 
-        car = track_gpx.Car()
         vars(car).update(form)
 
         for file in files:
@@ -74,6 +75,7 @@ def index():
 
     return flask.render_template('gpx2energy.html',
         commute=commute,
+        car=car,
         stats2table=stats2table,
         getattr=getattr
     )

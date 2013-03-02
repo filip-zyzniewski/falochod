@@ -19,25 +19,25 @@
 	<tr>
 		<td colspan="3"><h3>Vehicle data</h3></td>
 	</tr><tr>
-		<td colspan="2">Mass:</td><td><input type="text" name="mass" value="900"/> kg </td>
+		<td colspan="2">Mass:</td><td><input type="text" name="mass" value="{{ car.mass }}"/> kg </td>
 	</tr><tr>
-		<td colspan="2">Frontal area:</td><td><input type="text" name="frontal_area" value="2"/> m<sup>2</sup></td>
+		<td colspan="2">Frontal area:</td><td><input type="text" name="frontal_area" value="{{ car.frontal_area }}"/> m<sup>2</sup></td>
 	</tr><tr>
-		<td colspan="2">Drag coefficient:</td><td><input type="text" name="cx" value="0.35"/></td>
+		<td colspan="2">Drag coefficient:</td><td><input type="text" name="cx" value="{{ car.cx }}"/></td>
 	</tr><tr>
-		<td colspan="2">Rolling resistance coefficient:</td><td><input type="text" name="rrc" value="0.01355"/> kg/kg</td>
+		<td colspan="2">Rolling resistance coefficient:</td><td><input type="text" name="rrc" value="{{ car.rrc }}"/> kg/kg</td>
 	</tr><tr>
-		<td colspan="2">Power:</td><td><input type="text" name="power" value="40"/> kW<a href="#badvalues">*</a></td>
+		<td colspan="2">Power:</td><td><input type="text" name="power" value="{{ car.power/1000.0 }}"/> kW<a href="#badvalues">*</a></td>
 	</tr><tr>
-		<td colspan="2">Max speed:</td><td><input type="text" name="max_speed" value="100"/> km/h<a href="#badvalues">*</a></td>
+		<td colspan="2">Max speed:</td><td><input type="text" name="max_speed" value="{{ car.max_speed*3600/1000.0 }}"/> km/h<a href="#badvalues">*</a></td>
 	</tr><tr>
-		<td rowspan="4">Efficiency:</td><td>Gearbox:</td><td><input type="text" name="gearbox_efficiency" value="90"/> %</td>
+		<td rowspan="4">Efficiency:</td><td>Gearbox:</td><td><input type="text" name="gearbox_efficiency" value="{{ car.gearbox_efficiency*100 }}"/> %</td>
 	</tr><tr>
-			<td>Motor:</td><td><input type="text" name="motor_efficiency" value="87"/> %</td>
+			<td>Motor:</td><td><input type="text" name="motor_efficiency" value="{{ car.motor_efficiency*100 }}"/> %</td>
 	</tr><tr>
-			<td>Controller:</td><td><input type="text" name="controller_efficiency" value="95"/> %</td>
+			<td>Controller:</td><td><input type="text" name="controller_efficiency" value="{{ car.controller_efficiency*100 }}"/> %</td>
 	</tr><tr>
-			<td>Battery pack:</td><td><input type="text" name="battery_pack_efficiency" value="95"/> %</td>
+			<td>Battery pack:</td><td><input type="text" name="battery_pack_efficiency" value="{{ car.battery_pack_efficiency*100 }}"/> %</td>
 	</tr><tr>
 		<td colspan="3"><h3>Tracks</h3></td>
 	</tr><tr>
