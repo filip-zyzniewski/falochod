@@ -53,10 +53,6 @@ class Car(object):
     # http://clubsmartcar.com/index.php?showtopic=9972
     frontal_area = 1.95 # [m^2]
 
-    # Drag area
-    # http://en.wikipedia.org/wiki/Drag_area
-    cda = cx * frontal_area # [m^2]
-
     # including the driver and batteries
     mass = 880 # [kg]
 
@@ -69,12 +65,18 @@ class Car(object):
     power = 40000
     
     # max speed [m/s]
-    max_speed = 100*1000/3600
+    max_speed = 100*1000/3600.0
     
     battery_pack_efficiency = 0.95
     controller_efficiency = 0.95
     motor_efficiency = 0.87
     gearbox_efficiency = 0.9
+
+    @prop
+    def cda(self):
+        "Drag area [m^2]."
+        # http://en.wikipedia.org/wiki/Drag_area
+        return self.cx * self.frontal_area
 
     @prop
     def weight(self):
@@ -199,13 +201,13 @@ class Point(object):
     def rolling_resistance(self):
         "Force of rolling resistance [N]."
         # http://en.wikipedia.org/wiki/Rolling_resistance#Rolling_resistance_coefficient
-        return self.car.rrc * self.car.mass * Earth.g * self.incline_cosine
+        return self.car.rrc * self.car.weight * self.incline_cosine
 
     @prop
     def incline_force(self):
         "Gravitational backwards force of the incline [N]."
         # http://en.wikipedia.org/wiki/Inclined_plane#Frictionless_inclined_plane
-        return self.car.mass * Earth.g * self.incline_sine
+        return self.car.weight * self.incline_sine
 
 
     @prop
