@@ -1,4 +1,5 @@
 import flask
+import logging
 import track_gpx
 import utils
 
@@ -84,6 +85,10 @@ def index():
 @app.route('/manual')
 def manual():
     return flask.render_template('manual.html')
+
+log_handler = logging.StreamHandler()
+log_handler.setLevel(logging.WARNING)
+app.logger.addHandler(log_handler)
 
 if __name__ == '__main__':
     app.run()
