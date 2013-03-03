@@ -1,0 +1,1398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
+ <office:meta><meta:initial-creator>Filip Å»yÅºniewski</meta:initial-creator><meta:creation-date>2013-03-02T18:16:58</meta:creation-date><meta:generator>LibreOffice/3.6$Linux_X86_64 LibreOffice_project/360m1$Build-2</meta:generator><meta:document-statistic meta:table-count="1" meta:cell-count="345" meta:object-count="0"/></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">27913</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">16868</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
+     <config:config-item-map-named config:name="Tables">
+      <config:config-item-map-entry config:name="Arkusz1">
+       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">39</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">24</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+      </config:config-item-map-entry>
+     </config:config-item-map-named>
+     <config:config-item config:name="ActiveTable" config:type="string">Arkusz1</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">270</config:config-item>
+     <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+     <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+     <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+     <config:config-item config:name="ShowPageBreakPreview" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="GridColor" config:type="long">12632256</config:config-item>
+     <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterResolutionX" config:type="int">1000</config:config-item>
+     <config:config-item config:name="RasterResolutionY" config:type="int">1000</config:config-item>
+     <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+     <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+     <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsDocumentShared" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="GridColor" config:type="long">12632256</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item-map-indexed config:name="ForbiddenCharacters">
+    <config:config-item-map-entry>
+     <config:config-item config:name="Language" config:type="string">pl</config:config-item>
+     <config:config-item config:name="Country" config:type="string">PL</config:config-item>
+     <config:config-item config:name="Variant" config:type="string"/>
+     <config:config-item config:name="BeginLine" config:type="string"/>
+     <config:config-item config:name="EndLine" config:type="string"/>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+   <config:config-item config:name="AutoCalculate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+   <config:config-item config:name="RasterResolutionY" config:type="int">1000</config:config-item>
+   <config:config-item config:name="RasterResolutionX" config:type="int">1000</config:config-item>
+   <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">3</config:config-item>
+   <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <ooo:library-embedded ooo:name="Standard"/>
+   </ooo:libraries>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="Arial1" svg:font-family="Arial" style:font-adornments="Normalny" style:font-family-generic="swiss"/>
+  <style:font-face style:name="Times New Roman" svg:font-family="&apos;Times New Roman&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="Arial" svg:font-family="Arial" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="DejaVu Sans" svg:font-family="&apos;DejaVu Sans&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Lohit Hindi" svg:font-family="&apos;Lohit Hindi&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="table-cell">
+   <style:paragraph-properties style:tab-stop-distance="1.25cm"/>
+   <style:text-properties style:font-name="Arial" fo:language="pl" fo:country="PL" style:font-name-asian="DejaVu Sans" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="DejaVu Sans" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <number:number-style style:name="N0">
+   <number:number number:min-integer-digits="1"/>
+  </number:number-style>
+  <number:currency-style style:name="N107P0" style:volatile="true">
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+   <number:currency-symbol number:language="pl" number:country="PL">zł</number:currency-symbol>
+  </number:currency-style>
+  <number:currency-style style:name="N107">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>-</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+   <number:currency-symbol number:language="pl" number:country="PL">zł</number:currency-symbol>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N107P0"/>
+  </number:currency-style>
+  <style:style style:name="Default" style:family="table-cell">
+   <style:text-properties style:font-name-complex="Lohit Hindi"/>
+  </style:style>
+  <style:style style:name="Result" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-style="italic" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Result2" style:family="table-cell" style:parent-style-name="Result" style:data-style-name="N107"/>
+  <style:style style:name="Heading" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties fo:font-size="16pt" fo:font-style="italic" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Heading1" style:family="table-cell" style:parent-style-name="Heading">
+   <style:table-cell-properties style:rotation-angle="90"/>
+  </style:style>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="co1" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.258cm"/>
+  </style:style>
+  <style:style style:name="co2" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.614cm"/>
+  </style:style>
+  <style:style style:name="co3" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.722cm"/>
+  </style:style>
+  <style:style style:name="ro1" style:family="table-row">
+   <style:table-row-properties style:row-height="0.446cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro2" style:family="table-row">
+   <style:table-row-properties style:row-height="0.427cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro3" style:family="table-row">
+   <style:table-row-properties style:row-height="0.841cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ta1" style:family="table" style:master-page-name="Default">
+   <style:table-properties table:display="true" style:writing-mode="lr-tb"/>
+  </style:style>
+  <number:percentage-style style:name="N11">
+   <number:number number:decimal-places="2" number:min-integer-digits="1"/>
+   <number:text>%</number:text>
+  </number:percentage-style>
+  <style:style style:name="ce1" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap"/>
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0cm"/>
+  </style:style>
+  <style:style style:name="ce2" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N11"/>
+  <style:style style:name="ce3" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:wrap-option="wrap"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:font-name="Times New Roman" fo:font-size="10pt" fo:language="pl" fo:country="PL" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="DejaVu Sans" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.75cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-bottom="0.25cm"/>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.75cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.25cm"/>
+   </style:footer-style>
+  </style:page-layout>
+  <style:page-layout style:name="pm2">
+   <style:page-layout-properties style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.75cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-bottom="0.25cm" fo:border="2.49pt solid #000000" fo:padding="0.018cm" fo:background-color="#c0c0c0">
+     <style:background-image/>
+    </style:header-footer-properties>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.75cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.25cm" fo:border="2.49pt solid #000000" fo:padding="0.018cm" fo:background-color="#c0c0c0">
+     <style:background-image/>
+    </style:header-footer-properties>
+   </style:footer-style>
+  </style:page-layout>
+  <style:style style:name="T1" style:family="text">
+   <style:text-properties style:font-name="Arial1"/>
+  </style:style>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Default" style:page-layout-name="pm1">
+   <style:header>
+    <text:p><text:sheet-name>???</text:sheet-name></text:p>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:footer>
+    <text:p>Strona <text:page-number>1</text:page-number></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+  <style:master-page style:name="Report" style:page-layout-name="pm2">
+   <style:header>
+    <style:region-left>
+     <text:p><text:sheet-name>???</text:sheet-name> (<text:title>???</text:title>)</text:p>
+    </style:region-left>
+    <style:region-right>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2013-03-03">00.00.0000</text:date>, <text:time style:data-style-name="N2" text:time-value="0000-00-00T18:49:03">?</text:time></text:p>
+    </style:region-right>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:footer>
+    <text:p>Strona <text:page-number>1</text:page-number> / <text:page-count>99</text:page-count></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+ </office:master-styles>
+ <office:body>
+  <office:spreadsheet>
+   <table:table table:name="Arkusz1" table:style-name="ta1">
+    <table:table-column table:style-name="co1" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co2" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co1" table:number-columns-repeated="6" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co3" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co1" table:number-columns-repeated="3" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>IC infrared receivers</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="11"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="12"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>VAT rate</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce2" office:value-type="percentage" office:value="0.23">
+      <text:p>23,00%</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1+[.B3]" office:value-type="percentage" office:value="1.23">
+      <text:p>123,00%</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="9"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Supply min</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.5">
+      <text:p>2,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>V</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="9"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Supply max</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4.5">
+      <text:p>4,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>V</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="9"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce1" table:number-columns-repeated="4"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce1"/>
+     <table:table-cell table:style-name="ce1" office:value-type="string" table:number-columns-spanned="2" table:number-rows-spanned="1">
+      <text:p>Supply voltage [V]</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="ce1"/>
+     <table:table-cell table:style-name="ce1" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:style-name="ce1" office:value-type="string">
+      <text:p>Vendor</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" office:value-type="string">
+      <text:p>Model</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" office:value-type="string">
+      <text:p>Price</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" office:value-type="string">
+      <text:p>URL</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" office:value-type="string">
+      <text:p>Wavelength [nm]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" office:value-type="string">
+      <text:p>Frequency [kHz]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" office:value-type="string">
+      <text:p>min</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" office:value-type="string">
+      <text:p>max</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" office:value-type="string">
+      <text:p>Supply current [<text:span text:style-name="T1">m</text:span>A]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce1" office:value-type="string">
+      <text:p>Min pulse len [ms]</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Bitrate [kbps]</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Huey Jann Electronic</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>IR2638</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=2.99*vat" office:value-type="float" office:value="3.6777">
+      <text:p>3,6777</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="http://www.tme.eu/pl/details/ir2638/odbiorniki-podczerwieni-scalone/huey-jann-electronic/">http://www.tme.eu/pl/details/ir2638/odbiorniki-podczerwieni-scalone/huey-jann-electronic/</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="940">
+      <text:p>940</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38">
+      <text:p>38</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4.5">
+      <text:p>4,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="3">
+      <text:p>3</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.8">
+      <text:p>0,8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J8]/2" office:value-type="float" office:value="0.625">
+      <text:p>0,625</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Huey Jann Electronic</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>IR5040</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1.86*vat" office:value-type="float" office:value="2.2878">
+      <text:p>2,2878</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="http://www.tme.eu/pl/details/ir5040/odbiorniki-podczerwieni-scalone/huey-jann-electronic/#">http://www.tme.eu/pl/details/ir5040/odbiorniki-podczerwieni-scalone/huey-jann-electronic/#</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="940">
+      <text:p>940</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38">
+      <text:p>38</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.7">
+      <text:p>2,7</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5">
+      <text:p>5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.5">
+      <text:p>1,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.8">
+      <text:p>0,8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J9]/2" office:value-type="float" office:value="0.625">
+      <text:p>0,625</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Huey Jann Electronic</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>IR5240</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=2.04*vat" office:value-type="float" office:value="2.5092">
+      <text:p>2,5092</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="http://www.tme.eu/pl/details/ir5240/odbiorniki-podczerwieni-scalone/huey-jann-electronic/#">http://www.tme.eu/pl/details/ir5240/odbiorniki-podczerwieni-scalone/huey-jann-electronic/#</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="940">
+      <text:p>940</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="40">
+      <text:p>40</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.7">
+      <text:p>2,7</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5">
+      <text:p>5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.5">
+      <text:p>1,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.8">
+      <text:p>0,8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J10]/2" office:value-type="float" office:value="0.625">
+      <text:p>0,625</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Huey Jann Electronic</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>IR5440</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1.3*vat" office:value-type="float" office:value="1.599">
+      <text:p>1,599</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="http://www.tme.eu/pl/details/ir5440/odbiorniki-podczerwieni-scalone/huey-jann-electronic/#">http://www.tme.eu/pl/details/ir5440/odbiorniki-podczerwieni-scalone/huey-jann-electronic/#</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="940">
+      <text:p>940</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="36">
+      <text:p>36</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.7">
+      <text:p>2,7</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5">
+      <text:p>5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.5">
+      <text:p>1,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.8">
+      <text:p>0,8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J11]/2" office:value-type="float" office:value="0.625">
+      <text:p>0,625</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Optosupply</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>OSRB38C9AA</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=0.81*vat" office:value-type="float" office:value="0.9963">
+      <text:p>0,9963</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="http://www.tme.eu/pl/details/osrb38c9aa/odbiorniki-podczerwieni-scalone/optosupply/#">http://www.tme.eu/pl/details/osrb38c9aa/odbiorniki-podczerwieni-scalone/optosupply/#</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="940">
+      <text:p>940</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="37.9">
+      <text:p>37,9</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.7">
+      <text:p>2,7</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.9">
+      <text:p>0,9</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.8">
+      <text:p>0,8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J12]/2" office:value-type="float" office:value="0.625">
+      <text:p>0,625</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Optosupply</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>OSRB38C9BA</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=0.77*vat" office:value-type="float" office:value="0.9471">
+      <text:p>0,9471</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="http://www.tme.eu/pl/details/osrb38c9ba/odbiorniki-podczerwieni-scalone/optosupply/#">http://www.tme.eu/pl/details/osrb38c9ba/odbiorniki-podczerwieni-scalone/optosupply/#</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="940">
+      <text:p>940</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="37.9">
+      <text:p>37,9</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.7">
+      <text:p>2,7</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.9">
+      <text:p>0,9</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.8">
+      <text:p>0,8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J13]/2" office:value-type="float" office:value="0.625">
+      <text:p>0,625</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Vishay</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TSOP1133</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.525">
+      <text:p>1,525</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="https://sklep.eltron.pl/product-view.html?id=189804&amp;gn=4∏uctGroup=92">https://sklep.eltron.pl/product-view.html?id=189804&amp;gn=4&amp;productGroup=92</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="940">
+      <text:p>940</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="33">
+      <text:p>33</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4.5">
+      <text:p>4,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1000*1/2200/2" office:value-type="float" office:value="0.227272727272727">
+      <text:p>0,2272727273</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J14]/2" office:value-type="float" office:value="2.2">
+      <text:p>2,2</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Vishay</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TSOP1138</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1.67*vat" office:value-type="float" office:value="2.0541">
+      <text:p>2,0541</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="http://www.tme.eu/pl/details/tsop1138/odbiorniki-podczerwieni-scalone/#">http://www.tme.eu/pl/details/tsop1138/odbiorniki-podczerwieni-scalone/#</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="940">
+      <text:p>940</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38">
+      <text:p>38</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4.5">
+      <text:p>4,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1000*1/2200/2" office:value-type="float" office:value="0.227272727272727">
+      <text:p>0,2272727273</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J15]/2" office:value-type="float" office:value="2.2">
+      <text:p>2,2</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Vishay</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TSOP1238</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=2.46*vat" office:value-type="float" office:value="3.0258">
+      <text:p>3,0258</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="http://www.tme.eu/pl/details/tsop1238/odbiorniki-podczerwieni-scalone/vishay/#">http://www.tme.eu/pl/details/tsop1238/odbiorniki-podczerwieni-scalone/vishay/#</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="940">
+      <text:p>940</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38">
+      <text:p>38</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4.5">
+      <text:p>4,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.5">
+      <text:p>1,5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1000*1/800/2" office:value-type="float" office:value="0.625">
+      <text:p>0,625</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J16]/2" office:value-type="float" office:value="0.8">
+      <text:p>0,8</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Vishay</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TSOP2236</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.8119">
+      <text:p>1,8119</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="https://sklep.eltron.pl/product-view.html?id=189811&amp;gn=4∏uctGroup=92">https://sklep.eltron.pl/product-view.html?id=189811&amp;gn=4&amp;productGroup=92</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="940">
+      <text:p>940</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="36">
+      <text:p>36</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4.5">
+      <text:p>4,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.1">
+      <text:p>1,1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1000*1/800/2" office:value-type="float" office:value="0.625">
+      <text:p>0,625</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J17]/2" office:value-type="float" office:value="0.8">
+      <text:p>0,8</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Vishay</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TSOP2238</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.6304">
+      <text:p>1,6304</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="https://sklep.eltron.pl/product-view.html?id=189812&amp;gn=4∏uctGroup=92">https://sklep.eltron.pl/product-view.html?id=189812&amp;gn=4&amp;productGroup=92</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="940">
+      <text:p>940</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38">
+      <text:p>38</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4.5">
+      <text:p>4,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.1">
+      <text:p>1,1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1000*1/800/2" office:value-type="float" office:value="0.625">
+      <text:p>0,625</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J18]/2" office:value-type="float" office:value="0.8">
+      <text:p>0,8</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Vishay</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TSOP31236</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.5007">
+      <text:p>1,5007</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="https://sklep.eltron.pl/product-view.html?id=200097&amp;gn=4∏uctGroup">https://sklep.eltron.pl/product-view.html?id=200097&amp;gn=4&amp;productGroup</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="940">
+      <text:p>940</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="36">
+      <text:p>36</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.5">
+      <text:p>2,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.35">
+      <text:p>0,35</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1000*1/1800/2" office:value-type="float" office:value="0.277777777777778">
+      <text:p>0,2777777778</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J19]/2" office:value-type="float" office:value="1.8">
+      <text:p>1,8</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Vishay</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TSOP31238</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.5007">
+      <text:p>1,5007</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="https://sklep.eltron.pl/product-view.html?id=200098&amp;gn=4&amp;productGroup">https://sklep.eltron.pl/product-view.html?id=200098&amp;gn=4&amp;productGroup</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="940">
+      <text:p>940</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38">
+      <text:p>38</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.5">
+      <text:p>2,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.35">
+      <text:p>0,35</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1000*1/1800/2" office:value-type="float" office:value="0.277777777777778">
+      <text:p>0,2777777778</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J20]/2" office:value-type="float" office:value="1.8">
+      <text:p>1,8</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Vishay</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TSOP31240</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.7666">
+      <text:p>1,7666</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="https://sklep.eltron.pl/product-view.html?id=189813&amp;gn=4∏uctGroup=92">https://sklep.eltron.pl/product-view.html?id=189813&amp;gn=4&amp;productGroup=92</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="940">
+      <text:p>940</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="40">
+      <text:p>40</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.5">
+      <text:p>2,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.35">
+      <text:p>0,35</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1000*1/1800" office:value-type="float" office:value="0.555555555555556">
+      <text:p>0,5555555556</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J21]/2" office:value-type="float" office:value="0.9">
+      <text:p>0,9</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Vishay</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TSOP32156</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1.54*vat" office:value-type="float" office:value="1.8942">
+      <text:p>1,8942</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="http://www.tme.eu/pl/details/tsop32156/odbiorniki-podczerwieni-scalone/vishay/#">http://www.tme.eu/pl/details/tsop32156/odbiorniki-podczerwieni-scalone/vishay/#</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="950">
+      <text:p>950</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="56">
+      <text:p>56</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.7">
+      <text:p>2,7</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.2">
+      <text:p>1,2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1000*1/2200/2" office:value-type="float" office:value="0.227272727272727">
+      <text:p>0,2272727273</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J22]/2" office:value-type="float" office:value="2.2">
+      <text:p>2,2</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Vishay</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TSOP32230</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=2.02*vat" office:value-type="float" office:value="2.4846">
+      <text:p>2,4846</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="http://www.tme.eu/pl/details/tsop32230/odbiorniki-podczerwieni-scalone/vishay/#">http://www.tme.eu/pl/details/tsop32230/odbiorniki-podczerwieni-scalone/vishay/#</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="950">
+      <text:p>950</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="30">
+      <text:p>30</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.7">
+      <text:p>2,7</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.2">
+      <text:p>1,2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1000*1/800/2" office:value-type="float" office:value="0.625">
+      <text:p>0,625</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J23]/2" office:value-type="float" office:value="0.8">
+      <text:p>0,8</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Vishay</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TSOP34830</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1.48*vat" office:value-type="float" office:value="1.8204">
+      <text:p>1,8204</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="http://www.tme.eu/pl/details/tsop34830/odbiorniki-podczerwieni-scalone/vishay/#">http://www.tme.eu/pl/details/tsop34830/odbiorniki-podczerwieni-scalone/vishay/#</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="950">
+      <text:p>950</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="30">
+      <text:p>30</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.7">
+      <text:p>2,7</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.2">
+      <text:p>1,2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1000*1/800/2" office:value-type="float" office:value="0.625">
+      <text:p>0,625</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J24]/2" office:value-type="float" office:value="0.8">
+      <text:p>0,8</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Vishay</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TSOP34836</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.4131">
+      <text:p>1,4131</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="https://sklep.eltron.pl/product-view.html?id=189815&amp;gn=4∏uctGroup=92">https://sklep.eltron.pl/product-view.html?id=189815&amp;gn=4&amp;productGroup=92</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="950">
+      <text:p>950</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="36">
+      <text:p>36</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.7">
+      <text:p>2,7</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.2">
+      <text:p>1,2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1000*1/800" office:value-type="float" office:value="1.25">
+      <text:p>1,25</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J25]/2" office:value-type="float" office:value="0.4">
+      <text:p>0,4</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Vishay</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TSOP34838</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.4494">
+      <text:p>1,4494</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="https://sklep.eltron.pl/product-view.html?id=189816&amp;gn=4∏uctGroup=92">https://sklep.eltron.pl/product-view.html?id=189816&amp;gn=4&amp;productGroup=92</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="950">
+      <text:p>950</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38">
+      <text:p>38</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.7">
+      <text:p>2,7</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.2">
+      <text:p>1,2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1000*1/800/2" office:value-type="float" office:value="0.625">
+      <text:p>0,625</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J26]/2" office:value-type="float" office:value="0.8">
+      <text:p>0,8</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Vishay</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TSOP4133</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=2.14*vat" office:value-type="float" office:value="2.6322">
+      <text:p>2,6322</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="http://www.tme.eu/pl/details/tsop4133/odbiorniki-podczerwieni-scalone/vishay/#">http://www.tme.eu/pl/details/tsop4133/odbiorniki-podczerwieni-scalone/vishay/#</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="950">
+      <text:p>950</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="33">
+      <text:p>33</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4.5">
+      <text:p>4,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.2">
+      <text:p>1,2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1000*1/2200/2" office:value-type="float" office:value="0.227272727272727">
+      <text:p>0,2272727273</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J27]/2" office:value-type="float" office:value="2.2">
+      <text:p>2,2</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Vishay</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TSOP4833</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1.42*vat" office:value-type="float" office:value="1.7466">
+      <text:p>1,7466</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="http://www.tme.eu/pl/details/tsop4833/odbiorniki-podczerwieni-scalone/vishay/#">http://www.tme.eu/pl/details/tsop4833/odbiorniki-podczerwieni-scalone/vishay/#</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="950">
+      <text:p>950</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="33">
+      <text:p>33</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4.5">
+      <text:p>4,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.2">
+      <text:p>1,2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1000*1/800/2" office:value-type="float" office:value="0.625">
+      <text:p>0,625</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J28]/2" office:value-type="float" office:value="0.8">
+      <text:p>0,8</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Vishay</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TSOP4836</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1.86*vat" office:value-type="float" office:value="2.2878">
+      <text:p>2,2878</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="http://www.tme.eu/pl/details/tsop4836/odbiorniki-podczerwieni-scalone/vishay/#">http://www.tme.eu/pl/details/tsop4836/odbiorniki-podczerwieni-scalone/vishay/#</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="950">
+      <text:p>950</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="36">
+      <text:p>36</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4.5">
+      <text:p>4,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.2">
+      <text:p>1,2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1000*1/800/2" office:value-type="float" office:value="0.625">
+      <text:p>0,625</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J29]/2" office:value-type="float" office:value="0.8">
+      <text:p>0,8</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Vishay</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TSOP4838</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1.67*vat" office:value-type="float" office:value="2.0541">
+      <text:p>2,0541</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="http://www.tme.eu/pl/details/tsop4838/odbiorniki-podczerwieni-scalone/vishay/#">http://www.tme.eu/pl/details/tsop4838/odbiorniki-podczerwieni-scalone/vishay/#</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="950">
+      <text:p>950</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38">
+      <text:p>38</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4.5">
+      <text:p>4,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.2">
+      <text:p>1,2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1000*1/800/2" office:value-type="float" office:value="0.625">
+      <text:p>0,625</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J30]/2" office:value-type="float" office:value="0.8">
+      <text:p>0,8</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Vishay</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TSOP4840</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.5186">
+      <text:p>1,5186</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="https://sklep.eltron.pl/product-view.html?id=189818&amp;gn=4∏uctGroup=92">https://sklep.eltron.pl/product-view.html?id=189818&amp;gn=4&amp;productGroup=92</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="950">
+      <text:p>950</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="40">
+      <text:p>40</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4.5">
+      <text:p>4,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.2">
+      <text:p>1,2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1000*1/800/2" office:value-type="float" office:value="0.625">
+      <text:p>0,625</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J31]/2" office:value-type="float" office:value="0.8">
+      <text:p>0,8</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Everlight</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ELIRM2638</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.3167">
+      <text:p>1,3167</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="https://sklep.eltron.pl/product-view.html?id=175418&amp;gn=4∏uctGroup=92">https://sklep.eltron.pl/product-view.html?id=175418&amp;gn=4&amp;productGroup=92</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="940">
+      <text:p>940</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38">
+      <text:p>38</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2" office:value-type="float" office:value="5">
+      <text:p>5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.2">
+      <text:p>1,2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.8">
+      <text:p>0,8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J32]/2" office:value-type="float" office:value="0.625">
+      <text:p>0,625</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Everlight</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ELIRM2638F4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.794">
+      <text:p>1,794</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="https://sklep.eltron.pl/product-view.html?id=175420&amp;gn=4∏uctGroup=92">https://sklep.eltron.pl/product-view.html?id=175420&amp;gn=4&amp;productGroup=92</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="940">
+      <text:p>940</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="38">
+      <text:p>38</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2" office:value-type="float" office:value="5">
+      <text:p>5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.2">
+      <text:p>1,2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.8">
+      <text:p>0,8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J33]/2" office:value-type="float" office:value="0.625">
+      <text:p>0,625</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Everlight</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ELIRM2756</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.6692">
+      <text:p>2,6692</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="https://sklep.eltron.pl/product-view.html?id=175425&amp;gn=4∏uctGroup=92">https://sklep.eltron.pl/product-view.html?id=175425&amp;gn=4&amp;productGroup=92</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="940">
+      <text:p>940</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="56">
+      <text:p>56</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2" office:value-type="float" office:value="5">
+      <text:p>5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.2">
+      <text:p>1,2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.8">
+      <text:p>0,8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J34]/2" office:value-type="float" office:value="0.625">
+      <text:p>0,625</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Everlight</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ELIRM8752M2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2.1923">
+      <text:p>2,1923</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce3" office:value-type="string">
+      <text:p><text:a xlink:href="https://sklep.eltron.pl/product-view.html?id=192862&amp;gn=4∏uctGroup=92">https://sklep.eltron.pl/product-view.html?id=192862&amp;gn=4&amp;productGroup=92</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="940">
+      <text:p>940</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="56">
+      <text:p>56</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2" office:value-type="float" office:value="5">
+      <text:p>5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.8">
+      <text:p>0,8</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1/[.J35]/2" office:value-type="float" office:value="0.625">
+      <text:p>0,625</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Siemens</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SFH506</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="float" office:value="950">
+      <text:p>950</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>30,33,36</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4.5">
+      <text:p>4,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="0.6">
+      <text:p>0,6</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string">
+      <text:p>EOLed</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Siemens</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SFH5110</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="float" office:value="940">
+      <text:p>940</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>30,33,36,38,40</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4.5">
+      <text:p>4,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5.5">
+      <text:p>5,5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1.3">
+      <text:p>1,3</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="3"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2" table:number-rows-repeated="1048538">
+     <table:table-cell table:number-columns-repeated="12"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="12"/>
+    </table:table-row>
+   </table:table>
+   <table:named-expressions>
+    <table:named-range table:name="supply_max" table:base-cell-address="$Arkusz1.$B$5" table:cell-range-address="$Arkusz1.$B$5"/>
+    <table:named-range table:name="supply_min" table:base-cell-address="$Arkusz1.$B$4" table:cell-range-address="$Arkusz1.$B$4"/>
+    <table:named-range table:name="vat" table:base-cell-address="$Arkusz1.$C$3" table:cell-range-address="$Arkusz1.$C$3"/>
+   </table:named-expressions>
+  </office:spreadsheet>
+ </office:body>
+</office:document>
