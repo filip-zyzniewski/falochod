@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:generator>LibreOffice/3.6$Linux_X86_64 LibreOffice_project/360m1$Build-2</meta:generator><meta:document-statistic meta:table-count="1" meta:cell-count="3642" meta:object-count="0"/></office:meta>
+ <office:meta><meta:generator>LibreOffice/3.6$Linux_X86_64 LibreOffice_project/360m1$Build-2</meta:generator><meta:document-statistic meta:table-count="1" meta:cell-count="3050" meta:object-count="0"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
-   <config:config-item config:name="VisibleAreaWidth" config:type="int">68834</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">97604</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">70156</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">81862</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
      <config:config-item-map-named config:name="Tables">
-      <config:config-item-map-entry config:name="Sheet0">
+      <config:config-item-map-entry config:name="data">
        <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">114</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">0</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -30,7 +30,7 @@
        <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
       </config:config-item-map-entry>
      </config:config-item-map-named>
-     <config:config-item config:name="ActiveTable" config:type="string">Sheet0</config:config-item>
+     <config:config-item config:name="ActiveTable" config:type="string">data</config:config-item>
      <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">960</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
@@ -67,6 +67,22 @@
    <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
    <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
    <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item-map-indexed config:name="ForbiddenCharacters">
+    <config:config-item-map-entry>
+     <config:config-item config:name="Language" config:type="string">en</config:config-item>
+     <config:config-item config:name="Country" config:type="string">US</config:config-item>
+     <config:config-item config:name="Variant" config:type="string"/>
+     <config:config-item config:name="BeginLine" config:type="string"/>
+     <config:config-item config:name="EndLine" config:type="string"/>
+    </config:config-item-map-entry>
+    <config:config-item-map-entry>
+     <config:config-item config:name="Language" config:type="string">pl</config:config-item>
+     <config:config-item config:name="Country" config:type="string">PL</config:config-item>
+     <config:config-item config:name="Variant" config:type="string"/>
+     <config:config-item config:name="BeginLine" config:type="string"/>
+     <config:config-item config:name="EndLine" config:type="string"/>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
    <config:config-item config:name="AutoCalculate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="PrinterName" config:type="string"/>
    <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
@@ -86,13 +102,18 @@
  </office:settings>
  <office:scripts>
   <office:script script:language="ooo:Basic">
-   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <ooo:library-embedded ooo:name="Standard"/>
+   </ooo:libraries>
   </office:script>
  </office:scripts>
  <office:font-face-decls>
   <style:font-face style:name="Arial1" svg:font-family="Arial"/>
+  <style:font-face style:name="Arial2" svg:font-family="Arial" style:font-adornments="Normalny" style:font-family-generic="swiss"/>
+  <style:font-face style:name="Times New Roman" svg:font-family="&apos;Times New Roman&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
   <style:font-face style:name="Arial" svg:font-family="Arial" style:font-family-generic="swiss" style:font-pitch="variable"/>
   <style:font-face style:name="DejaVu Sans" svg:font-family="&apos;DejaVu Sans&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Lohit Hindi" svg:font-family="&apos;Lohit Hindi&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
  </office:font-face-decls>
  <office:styles>
   <style:default-style style:family="table-cell">
@@ -297,142 +318,23 @@
   <number:number-style style:name="N147">
    <number:scientific-number number:decimal-places="1" number:min-integer-digits="3" number:min-exponent-digits="1"/>
   </number:number-style>
-  <number:number-style style:name="N148P0" style:volatile="true">
-   <number:text>$</number:text>
-   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+  <number:currency-style style:name="N149P0" style:volatile="true">
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
    <number:text> </number:text>
-  </number:number-style>
-  <number:number-style style:name="N148">
-   <number:text>($</number:text>
-   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text>)</number:text>
-   <style:map style:condition="value()&gt;=0" style:apply-style-name="N148P0"/>
-  </number:number-style>
-  <number:number-style style:name="N149P0" style:volatile="true">
-   <number:text>$</number:text>
-   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:currency-symbol>PLN</number:currency-symbol>
+  </number:currency-style>
+  <number:currency-style style:name="N149">
+   <number:text>-</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
    <number:text> </number:text>
-  </number:number-style>
-  <number:number-style style:name="N149">
-   <style:text-properties fo:color="#ff0000"/>
-   <number:text>($</number:text>
-   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text>)</number:text>
+   <number:currency-symbol>PLN</number:currency-symbol>
    <style:map style:condition="value()&gt;=0" style:apply-style-name="N149P0"/>
-  </number:number-style>
-  <number:number-style style:name="N150P0" style:volatile="true">
-   <number:text>$</number:text>
-   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text> </number:text>
-  </number:number-style>
+  </number:currency-style>
   <number:number-style style:name="N150">
-   <number:text>($</number:text>
-   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text>)</number:text>
-   <style:map style:condition="value()&gt;=0" style:apply-style-name="N150P0"/>
-  </number:number-style>
-  <number:number-style style:name="N151P0" style:volatile="true">
-   <number:text>$</number:text>
-   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text> </number:text>
+   <number:number number:decimal-places="3" number:min-integer-digits="1"/>
   </number:number-style>
   <number:number-style style:name="N151">
-   <style:text-properties fo:color="#ff0000"/>
-   <number:text>($</number:text>
-   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text>)</number:text>
-   <style:map style:condition="value()&gt;=0" style:apply-style-name="N151P0"/>
-  </number:number-style>
-  <number:number-style style:name="N152P0" style:volatile="true">
-   <number:text> </number:text>
-   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text> </number:text>
-  </number:number-style>
-  <number:number-style style:name="N152P1" style:volatile="true">
-   <number:text> (</number:text>
-   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text>)</number:text>
-  </number:number-style>
-  <number:number-style style:name="N152P2" style:volatile="true">
-   <number:text> - </number:text>
-  </number:number-style>
-  <number:text-style style:name="N152">
-   <number:text> </number:text>
-   <number:text-content/>
-   <number:text> </number:text>
-   <style:map style:condition="value()&gt;0" style:apply-style-name="N152P0"/>
-   <style:map style:condition="value()&lt;0" style:apply-style-name="N152P1"/>
-   <style:map style:condition="value()=0" style:apply-style-name="N152P2"/>
-  </number:text-style>
-  <number:number-style style:name="N153P0" style:volatile="true">
-   <number:text> $</number:text>
-   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text> </number:text>
-  </number:number-style>
-  <number:number-style style:name="N153P1" style:volatile="true">
-   <number:text> $(</number:text>
-   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text>)</number:text>
-  </number:number-style>
-  <number:number-style style:name="N153P2" style:volatile="true">
-   <number:text> $- </number:text>
-  </number:number-style>
-  <number:text-style style:name="N153">
-   <number:text> </number:text>
-   <number:text-content/>
-   <number:text> </number:text>
-   <style:map style:condition="value()&gt;0" style:apply-style-name="N153P0"/>
-   <style:map style:condition="value()&lt;0" style:apply-style-name="N153P1"/>
-   <style:map style:condition="value()=0" style:apply-style-name="N153P2"/>
-  </number:text-style>
-  <number:number-style style:name="N154P0" style:volatile="true">
-   <number:text> </number:text>
-   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text> </number:text>
-  </number:number-style>
-  <number:number-style style:name="N154P1" style:volatile="true">
-   <number:text> (</number:text>
-   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text>)</number:text>
-  </number:number-style>
-  <number:number-style style:name="N154P2" style:volatile="true">
-   <number:text> -</number:text>
-   <number:number number:decimal-places="0" number:min-integer-digits="0"/>
-   <number:text> </number:text>
-  </number:number-style>
-  <number:text-style style:name="N154">
-   <number:text> </number:text>
-   <number:text-content/>
-   <number:text> </number:text>
-   <style:map style:condition="value()&gt;0" style:apply-style-name="N154P0"/>
-   <style:map style:condition="value()&lt;0" style:apply-style-name="N154P1"/>
-   <style:map style:condition="value()=0" style:apply-style-name="N154P2"/>
-  </number:text-style>
-  <number:number-style style:name="N155P0" style:volatile="true">
-   <number:text> $</number:text>
-   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text> </number:text>
-  </number:number-style>
-  <number:number-style style:name="N155P1" style:volatile="true">
-   <number:text> $(</number:text>
-   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text>)</number:text>
-  </number:number-style>
-  <number:number-style style:name="N155P2" style:volatile="true">
-   <number:text> $-</number:text>
-   <number:number number:decimal-places="0" number:min-integer-digits="0"/>
-   <number:text> </number:text>
-  </number:number-style>
-  <number:text-style style:name="N155">
-   <number:text> </number:text>
-   <number:text-content/>
-   <number:text> </number:text>
-   <style:map style:condition="value()&gt;0" style:apply-style-name="N155P0"/>
-   <style:map style:condition="value()&lt;0" style:apply-style-name="N155P1"/>
-   <style:map style:condition="value()=0" style:apply-style-name="N155P2"/>
-  </number:text-style>
-  <number:number-style style:name="N156">
-   <number:scientific-number number:decimal-places="1" number:min-integer-digits="3" number:min-exponent-digits="1"/>
+   <number:number number:decimal-places="4" number:min-integer-digits="1"/>
   </number:number-style>
   <number:date-style style:name="N5116" number:language="en" number:country="US">
    <number:month/>
@@ -497,77 +399,77 @@
    <number:text>:</number:text>
    <number:minutes number:style="long"/>
   </number:date-style>
-  <number:number-style style:name="N5125P0" style:volatile="true" number:language="en" number:country="US">
-   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text> </number:text>
-  </number:number-style>
-  <number:number-style style:name="N5125" number:language="en" number:country="US">
-   <style:text-properties fo:color="#ff0000"/>
-   <number:text>(</number:text>
-   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text>)</number:text>
-   <style:map style:condition="value()&gt;=0" style:apply-style-name="N5125P0"/>
-  </number:number-style>
   <number:number-style style:name="N5126P0" style:volatile="true" number:language="en" number:country="US">
-   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
    <number:text> </number:text>
   </number:number-style>
   <number:number-style style:name="N5126" number:language="en" number:country="US">
    <style:text-properties fo:color="#ff0000"/>
    <number:text>(</number:text>
-   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
    <number:text>)</number:text>
    <style:map style:condition="value()&gt;=0" style:apply-style-name="N5126P0"/>
   </number:number-style>
-  <number:currency-style style:name="N5127P0" style:volatile="true" number:language="en" number:country="US">
-   <number:currency-symbol/>
-   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+  <number:number-style style:name="N5128P0" style:volatile="true" number:language="en" number:country="US">
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
    <number:text> </number:text>
-  </number:currency-style>
-  <number:currency-style style:name="N5127" number:language="en" number:country="US">
-   <number:text>(</number:text>
-   <number:currency-symbol/>
-   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text>)</number:text>
-   <style:map style:condition="value()&gt;=0" style:apply-style-name="N5127P0"/>
-  </number:currency-style>
-  <number:currency-style style:name="N5128P0" style:volatile="true" number:language="en" number:country="US">
-   <number:currency-symbol/>
-   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text> </number:text>
-  </number:currency-style>
-  <number:currency-style style:name="N5128" number:language="en" number:country="US">
+  </number:number-style>
+  <number:number-style style:name="N5128" number:language="en" number:country="US">
    <style:text-properties fo:color="#ff0000"/>
    <number:text>(</number:text>
-   <number:currency-symbol/>
-   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
    <number:text>)</number:text>
    <style:map style:condition="value()&gt;=0" style:apply-style-name="N5128P0"/>
-  </number:currency-style>
-  <number:currency-style style:name="N5129P0" style:volatile="true" number:language="en" number:country="US">
-   <number:currency-symbol/>
-   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text> </number:text>
-  </number:currency-style>
-  <number:currency-style style:name="N5129" number:language="en" number:country="US">
-   <number:text>(</number:text>
-   <number:currency-symbol/>
-   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text>)</number:text>
-   <style:map style:condition="value()&gt;=0" style:apply-style-name="N5129P0"/>
-  </number:currency-style>
+  </number:number-style>
   <number:currency-style style:name="N5130P0" style:volatile="true" number:language="en" number:country="US">
    <number:currency-symbol/>
-   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
    <number:text> </number:text>
   </number:currency-style>
   <number:currency-style style:name="N5130" number:language="en" number:country="US">
+   <number:text>(</number:text>
+   <number:currency-symbol/>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N5130P0"/>
+  </number:currency-style>
+  <number:currency-style style:name="N5131P0" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N5131" number:language="en" number:country="US">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>(</number:text>
+   <number:currency-symbol/>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N5131P0"/>
+  </number:currency-style>
+  <number:currency-style style:name="N5133P0" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N5133" number:language="en" number:country="US">
+   <number:text>(</number:text>
+   <number:currency-symbol/>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N5133P0"/>
+  </number:currency-style>
+  <number:currency-style style:name="N5134P0" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N5134" number:language="en" number:country="US">
    <style:text-properties fo:color="#ff0000"/>
    <number:text>(</number:text>
    <number:currency-symbol/>
    <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
    <number:text>)</number:text>
-   <style:map style:condition="value()&gt;=0" style:apply-style-name="N5130P0"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N5134P0"/>
   </number:currency-style>
   <style:style style:name="Default" style:family="table-cell">
    <style:table-cell-properties fo:padding="0.028in" style:rotation-align="none"/>
@@ -585,16 +487,23 @@
   <style:style style:name="Heading1" style:family="table-cell" style:parent-style-name="Heading">
    <style:table-cell-properties style:rotation-angle="90"/>
   </style:style>
+  <draw:marker draw:name="Arrowhead_20_1" draw:display-name="Arrowhead 1" svg:viewBox="0 0 20 30" svg:d="m10 0-10 30h20z"/>
  </office:styles>
  <office:automatic-styles>
   <style:style style:name="co1" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="1.5055in"/>
   </style:style>
   <style:style style:name="co2" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.0264in"/>
+  </style:style>
+  <style:style style:name="co3" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="0.6984in"/>
   </style:style>
   <style:style style:name="ro1" style:family="table-row">
    <style:table-row-properties style:row-height="0.1772in" fo:break-before="auto" style:use-optimal-row-height="false"/>
+  </style:style>
+  <style:style style:name="ro2" style:family="table-row">
+   <style:table-row-properties style:row-height="0.178in" fo:break-before="auto" style:use-optimal-row-height="false"/>
   </style:style>
   <style:style style:name="ta1" style:family="table" style:master-page-name="PageStyle_5f_Sheet0">
    <style:table-properties table:display="true" style:writing-mode="lr-tb"/>
@@ -655,7 +564,7 @@
      <text:p><text:sheet-name>???</text:sheet-name> (<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2013-03-10">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="0000-00-00T09:49:49">?</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2013-03-10">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="0000-00-00T10:16:50">?</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -674,10 +583,12 @@
  <office:body>
   <office:spreadsheet>
    <table:calculation-settings table:case-sensitive="false" table:automatic-find-labels="false" table:use-regular-expressions="false"/>
-   <table:table table:name="Sheet0" table:style-name="ta1">
+   <table:table table:name="data" table:style-name="ta1">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
-    <table:table-column table:style-name="co1" table:number-columns-repeated="22" table:default-cell-style-name="ce2"/>
-    <table:table-column table:style-name="co2" table:number-columns-repeated="1002" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co1" table:number-columns-repeated="5" table:default-cell-style-name="ce2"/>
+    <table:table-column table:style-name="co2" table:default-cell-style-name="ce2"/>
+    <table:table-column table:style-name="co1" table:number-columns-repeated="16" table:default-cell-style-name="ce2"/>
+    <table:table-column table:style-name="co3" table:number-columns-repeated="1002" table:default-cell-style-name="Default"/>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce1" office:value-type="string">
       <text:p>Part</text:p>
@@ -737,58 +648,6 @@
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string">
-      <text:p>IRGS14C40L</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Discretes</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>D2-Pak</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Discrete</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>DC-1 kHz (STANDARD)</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>430</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>20</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>14</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.55</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.75</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell office:value-type="string">
-      <text:p>125</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF and Leaded</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.500</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
       <text:p>IRGP4066-E</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
@@ -839,61 +698,6 @@
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>5.450</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG4PH50S-E</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Discretes</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-247AD</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Discrete</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>DC-1 kHz (STANDARD)</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1200</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>57</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>33</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.47</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.70</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>21.4</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>44.0</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>200</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>3.813</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1006"/>
     </table:table-row>
@@ -1394,113 +1198,6 @@
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string">
-      <text:p>IRG7SC12F</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Discretes</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>D2-Pak</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Discrete</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Soft</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>FAST 1-8 kHz</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>24</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>13</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.60</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.85</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell office:value-type="string">
-      <text:p>69</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.206</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG4PH50S</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Discretes</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-247</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Discrete</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>DC-1 kHz (STANDARD)</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1200</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>57</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>33</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.47</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.70</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>21.4</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>44.0</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>200</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>3.625</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
       <text:p>IRGP4066</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
@@ -1551,171 +1248,6 @@
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>5.375</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG4IBC30S</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Discretes</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-220 FullPak</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Discrete</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>DC-1 kHz (STANDARD)</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>23.5</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>13</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.40</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.6</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>3.71</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>5.6</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>45</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.345</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG4PC50S</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Discretes</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-247</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Discrete</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>DC-1 kHz (STANDARD)</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>70</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>41</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.28</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.36</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>8.99</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>13.0</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>200</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>3.280</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG4BC40S</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Discretes</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-220AB</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Discrete</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>DC-1 kHz (STANDARD)</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>60</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>31</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.32</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.5</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>6.95</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>9.9</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>160</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.670</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1006"/>
     </table:table-row>
@@ -2479,171 +2011,6 @@
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string">
-      <text:p>IRG4BC30F</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Discretes</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-220AB</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Discrete</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>FAST 1-8 kHz</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>31</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>17</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.59</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.8</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.41</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.0</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>100</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF and Leaded</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.100</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG4PC40F</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Discretes</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-247</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Discrete</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>FAST 1-8 kHz</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>49</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>27</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.50</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.70</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.18</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.8</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>160</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.105</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG4PC60F</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Discretes</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-247</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Discrete</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>FAST 1-8 kHz</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>90</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>60</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.50</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.80</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>4.9</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>6.3</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>520</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>3.760</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
       <text:p>IRG7S319U</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
@@ -2741,111 +2108,6 @@
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>1.250</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRGB14C40L</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Discretes</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-220AB</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Discrete</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>DC-1 kHz (STANDARD)</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>430</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>20</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>14</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.55</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.75</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell office:value-type="string">
-      <text:p>125</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.511</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG4PC50F</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Discretes</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-247</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Discrete</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>FAST 1-8 kHz</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>70</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>39</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.45</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.60</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.47</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>3.0</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>200</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.735</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1006"/>
     </table:table-row>
@@ -3373,61 +2635,6 @@
       <text:p>PbF</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1007"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG4PC50F-E</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Discretes</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-247AD</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Discrete</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>FAST 1-8 kHz</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>70</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>39</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.45</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.60</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.47</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>3.0</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>200</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.835</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string">
@@ -4147,61 +3354,6 @@
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string">
-      <text:p>IRG4BC20S</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Discretes</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-220AB</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Discrete</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>DC-1 kHz (STANDARD)</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>19</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>10</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.40</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.6</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.17</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>3.2</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>60</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>0.915</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
       <text:p>IRG4PC50K</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
@@ -4252,58 +3404,6 @@
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>2.748</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRGSL14C40L</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Discretes</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-262</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Discrete</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>DC-1 kHz (STANDARD)</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>430</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>20</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>14</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.55</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.75</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell office:value-type="string">
-      <text:p>125</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.562</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1006"/>
     </table:table-row>
@@ -4414,116 +3514,6 @@
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>11.149</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG4PC30S</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Discretes</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-247</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Discrete</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>DC-1 kHz (STANDARD)</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>34</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>18</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.95</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.60</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>3.71</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>5.6</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>100</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.875</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG4PC40S</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Discretes</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-247</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Discrete</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>DC-1 kHz (STANDARD)</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>60</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>31</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.32</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.50</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>6.95</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>9.9</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>160</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.340</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1006"/>
     </table:table-row>
@@ -4798,61 +3788,6 @@
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string">
-      <text:p>IRG4BC30S</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Discretes</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-220AB</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Discrete</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>DC-1 kHz (STANDARD)</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>34</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>18</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.40</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.60</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>3.71</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>5.6</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>100</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF and Leaded</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.205</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
       <text:p>IRG4BC20W</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
@@ -4960,61 +3895,6 @@
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>0.656</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG4PC30F</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Discretes</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-247</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Discrete</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>FAST 1-8 kHz</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>31</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>17</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.59</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.80</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.41</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.0</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>100</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.770</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1006"/>
     </table:table-row>
@@ -5176,61 +4056,6 @@
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>4.838</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG4BC20F</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Discretes</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-220AB</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Discrete</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>FAST 1-8 kHz</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>16</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>9</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.66</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>0.67</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.1</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>60</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>0.876</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1006"/>
     </table:table-row>
@@ -5881,61 +4706,6 @@
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string">
-      <text:p>IRG4PC30FD</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Co-Packs: IGBT with Anti-Parallel Diode</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-247</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Co-Pack</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>FAST 1-8 kHz</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>31</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>17</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.59</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.80</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.02</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>3.9</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>100</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.205</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
       <text:p>IRGPS40B120UD</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
@@ -6316,63 +5086,6 @@
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>3.578</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG4BC30FD-S</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Co-Packs: IGBT with Anti-Parallel Diode</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>D2-Pak</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Co-Pack</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>FAST 1-8 kHz</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>31</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>17</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.59</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.80</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.02</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>3.9</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>100</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF and Leaded</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.555</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1006"/>
     </table:table-row>
@@ -6765,61 +5478,6 @@
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string">
-      <text:p>IRG7IC23FD</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Co-Packs: IGBT with Anti-Parallel Diode</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-220AB</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Co-Pack</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>FAST 1-8 kHz</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>18</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>9.0</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.60</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.85</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.55</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.0</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>37</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.426</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
       <text:p>IRGP4068D-E</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
@@ -7090,61 +5748,6 @@
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string">
-      <text:p>IRG4PC50FD</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Co-Packs: IGBT with Anti-Parallel Diode</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-247</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Co-Pack</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>FAST 1-8 kHz</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>70</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>39</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.45</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.60</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>3.9</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>5.0</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>200</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>3.798</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
       <text:p>IRGB15B60KD</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
@@ -7362,61 +5965,6 @@
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>4.500</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG7IC18FD</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Co-Packs: IGBT with Anti-Parallel Diode</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-220AB</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Co-Pack</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>FAST 1-8 kHz</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>14</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>7.5</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.60</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.85</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>0.765</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.2</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>30</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>0.898</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1006"/>
     </table:table-row>
@@ -7962,61 +6510,6 @@
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>11.416</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG4IBC20FD</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Co-Packs: IGBT with Anti-Parallel Diode</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-220 FullPak</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Co-Pack</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>FAST 1-8 kHz</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>14.3</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>7.7</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.66</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.00</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>0.89</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.3</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>34</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.308</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1006"/>
     </table:table-row>
@@ -8848,63 +7341,6 @@
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string">
-      <text:p>IRG7RC07SD</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Co-Packs: IGBT with Anti-Parallel Diode</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>D-Pak</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Co-Pack</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>DC-1 kHz (STANDARD)</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>16</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>8.5</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.20</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.50</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>0.7</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>0.96</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>39</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.305</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
       <text:p>IRG7PSH50UD</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
@@ -9007,116 +7443,6 @@
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>1.581</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG7IC20FD</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Co-Packs: IGBT with Anti-Parallel Diode</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-220AB</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Co-Pack</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>FAST 1-8 kHz</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>16</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>8.0</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.60</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.85</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>0.91</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.352</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>33</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>0.956</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG4BC30FD1</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Co-Packs: IGBT with Anti-Parallel Diode</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-220AB</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Co-Pack</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>FAST 1-8 kHz</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>31</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>17</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.59</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.80</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.8</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.29</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>100</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.368</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1006"/>
     </table:table-row>
@@ -9720,61 +8046,6 @@
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string">
-      <text:p>IRG4BC30FD</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Co-Packs: IGBT with Anti-Parallel Diode</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-220AB</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Co-Pack</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>FAST 1-8 kHz</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>31</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>17</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.59</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.80</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.02</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>3.9</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>100</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.535</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
       <text:p>IRG6B330UD</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
@@ -10259,61 +8530,6 @@
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string">
-      <text:p>IRG7IC30FD</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Co-Packs: IGBT with Anti-Parallel Diode</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-220AB</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Co-Pack</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>FAST 1-8 kHz</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>24</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>12</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.60</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.85</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.58</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.0</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>42</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.611</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
       <text:p>IRGB4045D</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string">
@@ -10364,61 +8580,6 @@
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>1.464</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG4PC40FD</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Co-Packs: IGBT with Anti-Parallel Diode</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-247</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Co-Pack</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>FAST 1-8 kHz</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>49</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>27</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.50</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.70</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.96</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>4.0</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>160</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.759</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1006"/>
     </table:table-row>
@@ -10478,58 +8639,6 @@
       <text:p>2.795</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG7RC10FD</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Co-Packs: IGBT with Anti-Parallel Diode</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>D-Pak</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Co-Pack</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>FAST 1-8 kHz</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>16.5</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>9.0</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.60</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.85</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>0.32</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>0.745</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>61</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1007"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string">
@@ -10638,61 +8747,6 @@
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>7.885</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG4BC15MD</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Co-Packs: IGBT with Anti-Parallel Diode</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>TO-220AB</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Co-Pack</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>FAST 1-8 kHz</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>14</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>8.6</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.88</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.30</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>2.25</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>3.6</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>46</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.125</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1006"/>
     </table:table-row>
@@ -11023,63 +9077,6 @@
      </table:table-cell>
      <table:table-cell office:value-type="string">
       <text:p>2.020</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1006"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="string">
-      <text:p>IRG4RC10SD</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>IGBT Co-Packs: IGBT with Anti-Parallel Diode</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>D-Pak</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Co-Pack</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Hard</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>DC-1 kHz (STANDARD)</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>600</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>14</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>8</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.58</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1.7</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>3.6</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>10.9</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>38</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>Industrial</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>1</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>PbF</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string">
-      <text:p>0.919</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1006"/>
     </table:table-row>
@@ -12457,14 +10454,20 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1006"/>
     </table:table-row>
-    <table:table-row table:style-name="ro1" table:number-rows-repeated="1048358">
+    <table:table-row table:style-name="ro1" table:number-rows-repeated="1048359">
      <table:table-cell table:number-columns-repeated="1024"/>
     </table:table-row>
-    <table:table-row table:style-name="ro1">
+    <table:table-row table:style-name="ro2" table:number-rows-repeated="34">
+     <table:table-cell table:number-columns-repeated="1024"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
      <table:table-cell table:number-columns-repeated="1024"/>
     </table:table-row>
    </table:table>
    <table:named-expressions/>
+   <table:database-ranges>
+    <table:database-range table:name="__Anonymous_Sheet_DB__0" table:target-range-address="data.A2:data.R182" table:contains-header="false"/>
+   </table:database-ranges>
   </office:spreadsheet>
  </office:body>
 </office:document>
