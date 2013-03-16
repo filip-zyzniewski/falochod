@@ -1,10 +1,24 @@
+SPICE=ngspice
+NUTMEG=ngnutmeg
+NETLIST=gnetlist
+
+all: show
+
 irf_spice.zip:
 	wget http://www.irf.com/product-info/models/spice/spice.zip -O $@
 
-#irfp4668.spi:
-
 %.spi: irf_spice.zip
-	unzip $< $@
+	unzip -p $< $@ | tr -d '\r' > $@
 
 %.net: %.sch
-	gnetlist -g spice -o $@ $<
+	$(NETLIST) -n -g spice-sdb -o $@ $<
+
+power_stage.sch: irfp4668.spi
+
+simulation.raw: power_stage.net simulation.batch
+	cat $^ | $(SPICE) -r $@
+
+.PHONY: show
+
+show: simulation.raw
+	$(NUTMEG) $^

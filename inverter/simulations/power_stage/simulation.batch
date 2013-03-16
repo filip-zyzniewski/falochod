@@ -1,0 +1,4 @@
+* Power stage simulation
+.tran 0.001us 100us
+.write
+.end
